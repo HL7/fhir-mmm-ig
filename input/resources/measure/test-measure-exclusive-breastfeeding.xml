@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Measure
+    xmlns="http://hl7.org/fhir">
+    <id value="test-measure-exclusive-breastfeeding"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-10-27T19:00:05.513+00:00"/>
+        <source value="#GawBYbBByf3OmV5S"/>
+    </meta>
+    <status value="draft"/>
+</Measure>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="20"/>
-        <lastUpdated value="2021-11-09T15:27:17.308+00:00"/>
-        <source value="#kAc4ZQdel5uQ1IOi"/>
+        <versionId value="53"/>
+        <lastUpdated value="2021-11-11T16:47:15.861+00:00"/>
+        <source value="#Mrp8p7ro34GGuwFs"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="0.0.1"/>
@@ -21,7 +21,7 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="## Scope&#xA;&#xA;Scope: The National Institute of Health (NIH) is creating a FHIR R4 implementation guide (IG) for the US Realm and based on US Core profiles where applicable. The IG will define patient metadata, including social determinants of health and associated clinical data, in support of research questions that explore the root causes for maternal/infant morbidity and mortality. The IG will focus on longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. The scope of this IG will define how, from which sources (e.g., electronic health records, research protocols), and when researchers will access data and will specify how to capture and link the maternal longitudinal record with the infant record(s).&#xA;&#xA;Purpose: The intent of this IG is to facilitate the capture of research data for predictive analysis, risk assessment, and retrospective research and to include data capture processes in FHIR resources based on a range of use cases that focus on:&#xA;* risks for infants related to maternal exposure to medications taken during pregnancy&#xA;* potential adverse maternal obstetric history impacts on infant outcomes&#xA;* accessing relevant sensitive health information&#xA;* retrospective population-based analysis of inherited disorders&#xA;* creating structural relationships between:&#xA;* maternal and infant records to effectively diagnose and treat otherwise fatal infant outcomes&#xA;* maternal and birth records to maternal and infant death records&#xA;* maternal and infant records in multiple disparate systems&#xA;&#xA;The establishment of a FHIR IG for research data that includes pregnancy, pregnancy outcomes, pregnancy-related conditions, co-morbidities, and procedures is essential for analyses of specific maternal and infant health conditions and treatments. This IG, harmonized across a broad set of use cases, will support mapping maternal data across health records from specialty care and linking mother and infant data. This will support researchers in identifying root causes of maternal mortality and pediatric developmental problems, including social determinants of health such as limited income, poor nutrition, lack of medical coverage, etc. The goal of the project is to create a method to standardize data for comparative analysis over time to improve health outcomes.&#xA;&#xA;## Relationship to other Standards&#xA;&#xA;During requirements gathering, we will be reviewing relevant implementation guides for existing standards:&#xA;*     US Core&#xA;*     Vital Records Common Profiles Library&#xA;*     Vital Records Birth and Fetal Death Reporting&#xA;*     Vital Records Mortality and Morbidity Reporting&#xA;*     Electronic Initial Case Report (eICR) within Electronic Case Reporting (eCR)&#xA;*     Supplemental Pregnancy templates for C-CDA&#xA;*     Birth Defects CDA/Draft FHIR CI&#xA;*     Birth Reporting DAM (extension of VR DAM).&#xA;*     IHE BFDR profiles (https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_BFDR-E.pdf)&#xA;*     NCHS Utah and Michigan SMART on FHIR app&#xA;&#xA;## Maternal Research Use Cases&#xA;&#xA;The scope of this IG will include key data elements in a longitudinal record of a mother and child for two initial research use cases:&#xA;&#xA;*    Pregnancy-related and pregnancy associated deaths: This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.&#xA;*    Pregnancy-induced hypertension (PIH): This use case focuses on women with a diagnosis of pregnancy-induced hypertension.&#xA;&#xA;## Acknowledgements&#xA;"/>
+    <description value="## Scope&#xA;&#xA;The Longitudinal Maternal &amp; Infant Health Information for Research FHIR R4 implementation guide (IG) is for the US Realm and based on US Core profiles where applicable. The IG will define patient metadata, including social determinants of health and associated clinical data, in support of research questions that explore the root causes for maternal/infant morbidity and mortality. The IG will focus on longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. The scope of this IG will define how, from which sources (e.g., electronic health records, research protocols), and when researchers will access data and will specify how to capture and link the maternal longitudinal record with the infant record(s).&#xA;&#xA;## Maternal Research Use Cases&#xA;&#xA;This IG will include key data elements in a longitudinal record of a mother and child for two initial research use cases:&#xA;&#xA;*    Pregnancy-related and pregnancy associated deaths: This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.&#xA;*    Pregnancy-induced hypertension (PIH): This use case focuses on women with a diagnosis of pregnancy-induced hypertension.&#xA;&#xA;Purpose: The intent of this IG is to facilitate the capture of research data for predictive analysis, risk assessment, and retrospective research and to include data capture processes in FHIR resources based on a range of use cases that focus on:&#xA;* risks for infants related to maternal exposure to medications taken during pregnancy&#xA;* potential adverse maternal obstetric history impacts on infant outcomes&#xA;* accessing relevant sensitive health information&#xA;* retrospective population-based analysis of inherited disorders&#xA;&#xA;This guide fundamentally relies on the relationship between creating structural relationships between:&#xA;* maternal and infant records to effectively diagnose and treat otherwise fatal infant outcomes&#xA;* maternal and birth records to maternal and infant death records&#xA;* maternal and infant records in multiple disparate systems&#xA;&#xA;The establishment of a FHIR IG for research data that includes pregnancy, pregnancy outcomes, pregnancy-related conditions, co-morbidities, and procedures is essential for analyses of specific maternal and infant health conditions and treatments. This IG, harmonized across a broad set of use cases, will support mapping maternal data across health records from specialty care and linking mother and infant data. This will support researchers in identifying root causes of maternal mortality and pediatric developmental problems, including social determinants of health such as limited income, poor nutrition, lack of medical coverage, etc. The goal of the project is to create a method to standardize data for comparative analysis over time to improve health outcomes.&#xA;&#xA;## Relationship to other Standards&#xA;&#xA;A number of existing standards have been published that specify peri-natal clinical information. This guide specifies how maternal health researchers can quantify clinical information related to this population from clinical information which may exist, or be transmitted between systems, in accordance with any of the below standards:&#xA;*     US Core&#xA;*     Vital Records Common Profiles Library&#xA;*     Vital Records Birth and Fetal Death Reporting&#xA;*     Vital Records Mortality and Morbidity Reporting&#xA;*     Electronic Initial Case Report (eICR) within Electronic Case Reporting (eCR)&#xA;*     Supplemental Pregnancy templates for C-CDA&#xA;*     Birth Defects CDA/Draft FHIR CI&#xA;*     Birth Reporting DAM (extension of VR DAM).&#xA;*     IHE BFDR profiles (https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_BFDR-E.pdf)&#xA;*     NCHS Utah and Michigan SMART on FHIR app&#xA;&#xA;## Acknowledgements&#xA;(Todo: projectteam members)&#xA;"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -51,6 +51,73 @@
         <resource>
             <reference>
                 <reference value="Measure/test-measure-exclusive-breastfeeding"/></reference>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancystate-mmm-icd10"/>
+                <display value="pregnancystate-mmm-icd10"/>
+            </reference>
+            <name value="pregnancystate-mmm-icd10"/>
+            <description value="This value set  defines  pregnancy state and status. Includes relevant terms that represent pregnancy state, pregnancy by gestational weeks and preganancy status."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancystate-mmm-LOINC"/>
+                <display value="pregnancystate-mmm-LOINC"/>
+            </reference>
+            <name value="pregnancystate-mmm-LOINC"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancyconfirmed-mmm-LOINC"/>
+                <display value="pregnancyconfirmed-mmm-LOINC"/>
+            </reference>
+            <name value="pregnancyconfirmed-mmm-LOINC"/>
+            <description value="This value set contains concepts that represent pregnancy confirmed by lab results, diagnostic studies (e.g ultrasound), an assessment, and/or history."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancyconfirmed-mmm-SNOMED"/>
+                <display value="pregnancyconfirmed-mmm-SNOMED"/>
+            </reference>
+            <name value="pregnancyconfirmed-mmm-SNOMED"/>
+            <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, diagnostic studies (e.g ultrasound), an assessment,  and/or history."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancyencounter-mmm-ICD"/>
+                <display value="pregnancyencounter-mmm-ICD"/>
+            </reference>
+            <name value="pregnancyencounter-mmm-ICD"/>
+            <description value="This value set contains concepts that identify encounter reasons for pregnancy."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancyencounter-mmm-CPT"/>
+                <display value="pregnancyencounter-mmm-CPT"/>
+            </reference>
+            <name value="pregnancyencounter-mmm-CPT"/>
+            <description value="This value set contains concepts that identify encounter reasons for pregnancy."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/pregnancystatus"/>
+                <display value="pregnancystatus"/>
+            </reference>
+            <name value="pregnancystatus"/>
+            <description value="This is a group Pregnancy Status Value Set that contains: Pregnancy Status	SNOMEDCT OID	2.16.840.1.113762.1.4.1200.132 and Pregnancy Status	ICD10CM	OID 2.16.840.1.113762.1.4.1200.133."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Binary/99590"/></reference>
             <exampleBoolean value="true"/>
         </resource>
         <page>

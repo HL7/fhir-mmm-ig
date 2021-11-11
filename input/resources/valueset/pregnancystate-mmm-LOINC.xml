@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancystate-mmm-LOINC"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-11-09T17:19:58.393+00:00"/>
+        <source value="#OXgUGlBYpeCGtc4y"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancystate-mmm-LOINC"/>
+    <name value="pregnancystate-mmm-LOINC"/>
+    <title value="pregnancystate-mmm-LOINC"/>
+    <status value="draft"/>
+    <compose>
+        <include>
+            <system value="http://loinc.org"/>
+            <concept>
+                <code value="82810-3"/>
+                <display value="Pregnancy status"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

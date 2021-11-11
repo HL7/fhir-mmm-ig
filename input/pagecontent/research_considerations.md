@@ -1,18 +1,16 @@
-## ResearchLink
-- Need for tool
-- History/origins of tool
-- Modifications of tool in support of this guidance
+## Implementation considerations
+This guide is intended as a specification for researchers accessing clinical information related to maternal and infant health. Implementing systems of this specification are likely to have a number of existing available tools to store, transport and transform clinical information. This guide is inteded to support existing tooling and empower implementers participate in providing access to maternal and infant clinical information in scope. 
+
 
 ## Master Patient Index
-- What is an MPI (reference)
-- Why use of an MPI is desirable
+- Maternal/Infant patient populations are crucial to manage across multiple source clinical information systems (ie EHRs). In healthcare, a common method for assigning and managing unique individuals across various source systems is through use of an [Mater Patient Index System](http://hl7.org/fhir/2018Sep/patient.html#match). Access to data from a clinical aggregator system that has a MPI will therefore allow researchers to potentially investigate the clinical information associated with mothers' and their children across a broader geographical dataset and over a longer period of time. 
 
 ## Maternal-Child Linkage
-- This is the data that maternal researchers care about. 
-- Necessity of establishing and maintaining linkage
-- Considerations of linkage variability between HL7 versions. Mention support for HIE/MPI
+- The appropriate structure to link a mother with her child through use of Patient/RelatedPerson referencing is defined in FHIR's base [Patient](http://hl7.org/fhir/2018Sep/patient.html#maternity) resrouce. It is further reinforced and exemplified through the [US Vital Records Common Profiles Library FHIR Implementation Guide](http://hl7.org/fhir/us/vr-common-library/STU1). This guide relies on this existing linkage structure and expects applicable (mother and child) data to be follow this standard structure in order to accurately provide relevant data to researchers. 
+
 
 ## De-identification for research
-- Need to de-identify clinical information for research purposes
+Clinical data can be used for research in accordance with the many applicable laws, regulations and public and private policies that stipulate appropriate/authorized use. At the federal level in the US, [HIPAA's Research section](https://www.hhs.gov/hipaa/for-professionals/special-topics/research/index.html) provides a foundation upon which state, local and private/organization rules can be built. A key consideration of appropriate use of clinical information for research depends on whether or not the clinical information in question is identifiable or de-identified. This specification does not provide any additional guidance on the appropriate use of clinical information for research. While this IG does not provide guidance on the use of clinical information for the pruposes of clinical trials, some of the components/processes in this guide may be applicable for clinical trial faciltiator. 
 
 ## Expected Timing/Frequency with which Researchers act
+Researchers may want to query for maternal and associated infant clinical information once or a number of times over a period of time. Researchers may also desire to query for existing information spanning backwards over any length of specified time. This guide does not specify specific timing considerations beyond what is supported by the Clinical Reasoning Module. Note- When CQF is used in Quality Reporting, a Measurement Period is must be specified for accurate reporting; this Measurement Period should be a key consideration both when defining measures and when researchers are executing said measure logic..

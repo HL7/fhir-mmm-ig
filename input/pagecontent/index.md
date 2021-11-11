@@ -2,14 +2,22 @@
 
 ## Scope
 
-Scope: The National Institute of Health (NIH) is creating a FHIR R4 implementation guide (IG) for the US Realm and based on US Core profiles where applicable. The IG will define patient metadata, including social determinants of health and associated clinical data, in support of research questions that explore the root causes for maternal/infant morbidity and mortality. The IG will focus on longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. The scope of this IG will define how, from which sources (e.g., electronic health records, research protocols), and when researchers will access data and will specify how to capture and link the maternal longitudinal record with the infant record(s).
+The Longitudinal Maternal & Infant Health Information for Research FHIR R4 implementation guide (IG) is for the US Realm and based on US Core profiles where applicable. The IG will define patient metadata, including social determinants of health and associated clinical data, in support of research questions that explore the root causes for maternal/infant morbidity and mortality. The IG will focus on longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. The scope of this IG will define how, from which sources (e.g., electronic health records, research protocols), and when researchers will access data and will specify how to capture and link the maternal longitudinal record with the infant record(s).
+
+## Maternal Research Use Cases
+
+This IG will include key data elements in a longitudinal record of a mother and child for two initial research use cases:
+
+*    Pregnancy-related and pregnancy associated deaths: This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
+*    Pregnancy-induced hypertension (PIH): This use case focuses on women with a diagnosis of pregnancy-induced hypertension.
 
 Purpose: The intent of this IG is to facilitate the capture of research data for predictive analysis, risk assessment, and retrospective research and to include data capture processes in FHIR resources based on a range of use cases that focus on:
 * risks for infants related to maternal exposure to medications taken during pregnancy
 * potential adverse maternal obstetric history impacts on infant outcomes
 * accessing relevant sensitive health information
 * retrospective population-based analysis of inherited disorders
-* creating structural relationships between:
+
+This guide fundamentally relies on the relationship between creating structural relationships between:
 * maternal and infant records to effectively diagnose and treat otherwise fatal infant outcomes
 * maternal and birth records to maternal and infant death records
 * maternal and infant records in multiple disparate systems
@@ -18,7 +26,7 @@ The establishment of a FHIR IG for research data that includes pregnancy, pregna
 
 ## Relationship to other Standards
 
-During requirements gathering, we will be reviewing relevant implementation guides for existing standards:
+A number of existing standards have been published that specify peri-natal clinical information. This guide specifies how maternal health researchers can quantify clinical information related to this population from clinical information which may exist, or be transmitted between systems, in accordance with any of the below standards:
 *     US Core
 *     Vital Records Common Profiles Library
 *     Vital Records Birth and Fetal Death Reporting
@@ -30,14 +38,8 @@ During requirements gathering, we will be reviewing relevant implementation guid
 *     IHE BFDR profiles (https://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_BFDR-E.pdf)
 *     NCHS Utah and Michigan SMART on FHIR app
 
-## Maternal Research Use Cases
-
-The scope of this IG will include key data elements in a longitudinal record of a mother and child for two initial research use cases:
-
-*    Pregnancy-related and pregnancy associated deaths: This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
-*    Pregnancy-induced hypertension (PIH): This use case focuses on women with a diagnosis of pregnancy-induced hypertension.
-
 ## Acknowledgements
+(Todo: projectteam members)
 
 
 

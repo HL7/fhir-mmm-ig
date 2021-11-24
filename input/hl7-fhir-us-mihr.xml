@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="167"/>
-        <lastUpdated value="2021-11-24T19:16:43.569+00:00"/>
-        <source value="#20sF26GJ22JUXmg9"/>
+        <versionId value="168"/>
+        <lastUpdated value="2021-11-24T22:08:16.976+00:00"/>
+        <source value="#1bQwXax37v9WRn9a"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="0.0.1"/>
@@ -141,7 +141,7 @@
                 <display value="Procedures During Pregnancy"/>
             </reference>
             <name value="Proceduresduringpregnancymmmcpt"/>
-            <description value="This value set includes concepts that represent pregnancy related procedures."/>
+            <description value="This value set includes concepts that represent pregnancy related procedures. From Pregnancy Related Procedure Value Set 2.16.840.1.113883.3.464.1003.111.11.1014."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -150,7 +150,7 @@
                 <display value="ProceduresDuringPregnancy-mmm-SNOMED"/>
             </reference>
             <name value="Proceduresduringpregnancymmmsnomed"/>
-            <description value="The value set includes concepts that represent pregnancy related procedures."/>
+            <description value="The value set includes concepts that represent pregnancy related procedures.  This is from the Pregnancy Related Value Set 2.16.840.1.113883.3.464.1003.111.11.1015."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -218,7 +218,7 @@
                 <reference value="ValueSet/PregnancyCondition-mmm-ICD"/>
                 <display value="PregnancyCondition-mmm-ICD"/>
             </reference>
-            <name value="PregnancyCondition-mmm-ICD"/>
+            <name value="Pregnancyconditionmmmicd"/>
             <description value="This value set contains concepts that that represent pregnancy findings,encounters for supervision of pregnancy, conditions, disorders, diagnoses, pregnancy complications,  childbirth and outcomes."/>
             <exampleBoolean value="false"/>
         </resource>

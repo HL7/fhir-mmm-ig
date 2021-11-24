@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedure-mmm-SNOMED"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-11-24T19:14:31.093+00:00"/>
-        <source value="#ppy4A1pyri1bFP8c"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-11-24T22:16:33.298+00:00"/>
+        <source value="#XXMrcQsKg422qrwS"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1015"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedure-mmm-SNOMED"/>
     <name value="Proceduresduringpregnancymmmsnomed"/>
     <title value="Proceduresduringpregnancymmmsnomed"/>
     <status value="draft"/>
-    <description value="The value set includes concepts that represent pregnancy related procedures."/>
+    <description value="The value set includes concepts that represent pregnancy related procedures.  This is from the Pregnancy Related Value Set 2.16.840.1.113883.3.464.1003.111.11.1015."/>
     <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy. This value set may use a model element related to Procedure."/>
     <copyright value="From VSAC.  The steward is National Committee for Quality Assurance."/>
     <compose>

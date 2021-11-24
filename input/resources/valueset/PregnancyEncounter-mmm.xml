@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyEncounter-mmm"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-11-22T14:40:11.118+00:00"/>
+        <source value="#4PX8KDRzbYXgQYv2"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyEncounter-mmm"/>
+    <name value="Pregnancyencountermmm"/>
+    <title value="Pregnancyencountermmm"/>
+    <status value="draft"/>
+    <compose>
+        <include>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancyencounter-mmm-ICD"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancyencounter-mmm-CPT"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyEncounter-mmm-HCPS"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyEncounter-mmm-SNOMED"/>
+        </include>
+    </compose>
+</ValueSet>

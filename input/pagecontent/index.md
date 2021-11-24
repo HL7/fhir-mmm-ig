@@ -8,7 +8,7 @@ The Longitudinal Maternal & Infant Health Information for Research FHIR R4 imple
 
 This IG will include key data elements in a longitudinal record of a mother and child for two initial research use cases:
 
-*    Pregnancy-related and pregnancy associated deaths: This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
+*    Pregnancy and subsequent death within a specific time frame:  This use case is focused on women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
 *    Pregnancy-induced hypertension (PIH): This use case focuses on women with a diagnosis of pregnancy-induced hypertension.
 
 Purpose: The intent of this IG is to facilitate the capture of research data for predictive analysis, risk assessment, and retrospective research and to include data capture processes in FHIR resources based on a range of use cases that focus on:
@@ -40,7 +40,6 @@ A number of existing standards have been published that specify peri-natal clini
 
 ## Acknowledgements
 (Todo: projectteam members)
-
 
 
 

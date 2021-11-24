@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyNonLive-mmm"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-11-24T16:57:07.300+00:00"/>
+        <source value="#MhcHkO5RfHo3r4fk"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm"/>
+    <name value="Pregnancynonlivemmm"/>
+    <title value="Pregnancynonlivemmm"/>
+    <status value="draft"/>
+    <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
+    <compose>
+        <include>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-SNOMED"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-CPT"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-ICD"/>
+        </include>
+    </compose>
+</ValueSet>

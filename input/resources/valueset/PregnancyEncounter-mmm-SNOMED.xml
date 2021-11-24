@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyEncounter-mmm-SNOMED"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-11-22T14:41:17.979+00:00"/>
+        <source value="#V0SjW2waGs2FW8cc"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyEncounter-mmm-SNOMED"/>
+    <name value="Pregnancyencountermmmsnomed"/>
+    <title value="Pregnancyencountermmmsnomed"/>
+    <status value="draft"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="134435003"/>
+                <display value="Routine antenatal care (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="169712008"/>
+                <display value="Antenatal 12 weeks examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169713003"/>
+                <display value="Antenatal 16 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169714009"/>
+                <display value="Antenatal 20 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169715005"/>
+                <display value="Antenatal 24 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169716006"/>
+                <display value="Antenatal 28 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169717002"/>
+                <display value="Antenatal 30 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169718007"/>
+                <display value="Antenatal 32 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169719004"/>
+                <display value="Antenatal 34 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169720005"/>
+                <display value="Antenatal 35 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169721009"/>
+                <display value="Antenatal 36 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169722002"/>
+                <display value="Antenatal 37 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169723007"/>
+                <display value="Antenatal 38 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169724001"/>
+                <display value="Antenatal 39 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169725000"/>
+                <display value="Antenatal 40 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169726004"/>
+                <display value="Antenatal 41 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="169727008"/>
+                <display value="Antenatal 42 week examination (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18114009"/>
+                <display value="Prenatal examination and care of mother (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386235000"/>
+                <display value="Childbirth preparation (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="386322007"/>
+                <display value="High risk pregnancy care (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="409010002"/>
+                <display value="Antenatal care assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="422808006"/>
+                <display value="Prenatal continuous visit (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="424441002"/>
+                <display value="Prenatal initial visit (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="424525001"/>
+                <display value="Antenatal care (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="424619006"/>
+                <display value="Prenatal visit (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702736005"/>
+                <display value="Supervision of high risk pregnancy with history of previous cesarean section (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702737001"/>
+                <display value="Supervision of high risk pregnancy with history of gestational diabetes mellitus (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702738006"/>
+                <display value="Supervision of high risk pregnancy (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702739003"/>
+                <display value="Supervision of high risk pregnancy with history of previous molar pregnancy (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702740001"/>
+                <display value="Supervision of high risk pregnancy with history of previous precipitate labor (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702741002"/>
+                <display value="Supervision of high risk pregnancy for multigravida (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702742009"/>
+                <display value="Supervision of high risk pregnancy for social problem (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702743004"/>
+                <display value="Supervision of high risk pregnancy for multigravida age 15 years or younger (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="702744005"/>
+                <display value="Supervision of high risk pregnancy for primigravida age 15 years or younger (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="710970004"/>
+                <display value="Prenatal assessment of breastfeeding (procedure)"/>
+            </concept>
+            <concept>
+                <code value="713076009"/>
+                <display value="Antenatal risk assessment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="713233004"/>
+                <display value="Supervision of high risk pregnancy with history of previous neonatal death (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713234005"/>
+                <display value="Supervision of high risk pregnancy with history of previous intrauterine death (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713235006"/>
+                <display value="Supervision of high risk pregnancy with history of previous antepartum hemorrhage (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713237003"/>
+                <display value="Supervision of high risk pregnancy with history of previous big baby (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713238008"/>
+                <display value="Supervision of high risk pregnancy with history of previous abnormal baby (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713239000"/>
+                <display value="Supervision of high risk pregnancy with history of previous primary postpartum hemorrhage (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713240003"/>
+                <display value="Supervision of high risk pregnancy with poor obstetric history (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713241004"/>
+                <display value="Supervision of high risk pregnancy with history of previous fetal distress (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713242006"/>
+                <display value="Supervision of high risk pregnancy with poor reproductive history (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713386003"/>
+                <display value="Supervision of high risk pregnancy for maternal short stature (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="713387007"/>
+                <display value="Supervision of high risk pregnancy with family history of diabetes mellitus (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="717794008"/>
+                <display value="Supervision of pregnancy with history of infertility (regime/therapy)"/>
+            </concept>
+            <concept>
+                <code value="717795009"/>
+                <display value="Supervision of pregnancy with history of insufficient antenatal care (regime/therapy)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

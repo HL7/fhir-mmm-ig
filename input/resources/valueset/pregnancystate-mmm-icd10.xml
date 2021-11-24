@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancystate-mmm-icd10"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2021-11-09T18:52:57.817+00:00"/>
-        <source value="#FuXh3kC2HMs3PStq"/>
+        <versionId value="13"/>
+        <lastUpdated value="2021-11-22T14:31:06.198+00:00"/>
+        <source value="#j73txYRctzZFFQJ9"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancystate-mmm-icd10"/>
-    <name value="pregnancystate-mmm-icd10"/>
-    <title value="pregnancystate-mmm-icd10"/>
+    <name value="pregnancystatemmmicd10"/>
+    <title value="pregnancystatemmmicd10"/>
     <status value="draft"/>
-    <description value="This value set  defines  pregnancy state and status. Includes relevant terms that represent pregnancy state, pregnancy by gestational weeks and preganancy status."/>
+    <description value="This value set  defines  pregnancy state and status. Includes relevant terms that represent pregnancy state, pregnancy by gestational weeks."/>
     <purpose value="This value set may use the Quality Data Model (QDM) category related to Condition/Diagnosis/Problem."/>
     <compose>
         <include>

@@ -3,23 +3,19 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancyencounter-mmm-CPT"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-11-09T18:42:33.323+00:00"/>
-        <source value="#YoQKGwrll8TynPnh"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-11-22T21:42:32.121+00:00"/>
+        <source value="#aKXxLKlj5oP0f9Uf"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancyencounter-mmm-CPT"/>
-    <name value="pregnancyencounter-mmm-CPT"/>
-    <title value="pregnancyencounter-mmm-CPT"/>
+    <name value="Pregnancyencountermmmcpt"/>
+    <title value="Pregnancyencountermmmcpt"/>
     <status value="draft"/>
     <description value="This value set contains concepts that identify encounter reasons for pregnancy."/>
     <purpose value="This value set may use the Quality Data Model (QDM) category related to Encounter."/>
     <compose>
         <include>
             <system value="http://www.ama-assn.org/go/cpt"/>
-            <concept>
-                <code value="59400"/>
-                <display value="Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy, and/or forceps) and postpartum care"/>
-            </concept>
             <concept>
                 <code value="59425"/>
                 <display value="Antepartum care only; 4-6 visits"/>
@@ -29,12 +25,20 @@
                 <display value="Antepartum care only; 7 or more visits"/>
             </concept>
             <concept>
-                <code value="59510"/>
-                <display value="Routine obstetric care including antepartum care, cesarean delivery, and postpartum care"/>
+                <code value="0500F"/>
+                <display value="Initial prenatal care visit (report at first prenatal encounter with health care professional providing obstetrical care. Report also date of visit and, in a separate field, the date of the last menstrual period [LMP]) (Prenatal)"/>
             </concept>
             <concept>
-                <code value="59618"/>
-                <display value="outine obstetric care including antepartum care, cesarean delivery, and postpartum care, following attempted vaginal delivery after previous cesarean delivery"/>
+                <code value="0501F"/>
+                <display value="Prenatal flow sheet documented in medical record by first prenatal visit (documentation includes at minimum blood pressure, weight, urine protein, uterine size, fetal heart tones, and estimated date of delivery). Report also: date of visit and, in a separate field, the date of the last menstrual period [LMP] (Note: If reporting 0501F Prenatal flow sheet, it is not necessary to report 0500F Initial prenatal care visit) (Prenatal)"/>
+            </concept>
+            <concept>
+                <code value="0502F"/>
+                <display value="Subsequent prenatal care visit (Prenatal) [Excludes: patients who are seen for a condition unrelated to pregnancy or prenatal care (eg, an upper respiratory infection; patients seen for consultation only, not for continuing care)]"/>
+            </concept>
+            <concept>
+                <code value="99500"/>
+                <display value="Home visit for prenatal monitoring and assessment to include fetal heart rate, non-stress test, uterine monitoring, and gestational diabetes monitoring"/>
             </concept>
         </include>
     </compose>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyEncounter-mmm-HCPS"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-11-22T14:40:44.442+00:00"/>
+        <source value="#97RiRjRWzJXIfMoi"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyEncounter-mmm-HCPS"/>
+    <name value="Pregnancyencountermmmhcps"/>
+    <title value="Pregnancyencountermmmhcps"/>
+    <status value="draft"/>
+    <compose>
+        <include>
+            <system value="https://terminology.hl7.org/CodeSystem-hcpcs-Level-II.html"/>
+            <concept>
+                <code value="H1000"/>
+                <display value="Prenatal care, at-risk assessment"/>
+            </concept>
+            <concept>
+                <code value="H1001"/>
+                <display value="Prenatal care, at-risk enhanced service; antepartum management"/>
+            </concept>
+            <concept>
+                <code value="H1002"/>
+                <display value="Prenatal care, at risk enhanced service; care coordination"/>
+            </concept>
+            <concept>
+                <code value="H1004"/>
+                <display value="Prenatal care, at-risk enhanced service; follow-up home visit"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

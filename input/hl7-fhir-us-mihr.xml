@@ -322,7 +322,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/PregnancyConfirmed-mmm-SNOMED"/>
+                <reference value="ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
                 <display value="Pregnancyconfirmedmmmsnomed"/>
             </reference>
             <name value="Pregnancyconfirmedmmmsnomed"/>

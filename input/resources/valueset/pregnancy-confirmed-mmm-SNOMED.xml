@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-confirmed-mmm-SNOMED"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-11-24T22:10:26.337+00:00"/>
-        <source value="#BAlVqAlKUNluYIwH"/>
+        <versionId value="1"/>
+        <lastUpdated value="2021-11-29T15:56:32.369+00:00"/>
+        <source value="#qDUmZ2FH2uSUEwbB"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyConfirmed-mmm-SNOMED"/>
     <name value="Pregnancyconfirmedmmmsnomed"/>
     <title value="Pregnancyconfirmedmmmsnomed"/>
     <status value="draft"/>

@@ -3,15 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-chronic-hypertension-mmm-SNOMED"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-11-24T16:50:57.137+00:00"/>
-        <source value="#nse5nGYREZNjyKXJ"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-12-02T17:43:55.979+00:00"/>
+        <source value="#vHRShXlCO1nicYoy"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-chronic-hypertension-mmm-SNOMED"/>
     <name value="Pregnancychronichypertensionmmmsnomed"/>
     <title value="Pregnancychronichypertensionmmmsnomed"/>
     <status value="draft"/>
-    <description value="This value set represents condtions such as chronic and pre-existing hypertensive chronic kidney disease, pre-existing hypertension.,  essential hypertension."/>
+    <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
+    <purpose value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>

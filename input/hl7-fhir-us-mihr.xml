@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="168"/>
-        <lastUpdated value="2021-11-24T22:08:16.976+00:00"/>
-        <source value="#1bQwXax37v9WRn9a"/>
+        <versionId value="183"/>
+        <lastUpdated value="2021-12-03T17:17:22.533+00:00"/>
+        <source value="#JjWW4vhvWO9UF63e"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="0.0.1"/>
@@ -51,11 +51,6 @@
     <definition>
         <resource>
             <reference>
-                <reference value="Measure/test-measure-exclusive-breastfeeding"/></reference>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/pregnancystate-mmm-icd10"/>
                 <display value="pregnancystate-mmm-icd10"/>
             </reference>
@@ -70,15 +65,6 @@
             </reference>
             <name value="Pregnancyconditionconfirmedmmmsnomed"/>
             <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, diagnostic studies (e.g ultrasound), an assessment,  and/or history."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancyencounter-mmm-CPT"/>
-                <display value="pregnancyencounter-mmm-CPT"/>
-            </reference>
-            <name value="Pregnancyencountermmmcpt"/>
-            <description value="This value set contains concepts that identify encounter reasons for pregnancy."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -155,30 +141,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/PregnancyEncounter-mmm-HCPS"/>
-                <display value="PregnancyEncounter-mmm-HCPS"/>
-            </reference>
-            <name value="Pregnancyencountermmmhcps"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyEncounter-mmm-SNOMED"/>
-                <display value="PregnancyEncounter-mmm-SNOMED"/>
-            </reference>
-            <name value="Pregnancyencountermmmsnomed"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyEncounter-mmm"/>
-                <display value="PregnancyEncounter-mmm"/>
-            </reference>
-            <name value="PregnancyEncounter-mmm"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/PregnancyProcedures-mmm"/>
                 <display value="PregnancyProcedures-mmm"/>
             </reference>
@@ -192,7 +154,7 @@
                 <display value="pregnancy-induced-hypertension-mmm-ICD"/>
             </reference>
             <name value="Pregnancychronichypertensionmmmicd"/>
-            <description value="This value set includes terms related to chronic and pre-existing hypertensive chronic kidney disease, pre-existing hypertension, and essential hypertension diagnosed during the course of pregnancy."/>
+            <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -201,7 +163,7 @@
                 <display value="pregnancy-chronic-hypertension-mmm-SNOMED"/>
             </reference>
             <name value="Pregnancychronichypertensionmmmsnomed"/>
-            <description value="This value set represents condtions such as chronic and pre-existing hypertensive chronic kidney disease, pre-existing hypertension.,  essential hypertension."/>
+            <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -236,7 +198,7 @@
                 <reference value="ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
                 <display value="Pregnancyproceduredeliverymmm cpt"/>
             </reference>
-            <name value="Pregnancyproceduredeliverymmm"/>
+            <name value="Pregnancyproceduredeliverymmmcpt"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -329,6 +291,57 @@
             <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, assessment or diagnostic studies."/>
             <exampleBoolean value="false"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="Library/PIHCohort"/>
+                <display value="PIHCohort"/>
+            </reference>
+            <name value="PIHCohort Library"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Measure/PIHCohort"/>
+                <display value="PIH Cohort"/>
+            </reference>
+            <name value="PIH Cohort Measure"/>
+            <description value="Mothers diagnosed with PIH that have a subsequent pregnancy."/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-mother-pih"/></reference>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-child-pih"/></reference>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Library/FHIRCommon"/>
+                <display value="FHIR Common"/>
+            </reference>
+            <name value="FHIR Common"/>
+            <description value="This library defines terminologies and functions commonly used in FHIR-based CQL artifacts."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablelibrary"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/example-nih-pih"/></reference>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/example-nih-pregnancy-pih"/></reference>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
@@ -347,6 +360,11 @@
                 <nameUrl value="this_specification.html"/>
                 <title value="This Specification"/>
                 <generation value="markdown"/>
+                <page>
+                    <nameUrl value="downloads.html"/>
+                    <title value="Downloads"/>
+                    <generation value="markdown"/>
+                </page>
             </page>
         </page>
         <parameter>

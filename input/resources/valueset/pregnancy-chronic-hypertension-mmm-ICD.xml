@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-chronic-hypertension-mmm-ICD"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-11-24T19:17:42.990+00:00"/>
-        <source value="#5tRZcocHF6T2twjy"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-12-02T17:43:33.609+00:00"/>
+        <source value="#u0RlXu5bjNOGKUBK"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-chronic-hypertension-mmm-ICD"/>
     <name value="Pregnancychronichypertensionmmmicd"/>
     <title value="Pregnancychronichypertensionmmmicd"/>
     <status value="draft"/>
-    <description value="This value set includes terms related to chronic and pre-existing hypertensive chronic kidney disease, pre-existing hypertension, and essential hypertension diagnosed during the course of pregnancy."/>
-    <purpose value="This value set includes terms related to chronic and pre-existing hypertensive chronic kidney disease, pre-existing hypertension, and essential hypertension diagnosed during the course of pregnancy."/>
+    <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
+    <purpose value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
     <compose>
         <include>
             <system value="http://hl7.org/fhir/sid/icd-10-cm"/>

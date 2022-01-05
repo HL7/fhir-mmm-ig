@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedPerson
+    xmlns="http://hl7.org/fhir">
+    <id value="example-non-live-birth-mother-deceased"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T19:56:49.492+00:00"/>
+        <source value="#6qny1wjpPdSxGm0j"/>
+        <profile value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+    </meta>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+        <extension url="ombCategory">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                <code value="2054-5"/>
+                <display value="Black or African American"/>
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="Black or African America"/>
+        </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+        <extension url="ombCategory">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                <code value="2135-2"/>
+                <display value="Hispanic or Latino"/>
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="Hispanic or Latino"/>
+        </extension>
+    </extension>
+    <active value="true"/>
+    <patient>
+        <reference value="Patient/example-nih-child-deceased-mother"/>
+        <display value="Patient - James R. Unahround"/>
+    </patient>
+    <relationship>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="GESTM"/>
+            <display value="gestational mother"/>
+        </coding>
+        <text value="gestational Mother"/>
+    </relationship>
+    <name>
+        <family value="Unahround"/>
+        <given value="Susan"/>
+        <given value="R."/>
+    </name>
+    <gender value="female"/>
+    <birthDate value="1987-02-20"/>
+</RelatedPerson>

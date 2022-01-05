@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Measure
     xmlns="http://hl7.org/fhir">
-    <id value="PIHCohort"/>
+    <id value="PAMDeaths"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-01-04T19:21:03.303+00:00"/>
-        <source value="#W8BDqs0JMkW0Sazn"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T19:23:11.913+00:00"/>
+        <source value="#GTD9KAr8FEirPfJW"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/Measure/PIHCohort"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/Measure/PAMDeaths"/>
     <identifier>
         <system value="https://nihmeasures.gov"/>
-        <value value="pihcohort"/>
+        <value value="pamcohort"/>
     </identifier>
     <version value="0.0.01"/>
-    <name value="PIHCohort"/>
-    <title value="PIH Cohort"/>
-    <description value="Mothers diagnosed with PIH that have a subsequent pregnancy."/>
+    <name value="PAMDeaths"/>
+    <title value="PAMDeaths Cohort"/>
+    <description value="Mothers who were pregnant and subsequently died within a specific time frame."/>
     <purpose value="Unknown"/>
     <copyright value="Limited proprietary coding is contained in the measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. Lantana disclaims all liability for use or accuracy of any third party codes contained in the specifications.&#xA;&#xA;CPT(R) contained in the measure specifications is copyright 2004-2020 American Medical Association. LOINC(R) copyright 2004-2020 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2020 International Health Terminology Standards Development Organisation. ICD-10 copyright 2020 World Health Organization. All Rights Reserved."/>
     <effectivePeriod>
         <start value="2021-01-01"/>
         <end value="2021-12-31"/>
     </effectivePeriod>
-    <library value="http://www.hl7.org/fhir/us/mihr/Library/PIHCohort"/>
+    <library value="http://www.hl7.org/fhir/us/mihr/Library/PAMDeaths"/>
     <library value="http://www.hl7.org/fhir/us/mihr/Library/FHIRHelpers"/>
     <disclaimer value="These performance measures are not clinical guidelines, do not establish a standard of medical care, and have not been tested for all potential applications. &#xA;&#xA;THE MEASURES AND SPECIFICATION ARE PROVIDED ?AS IS? WITHOUT WARRANTY OF ANY KIND. &#xA;&#xA;Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM]."/>
     <scoring>
@@ -135,18 +135,6 @@
         </usage>
         <criteria>
             <language value="text/cql.identifier"/>
-            <expression value="SDE Body Weight"/>
-        </criteria>
-    </supplementalData>
-    <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
-        <criteria>
-            <language value="text/cql.identifier"/>
             <expression value="SDE Care Plan"/>
         </criteria>
     </supplementalData>
@@ -207,7 +195,7 @@
         </usage>
         <criteria>
             <language value="text/cql.identifier"/>
-            <expression value="SDE Encounters"/>
+            <expression value="SDE Encounter"/>
         </criteria>
     </supplementalData>
     <supplementalData>

@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancNonLive-mmm-SNOMED"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-11-24T16:59:12.694+00:00"/>
-        <source value="#NbcTX9AFRTWUgS96"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-12-10T19:16:15.587+00:00"/>
+        <source value="#CE65nJJ4FjIkxbbX"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-SNOMED"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancNonLive-mmm-SNOMED"/>
     <name value="Pregnancynonlivemmmsnomed"/>
     <title value="Pregnancynonlivemmmsnomed"/>
     <status value="draft"/>

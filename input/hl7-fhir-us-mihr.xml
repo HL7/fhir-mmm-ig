@@ -354,7 +354,7 @@
                 <display value="PIHCohort"/>
             </reference>
             <name value="PIHCohort Library"/>
-            <description value="PIHCohort Library"/>
+            <description value="PIHCohort Library containing cql for cohort measure definition"/>
             <exampleBoolean value="true"/>
             <groupingId value="pih"/>
         </resource>

@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Condition
     xmlns="http://hl7.org/fhir">
-    <id value="example-nih-pregnancy-pih"/>
+    <id value="example-pregnant-before-non-live-birth"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-01-04T19:40:06.160+00:00"/>
-        <source value="#WQGLG8bKlI1dZ8x0"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T19:57:08.156+00:00"/>
+        <source value="#BxLDKArPZLbTuTrC"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
-    <identifier>
-        <use value="usual"/>
-        <type>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-                <code value="MR"/>
-                <display value="Medical Record Number"/>
-            </coding>
-            <text value="Medical Record Number"/>
-        </type>
-        <system value="http://hospital.smarthealthit.org"/>
-        <value value="1032702"/>
-    </identifier>
     <clinicalStatus>
         <coding>
             <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
@@ -54,8 +41,8 @@
         <text value="Pregnant (finding)"/>
     </code>
     <subject>
-        <reference value="Patient/example-nih-mother-pih"/>
-        <display value="Sunny V. Day"/>
+        <reference value="Patient/example-non-live-birth-mother-deceased"/>
+        <display value="Susan R. Unahround"/>
     </subject>
-    <onsetDateTime value="2021-06-18"/>
+    <onsetDateTime value="2021-01-03"/>
 </Condition>

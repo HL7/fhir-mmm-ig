@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-induced-hypertension-mmm-ICD"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-11-24T19:15:21.592+00:00"/>
-        <source value="#wIOBKV5pk6jzgkMn"/>
+        <versionId value="7"/>
+        <lastUpdated value="2022-01-17T21:06:38.119+00:00"/>
+        <source value="#3K2qB1WYvpVHsIIT"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-induced-hypertension-mmm-ICD"/>
     <name value="Pregnancyinducedhypertensionmmmicd"/>
@@ -15,7 +15,7 @@
     <purpose value="This value set includes terms related to hypertension diagnosed during the course of pregnancy."/>
     <compose>
         <include>
-            <system value="http://hl7.org/fhir/sid/icd-10"/>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
             <concept>
                 <code value="O13"/>
                 <display value="Gestational [pregnancy-induced] hypertension without significant proteinuria"/>

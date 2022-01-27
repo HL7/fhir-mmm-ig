@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-confirmed-mmm-SNOMED"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-11-29T15:56:32.369+00:00"/>
-        <source value="#qDUmZ2FH2uSUEwbB"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-01-17T19:05:55.827+00:00"/>
+        <source value="#czCOgjC2pt54vQH9"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyConfirmed-mmm-SNOMED"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
     <name value="Pregnancyconfirmedmmmsnomed"/>
     <title value="Pregnancyconfirmedmmmsnomed"/>
     <status value="draft"/>
@@ -54,7 +54,7 @@
             </concept>
             <concept>
                 <code value="169663003"/>
-                <display value="Antenatal ultrasound scan normal and appropriate for dates (finding) "/>
+                <display value="Antenatal ultrasound scan normal and appropriate for dates (finding)"/>
             </concept>
             <concept>
                 <code value="423269002"/>

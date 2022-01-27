@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-mmm"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2021-11-22T18:56:23.397+00:00"/>
-        <source value="#ej1XKPLMEZwlJMDX"/>
+        <versionId value="20"/>
+        <lastUpdated value="2022-01-17T22:04:59.016+00:00"/>
+        <source value="#Ogn1QZaMNghvzgoi"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-mmm"/>
     <name value="Pregnancymmm"/>
@@ -16,8 +16,9 @@
     <compose>
         <include>
             <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancystate-mmm-icd10"/>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancycondition-mmm-SNOMED"/>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancycondition-mmm-ICD"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyCondition-mmm-SNOMED"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyCondition-mmm-ICD"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
         </include>
     </compose>
 </ValueSet>

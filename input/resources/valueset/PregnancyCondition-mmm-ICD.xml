@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyCondition-mmm-ICD"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2021-11-24T22:09:29.664+00:00"/>
-        <source value="#nHN6DKrMQC0AASAN"/>
+        <versionId value="16"/>
+        <lastUpdated value="2022-01-25T21:16:51.717+00:00"/>
+        <source value="#V9PGbbyRL81X3lpo"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyCondition-mmm-ICD"/>
     <name value="Pregnancyconditionmmmicd"/>
@@ -6961,7 +6961,7 @@
                 <display value="Encounter for suspected cervical shortening ruled out"/>
             </concept>
             <concept>
-                <code value="Z32.01 "/>
+                <code value="Z32.01"/>
                 <display value="Encounter for pregnancy test, result positive date within 250 days of delivery"/>
             </concept>
         </include>

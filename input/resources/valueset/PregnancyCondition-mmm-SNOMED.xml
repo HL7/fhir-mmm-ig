@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyCondition-mmm-SNOMED"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-11-24T22:10:04.051+00:00"/>
-        <source value="#CDaM9XQ4whoNyrIO"/>
+        <versionId value="7"/>
+        <lastUpdated value="2022-01-25T21:31:12.343+00:00"/>
+        <source value="#RJUr2BitT7Vurvoj"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyCondition-mmm-SNOMED"/>
     <name value="Pregnancyconditionmmmsnomed"/>
@@ -289,12 +289,8 @@
                 <display value="High risk pregnancy due to recurrent miscarriage (finding)"/>
             </concept>
             <concept>
-                <code value="457811000124103"/>
-                <display value="Normal pregnancy in primigravida (finding)"/>
-            </concept>
-            <concept>
-                <code value="457821000124106"/>
-                <display value="Normal pregnancy in multigravida (finding)"/>
+                <code value="102876002"/>
+                <display value="Multigravida (finding)"/>
             </concept>
         </include>
     </compose>

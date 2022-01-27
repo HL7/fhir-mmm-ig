@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient
     xmlns="http://hl7.org/fhir">
-    <id value="example-nih-mother-pih"/>
+    <id value="example-non-live-birth-mother-deceased"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-01-04T19:41:47.153+00:00"/>
-        <source value="#7QKjTV56dd3u31ei"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T19:56:40.484+00:00"/>
+        <source value="#Lac7C5U8XGnGpBpA"/>
     </meta>
     <text>
         <status value="generated"/>
         <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <div class="hapiHeaderText">Sunny V. 
-                <b>DAY </b>
+            <div class="hapiHeaderText">Susan R. 
+                <b>UNAHROUND </b>
             </div>
             <table class="hapiPropertyTable">
                 <tbody>
                     <tr>
                         <td>Identifier</td>
-                        <td>1032702</td>
+                        <td>1032704</td>
                     </tr>
                     <tr>
                         <td>Address</td>
                         <td>
-                            <span>49 Sunny St </span>
+                            <span>11 Prairie View </span>
                             <br/>
-                            <span>Sunnyvale </span>
-                            <span>CA </span>
+                            <span>Somewhere </span>
+                            <span>WI </span>
                             <span>US </span>
                         </td>
                     </tr>
                     <tr>
                         <td>Date of birth</td>
                         <td>
-                            <span>15 January 1988</span>
+                            <span>15 July 1996</span>
                         </td>
                     </tr>
                 </tbody>
@@ -121,15 +120,15 @@
             <text value="Medical Record Number"/>
         </type>
         <system value="http://hospital.smarthealthit.org"/>
-        <value value="1032702"/>
+        <value value="1032704"/>
     </identifier>
     <active value="true"/>
     <name>
-        <family value="Day"/>
-        <given value="Sunny"/>
-        <given value="V."/>
+        <family value="Unahround"/>
+        <given value="Susan"/>
+        <given value="R."/>
         <period>
-            <start value="1988-01-15"/>
+            <start value="1996-07-15"/>
         </period>
     </name>
     <telecom>
@@ -139,34 +138,24 @@
     </telecom>
     <telecom>
         <system value="email"/>
-        <value value="sunny.day@example.com"/>
+        <value value="RunAroundSue@mail.com"/>
     </telecom>
     <gender value="female"/>
-    <birthDate value="1988-01-15"/>
+    <birthDate value="1996-07-15"/>
+    <deceasedDateTime value="2021-06-25T14:27:00+01:00"/>
     <address>
-        <line value="49 Sunny St"/>
-        <city value="Sunnyvale"/>
-        <state value="CA"/>
-        <postalCode value="90121"/>
+        <line value="11 Prairie View"/>
+        <city value="Somewhere"/>
+        <state value="WI"/>
+        <postalCode value="53000"/>
         <country value="US"/>
         <period>
-            <start value="2016-12-06"/>
-            <end value="2020-07-22"/>
-        </period>
-    </address>
-    <address>
-        <line value="183 Mountain View St"/>
-        <city value="Sunnyvale"/>
-        <state value="CA"/>
-        <postalCode value="90121"/>
-        <country value="US"/>
-        <period>
-            <start value="2020-07-22"/>
+            <start value="2009-10-15"/>
         </period>
     </address>
     <link>
         <other>
-            <reference value="RelatedPerson/example-pih-mother"/>
+            <reference value="RelatedPerson/example-non-live-birth-mother-deceased"/>
         </other>
         <type value="seealso"/>
     </link>

@@ -39,7 +39,7 @@ A number of existing standards have been published that specify peri-natal clini
 *     NCHS Utah and Michigan SMART on FHIR app
 
 ## Acknowledgements
-(Todo: projectteam members)
+(Todo: project team members)
 
 
 

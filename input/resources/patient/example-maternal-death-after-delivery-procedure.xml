@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient
     xmlns="http://hl7.org/fhir">
-    <id value="example-nih-mother-pih"/>
+    <id value="example-maternal-death-after-delivery-procedure"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-01-04T19:41:47.153+00:00"/>
-        <source value="#7QKjTV56dd3u31ei"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T20:08:40.264+00:00"/>
+        <source value="#ksRwvHPIXMf8esFD"/>
     </meta>
     <text>
         <status value="generated"/>
         <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <div class="hapiHeaderText">Sunny V. 
-                <b>DAY </b>
+            <div class="hapiHeaderText">Willamette Billie 
+                <b>JEAN </b>
             </div>
             <table class="hapiPropertyTable">
                 <tbody>
                     <tr>
                         <td>Identifier</td>
-                        <td>1032702</td>
+                        <td>1032705</td>
                     </tr>
                     <tr>
                         <td>Address</td>
                         <td>
-                            <span>49 Sunny St </span>
+                            <span>1 Neverland Ranch </span>
                             <br/>
-                            <span>Sunnyvale </span>
+                            <span>Beverly Hills </span>
                             <span>CA </span>
                             <span>US </span>
                         </td>
@@ -34,7 +33,7 @@
                     <tr>
                         <td>Date of birth</td>
                         <td>
-                            <span>15 January 1988</span>
+                            <span>30 May 2000</span>
                         </td>
                     </tr>
                 </tbody>
@@ -121,15 +120,15 @@
             <text value="Medical Record Number"/>
         </type>
         <system value="http://hospital.smarthealthit.org"/>
-        <value value="1032702"/>
+        <value value="1032705"/>
     </identifier>
     <active value="true"/>
     <name>
-        <family value="Day"/>
-        <given value="Sunny"/>
-        <given value="V."/>
+        <family value="Jean"/>
+        <given value="Willamette"/>
+        <given value="Billie"/>
         <period>
-            <start value="1988-01-15"/>
+            <start value="2000-05-30"/>
         </period>
     </name>
     <telecom>
@@ -139,34 +138,24 @@
     </telecom>
     <telecom>
         <system value="email"/>
-        <value value="sunny.day@example.com"/>
+        <value value="BillieJean@mail.com"/>
     </telecom>
     <gender value="female"/>
-    <birthDate value="1988-01-15"/>
+    <birthDate value="2000-05-30"/>
+    <deceasedDateTime value="2021-12-20T14:27:00+01:00"/>
     <address>
-        <line value="49 Sunny St"/>
-        <city value="Sunnyvale"/>
+        <line value="1 Neverland Ranch"/>
+        <city value="Beverly Hills"/>
         <state value="CA"/>
-        <postalCode value="90121"/>
+        <postalCode value="90210"/>
         <country value="US"/>
         <period>
-            <start value="2016-12-06"/>
-            <end value="2020-07-22"/>
-        </period>
-    </address>
-    <address>
-        <line value="183 Mountain View St"/>
-        <city value="Sunnyvale"/>
-        <state value="CA"/>
-        <postalCode value="90121"/>
-        <country value="US"/>
-        <period>
-            <start value="2020-07-22"/>
+            <start value="2020-10-15"/>
         </period>
     </address>
     <link>
         <other>
-            <reference value="RelatedPerson/example-pih-mother"/>
+            <reference value="RelatedPerson/example-maternal-death-after-delivery"/>
         </other>
         <type value="seealso"/>
     </link>

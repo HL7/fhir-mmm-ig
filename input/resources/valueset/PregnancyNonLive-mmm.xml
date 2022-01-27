@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyNonLive-mmm"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-11-24T16:57:07.300+00:00"/>
-        <source value="#MhcHkO5RfHo3r4fk"/>
+        <versionId value="5"/>
+        <lastUpdated value="2022-01-26T18:18:33.989+00:00"/>
+        <source value="#RPpL1NLMQJYblAB4"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm"/>
     <name value="Pregnancynonlivemmm"/>
@@ -14,9 +14,16 @@
     <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
     <compose>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-SNOMED"/>
+            <system value="http://www.ama-assn.org/go/cpt"/>
             <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-CPT"/>
+        </include>
+        <include>
+            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
             <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-ICD"/>
+        </include>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-SNOMED"/>
         </include>
     </compose>
 </ValueSet>

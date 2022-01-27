@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedures-mmm"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-11-24T19:13:04.969+00:00"/>
-        <source value="#MPYYlXviojF0d3Hs"/>
+        <versionId value="6"/>
+        <lastUpdated value="2022-01-17T22:03:30.031+00:00"/>
+        <source value="#6nCG6lnMFfBfd4bE"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedures-mmm"/>
     <name value="Pregnancyproceduresmmm"/>
@@ -15,8 +15,8 @@
     <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy."/>
     <compose>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1014"/>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1015"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1014"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1015"/>
         </include>
     </compose>
 </ValueSet>

@@ -3,15 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancNonLive-mmm-SNOMED"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-11-24T16:59:12.694+00:00"/>
-        <source value="#NbcTX9AFRTWUgS96"/>
+        <versionId value="16"/>
+        <lastUpdated value="2022-01-27T16:48:30.263+00:00"/>
+        <source value="#WunZrOkuOSz8sk5h"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-SNOMED"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancNonLive-mmm-SNOMED"/>
     <name value="Pregnancynonlivemmmsnomed"/>
     <title value="Pregnancynonlivemmmsnomed"/>
     <status value="draft"/>
-    <description value="This value set represent findings that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
@@ -44,19 +43,23 @@
                 <display value="Miscarriage complicated by renal failure (disorder)"/>
             </concept>
             <concept>
+                <code value="10750641000119101"/>
+                <display value="Cardiac arrest due to failed attempted abortion (disorder)"/>
+            </concept>
+            <concept>
                 <code value="10751311000119100"/>
                 <display value="Salpingitis due to ectopic pregnancy (disorder)"/>
             </concept>
             <concept>
-                <code value="10751351000119100"/>
+                <code value="10751351000119104"/>
                 <display value="Sepsis due to ectopic pregnancy (disorder)"/>
             </concept>
             <concept>
-                <code value="10751391000119100"/>
+                <code value="10751391000119109"/>
                 <display value="Shock due to ectopic pregnancy (disorder)"/>
             </concept>
             <concept>
-                <code value="10751431000119100"/>
+                <code value="10751431000119104"/>
                 <display value="Urinary tract infection due to ectopic pregnancy (disorder)"/>
             </concept>
             <concept>
@@ -64,11 +67,11 @@
                 <display value="Renal failure after ectopic pregnancy (disorder)"/>
             </concept>
             <concept>
-                <code value="10760181000119100"/>
+                <code value="10760181000119109"/>
                 <display value="Cardiac arrest due to miscarriage (disorder)"/>
             </concept>
             <concept>
-                <code value="10811961000119100"/>
+                <code value="10811961000119109"/>
                 <display value="Cardiac arrest due to incomplete miscarriage (disorder)"/>
             </concept>
             <concept>
@@ -76,7 +79,7 @@
                 <display value="Sepsis due to incomplete miscarriage (disorder)"/>
             </concept>
             <concept>
-                <code value="10812041000119100"/>
+                <code value="10812041000119103"/>
                 <display value="Urinary tract infection due to incomplete miscarriage (disorder)"/>
             </concept>
             <concept>
@@ -192,7 +195,7 @@
                 <display value="Miscarriage with laceration of bowel (disorder)"/>
             </concept>
             <concept>
-                <code value="16836261000119100"/>
+                <code value="16836261000119107"/>
                 <display value="Ectopic pregnancy of left ovary (disorder)"/>
             </concept>
             <concept>
@@ -200,7 +203,7 @@
                 <display value="Ectopic pregnancy of right ovary (disorder)"/>
             </concept>
             <concept>
-                <code value="16836391000119100"/>
+                <code value="16836391000119105"/>
                 <display value="Pregnancy of left fallopian tube (disorder)"/>
             </concept>
             <concept>
@@ -208,11 +211,11 @@
                 <display value="Ruptured tubal pregnancy of right fallopian tube (disorder)"/>
             </concept>
             <concept>
-                <code value="16836571000119100"/>
+                <code value="16836431000119100"/>
                 <display value="Ruptured tubal pregnancy of left fallopian tube (disorder)"/>
             </concept>
             <concept>
-                <code value="16836891000119100"/>
+                <code value="16836891000119104"/>
                 <display value="Pregnancy of right fallopian tube (disorder)"/>
             </concept>
             <concept>

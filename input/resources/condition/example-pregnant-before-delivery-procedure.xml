@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Condition
     xmlns="http://hl7.org/fhir">
-    <id value="example-nih-pregnancy-pih"/>
+    <id value="example-pregnant-before-delivery-procedure"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-01-04T19:40:06.160+00:00"/>
-        <source value="#WQGLG8bKlI1dZ8x0"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-04T20:08:15.891+00:00"/>
+        <source value="#TzeGY7KkidrkN1ed"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <identifier>
@@ -19,7 +19,7 @@
             <text value="Medical Record Number"/>
         </type>
         <system value="http://hospital.smarthealthit.org"/>
-        <value value="1032702"/>
+        <value value="1032705"/>
     </identifier>
     <clinicalStatus>
         <coding>
@@ -54,8 +54,8 @@
         <text value="Pregnant (finding)"/>
     </code>
     <subject>
-        <reference value="Patient/example-nih-mother-pih"/>
-        <display value="Sunny V. Day"/>
+        <reference value="Patient/example-maternal-death-after-delivery-procedure"/>
+        <display value="Willamette Billie Jean"/>
     </subject>
-    <onsetDateTime value="2021-06-18"/>
+    <onsetDateTime value="2021-06-16"/>
 </Condition>

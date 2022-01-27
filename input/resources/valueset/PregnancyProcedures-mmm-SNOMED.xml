@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="PregnancyProcedure-mmm-SNOMED"/>
+    <id value="PregnancyProcedures-mmm-SNOMED"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-11-24T22:16:33.298+00:00"/>
-        <source value="#XXMrcQsKg422qrwS"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-01-26T18:46:53.833+00:00"/>
+        <source value="#bDSLpYCxydOvTu0D"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedure-mmm-SNOMED"/>
-    <name value="Proceduresduringpregnancymmmsnomed"/>
-    <title value="Proceduresduringpregnancymmmsnomed"/>
+    <name value="PregnancyProcedures-mmm-SNOMED"/>
+    <title value="Procedures during pregnancy SNOMED"/>
     <status value="draft"/>
-    <description value="The value set includes concepts that represent pregnancy related procedures.  This is from the Pregnancy Related Value Set 2.16.840.1.113883.3.464.1003.111.11.1015."/>
-    <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy. This value set may use a model element related to Procedure."/>
-    <copyright value="From VSAC.  The steward is National Committee for Quality Assurance."/>
     <compose>
-        <lockedDate value="2020-03-10"/>
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>
@@ -23,691 +19,691 @@
                 <display value="Removal of ectopic cervical pregnancy by evacuation (procedure)"/>
             </concept>
             <concept>
-                <code value="10455004"/>
+                <code value="10763001"/>
                 <display value="Therapeutic abortion by insertion of laminaria (procedure)"/>
             </concept>
             <concept>
-                <code value="10455005"/>
+                <code value="133875007"/>
                 <display value="Injection of prostaglandin (procedure)"/>
             </concept>
             <concept>
-                <code value="10455006"/>
+                <code value="176833006"/>
                 <display value="Dilation of cervix uteri and curettage of uterus for removal of missed abortion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455007"/>
+                <code value="176850008"/>
                 <display value="Intra-amniotic prostaglandin instillation (procedure)"/>
             </concept>
             <concept>
-                <code value="10455008"/>
+                <code value="176852000"/>
                 <display value="Extra-amniotic prostaglandin instillation (procedure)"/>
             </concept>
             <concept>
-                <code value="10455009"/>
+                <code value="176854004"/>
                 <display value="Insertion of prostaglandin abortifacient suppository (procedure)"/>
             </concept>
             <concept>
-                <code value="10455010"/>
+                <code value="176928008"/>
                 <display value="Excision of ectopic ovarian pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455011"/>
+                <code value="176929000"/>
                 <display value="Excision of ruptured ectopic tubal pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455012"/>
+                <code value="176996001"/>
                 <display value="Endoscopic intrafallopian transfer of gamete (procedure)"/>
             </concept>
             <concept>
-                <code value="10455013"/>
+                <code value="177037000"/>
                 <display value="Oocyte recovery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455014"/>
+                <code value="177038005"/>
                 <display value="Endoscopic transurethral ultrasound directed oocyte recovery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455015"/>
+                <code value="177039002"/>
                 <display value="Endoscopic transvesical oocyte recovery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455016"/>
+                <code value="177042008"/>
                 <display value="Transvaginal oocyte recovery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455017"/>
+                <code value="177091002"/>
                 <display value="Fetoscopic sampling of fetal blood (procedure)"/>
             </concept>
             <concept>
-                <code value="10455018"/>
+                <code value="177100008"/>
                 <display value="Percutaneous fetal procedure (procedure)"/>
             </concept>
             <concept>
-                <code value="10455019"/>
+                <code value="177101007"/>
                 <display value="Percutaneous insertion of vesicoamniotic shunt (procedure)"/>
             </concept>
             <concept>
-                <code value="10455020"/>
+                <code value="177102000"/>
                 <display value="Percutaneous insertion of pleuroamniotic shunt (procedure)"/>
             </concept>
             <concept>
-                <code value="10455021"/>
+                <code value="177106002"/>
                 <display value="Percutaneous biopsy of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455022"/>
+                <code value="177107006"/>
                 <display value="Percutaneous sampling of chorionic villus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455023"/>
+                <code value="177112007"/>
                 <display value="Therapeutic drainage of amniotic fluid (procedure)"/>
             </concept>
             <concept>
-                <code value="10455024"/>
+                <code value="177122001"/>
                 <display value="External version of breech (procedure)"/>
             </concept>
             <concept>
-                <code value="10455025"/>
+                <code value="177136006"/>
                 <display value="Prostaglandin induction of labor (procedure)"/>
             </concept>
             <concept>
-                <code value="10455026"/>
+                <code value="177222006"/>
                 <display value="Repair of episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455027"/>
+                <code value="17744000"/>
                 <display value="Subtotal hysterectomy after cesarean delivery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455028"/>
+                <code value="18302006"/>
                 <display value="Therapeutic abortion by hysterotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455029"/>
+                <code value="18489003"/>
                 <display value="Surgical treatment of missed abortion of first trimester (procedure)"/>
             </concept>
             <concept>
-                <code value="10455030"/>
+                <code value="215192006"/>
                 <display value="Uterine evacuation and curettage of hydatidiform mole (procedure)"/>
             </concept>
             <concept>
-                <code value="10455031"/>
+                <code value="216209009"/>
                 <display value="Removal of hydatidiform mole (procedure)"/>
             </concept>
             <concept>
-                <code value="10455032"/>
+                <code value="233560009"/>
                 <display value="Percutaneous intraperitoneal fetal blood transfusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455033"/>
+                <code value="233561008"/>
                 <display value="Percutaneous intravascular fetal blood transfusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455034"/>
+                <code value="236894009"/>
                 <display value="Frozen embryo transfer (procedure)"/>
             </concept>
             <concept>
-                <code value="10455035"/>
+                <code value="236912008"/>
                 <display value="Gamete intrafallopian transfer (procedure)"/>
             </concept>
             <concept>
-                <code value="10455036"/>
+                <code value="236913003"/>
                 <display value="Fallopian replacement of egg with delayed insemination (procedure)"/>
             </concept>
             <concept>
-                <code value="10455037"/>
+                <code value="236914009"/>
                 <display value="Zygote intrafallopian transfer (procedure)"/>
             </concept>
             <concept>
-                <code value="10455038"/>
+                <code value="236915005"/>
                 <display value="Tubal embryo transfer (procedure)"/>
             </concept>
             <concept>
-                <code value="10455039"/>
+                <code value="236952005"/>
                 <display value="Therapeutic drainage of amniotic fluid by single aspiration (procedure)"/>
             </concept>
             <concept>
-                <code value="10455040"/>
+                <code value="236953000"/>
                 <display value="Therapeutic drainage of amniotic fluid by indwelling catheter (procedure)"/>
             </concept>
             <concept>
-                <code value="10455041"/>
+                <code value="236954006"/>
                 <display value="Diagnostic amniocentesis with fluid replacement (procedure)"/>
             </concept>
             <concept>
-                <code value="10455042"/>
+                <code value="236955007"/>
                 <display value="Hyperalimentation of fetus through amniotic cavity (procedure)"/>
             </concept>
             <concept>
-                <code value="10455043"/>
+                <code value="236956008"/>
                 <display value="Amnioinfusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455044"/>
+                <code value="236966000"/>
                 <display value="Cervical ripening with Prostaglandin E2 (procedure)"/>
             </concept>
             <concept>
-                <code value="10455045"/>
+                <code value="236987005"/>
                 <display value="Emergency cesarean hysterectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455046"/>
+                <code value="236988000"/>
                 <display value="Elective cesarean hysterectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455047"/>
+                <code value="236992007"/>
                 <display value="Right mediolateral episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455048"/>
+                <code value="236993002"/>
                 <display value="Vacuum dilatation of cervix (procedure)"/>
             </concept>
             <concept>
-                <code value="10455049"/>
+                <code value="236994008"/>
                 <display value="Placental delivery procedure (procedure)"/>
             </concept>
             <concept>
-                <code value="10455050"/>
+                <code value="237017007"/>
                 <display value="Intramyometrial injection of prostaglandin (procedure)"/>
             </concept>
             <concept>
-                <code value="10455051"/>
+                <code value="237025009"/>
                 <display value="Repair of right mediolateral episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455052"/>
+                <code value="240278000"/>
                 <display value="External cephalic version (procedure)"/>
             </concept>
             <concept>
-                <code value="10455053"/>
+                <code value="240284002"/>
                 <display value="Multifetal pregnancy reduction (procedure)"/>
             </concept>
             <concept>
-                <code value="10455054"/>
+                <code value="240285001"/>
                 <display value="Percutaneous insertion of fetal shunt (procedure)"/>
             </concept>
             <concept>
-                <code value="10455055"/>
+                <code value="240286000"/>
                 <display value="Percutaneous insertion of ventriculoamniotic shunt (procedure)"/>
             </concept>
             <concept>
-                <code value="10455056"/>
+                <code value="240288004"/>
                 <display value="Percutaneous insertion of peritoneal-amniotic shunt (procedure)"/>
             </concept>
             <concept>
-                <code value="10455057"/>
+                <code value="240289007"/>
                 <display value="Percutaneous aspiration of fetal lesion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455058"/>
+                <code value="240290003"/>
                 <display value="Percutaneous aspiration of fetal ascites (procedure)"/>
             </concept>
             <concept>
-                <code value="10455059"/>
+                <code value="240291004"/>
                 <display value="Percutaneous aspiration of fetal pleural effusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455060"/>
+                <code value="240292006"/>
                 <display value="Percutaneous aspiration of fetal pericardial effusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455061"/>
+                <code value="24068006"/>
                 <display value="Hysterectomy for removal of hydatidiform mole (procedure)"/>
             </concept>
             <concept>
-                <code value="10455062"/>
+                <code value="243773009"/>
                 <display value="Fetal blood sampling (procedure)"/>
             </concept>
             <concept>
-                <code value="10455063"/>
+                <code value="243774003"/>
                 <display value="Transvaginal fetal blood sampling (procedure)"/>
             </concept>
             <concept>
-                <code value="10455064"/>
+                <code value="259863001"/>
                 <display value="Removal of Shirodkar suture from cervix (procedure)"/>
             </concept>
             <concept>
-                <code value="10455065"/>
+                <code value="265082003"/>
                 <display value="Laparoscopic oocyte recovery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455066"/>
+                <code value="265635006"/>
                 <display value="Diagnostic amniocentesis (procedure)"/>
             </concept>
             <concept>
-                <code value="10455067"/>
+                <code value="265642006"/>
                 <display value="Obstetric monitoring (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455068"/>
+                <code value="26578004"/>
                 <display value="Hysterotomy with removal of hydatidiform mole (procedure)"/>
             </concept>
             <concept>
-                <code value="10455069"/>
+                <code value="274973002"/>
                 <display value="Dilation of cervix uteri and curettage for termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455070"/>
+                <code value="275222009"/>
                 <display value="Transcervical sampling of chorionic villus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455071"/>
+                <code value="275223004"/>
                 <display value="Transabdominal chorionic villus biopsy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455072"/>
+                <code value="28107008"/>
                 <display value="Wright's obstetrical version (procedure)"/>
             </concept>
             <concept>
-                <code value="10455073"/>
+                <code value="281568006"/>
                 <display value="Fetal heart monitoring (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455074"/>
+                <code value="281570002"/>
                 <display value="Fetal heart monitoring in labor (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455075"/>
+                <code value="28379004"/>
                 <display value="Dilation and curettage of uterus after abortion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455076"/>
+                <code value="285409006"/>
                 <display value="Medical termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455077"/>
+                <code value="285416007"/>
                 <display value="Resuture of episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455078"/>
+                <code value="285417003"/>
                 <display value="Resuture of episiotomy dehiscence (procedure)"/>
             </concept>
             <concept>
-                <code value="10455079"/>
+                <code value="285434006"/>
                 <display value="Insertion of abortifacient suppository (procedure)"/>
             </concept>
             <concept>
-                <code value="10455080"/>
+                <code value="287954004"/>
                 <display value="Intrauterine exchange transfusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455081"/>
+                <code value="288045002"/>
                 <display value="Injection of amnion for termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455082"/>
+                <code value="288194000"/>
                 <display value="Routine episiotomy and repair (procedure)"/>
             </concept>
             <concept>
-                <code value="10455083"/>
+                <code value="302375005"/>
                 <display value="Operative termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455084"/>
+                <code value="302384005"/>
                 <display value="Controlled cord traction of placenta (procedure)"/>
             </concept>
             <concept>
-                <code value="10455085"/>
+                <code value="303720006"/>
                 <display value="Sampling of chorionic villus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455086"/>
+                <code value="309877008"/>
                 <display value="Intrapartum cardiotochogram monitoring (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455087"/>
+                <code value="315308008"/>
                 <display value="Dilatation of cervix for delivery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455088"/>
+                <code value="36708009"/>
                 <display value="External fetal monitor surveillance (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455089"/>
+                <code value="386276009"/>
                 <display value="Electronic fetal monitoring: antepartum (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455090"/>
+                <code value="386277000"/>
                 <display value="Electronic fetal monitoring: intrapartum (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455091"/>
+                <code value="386639001"/>
                 <display value="Termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455092"/>
+                <code value="386641000"/>
                 <display value="Therapeutic abortion procedure (procedure)"/>
             </concept>
             <concept>
-                <code value="10455093"/>
+                <code value="387615001"/>
                 <display value="Removal of ectopic pregnancy from fallopian tube (procedure)"/>
             </concept>
             <concept>
-                <code value="10455094"/>
+                <code value="387616000"/>
                 <display value="Fimbrial extraction of tubal pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455095"/>
+                <code value="387673001"/>
                 <display value="Nonstress test (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455096"/>
+                <code value="387678005"/>
                 <display value="External obstetrical version (procedure)"/>
             </concept>
             <concept>
-                <code value="10455097"/>
+                <code value="387709005"/>
                 <display value="Removal of ectopic fetus from abdominal cavity (procedure)"/>
             </concept>
             <concept>
-                <code value="10455098"/>
+                <code value="387710000"/>
                 <display value="Removal of extrauterine ectopic fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455099"/>
+                <code value="391896006"/>
                 <display value="Therapeutic abortion by aspiration curettage (procedure)"/>
             </concept>
             <concept>
-                <code value="10455100"/>
+                <code value="391897002"/>
                 <display value="Aspiration curettage of uterus for termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455101"/>
+                <code value="391998006"/>
                 <display value="Dilation and curettage of uterus after delivery (procedure)"/>
             </concept>
             <concept>
-                <code value="10455102"/>
+                <code value="392000009"/>
                 <display value="Hysterotomy for retained placenta (procedure)"/>
             </concept>
             <concept>
-                <code value="10455103"/>
+                <code value="398221005"/>
                 <display value="Fetal pH monitoring (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455104"/>
+                <code value="40704000"/>
                 <display value="Wright's obstetrical version with extraction (procedure)"/>
             </concept>
             <concept>
-                <code value="10455105"/>
+                <code value="408804006"/>
                 <display value="Continuous fetal heart monitoring during labor (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455106"/>
+                <code value="408805007"/>
                 <display value="Intermittent fetal heart monitoring during labor (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455107"/>
+                <code value="408806008"/>
                 <display value="Fetal heart monitoring using hand held doppler (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455108"/>
+                <code value="408807004"/>
                 <display value="Fetal heart monitoring using fetal scalp electrode (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455109"/>
+                <code value="408808009"/>
                 <display value="Fetal heart monitoring using ultrasound transducer (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455110"/>
+                <code value="408819007"/>
                 <display value="Delivery of placenta by maternal effort (procedure)"/>
             </concept>
             <concept>
-                <code value="10455111"/>
+                <code value="408840008"/>
                 <display value="Extra-amniotic termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455112"/>
+                <code value="408845003"/>
                 <display value="Fetal heart monitoring with Pinard stethoscope (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455113"/>
+                <code value="41058005"/>
                 <display value="Salpingectomy for tubal ectopic pregnancy by abdominal approach (procedure)"/>
             </concept>
             <concept>
-                <code value="10455114"/>
+                <code value="41059002"/>
                 <display value="Cesarean hysterectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455115"/>
+                <code value="41780001"/>
                 <display value="External fetal monitor removal (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455116"/>
+                <code value="425707001"/>
                 <display value="Serial drainage of amniotic fluid (procedure)"/>
             </concept>
             <concept>
-                <code value="10455117"/>
+                <code value="425939004"/>
                 <display value="Endoscopic serial drainage of amniotic fluid (procedure)"/>
             </concept>
             <concept>
-                <code value="10455118"/>
+                <code value="426287008"/>
                 <display value="Amniocentesis for possible neural tube defect (procedure)"/>
             </concept>
             <concept>
-                <code value="10455119"/>
+                <code value="426737000"/>
                 <display value="Endoscopic serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"/>
             </concept>
             <concept>
-                <code value="10455120"/>
+                <code value="427230007"/>
                 <display value="Amniocentesis for possible chromosomal abnormality (procedure)"/>
             </concept>
             <concept>
-                <code value="10455121"/>
+                <code value="427320001"/>
                 <display value="Serial drainage of amniotic fluid for twin-twin transfusion syndrome (procedure)"/>
             </concept>
             <concept>
-                <code value="10455122"/>
+                <code value="429613009"/>
                 <display value="Percutaneous insertion of tracheal plug for congenital diaphragmatic hernia of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455123"/>
+                <code value="429737004"/>
                 <display value="Percutaneous laser ablation of lesion of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455124"/>
+                <code value="43096003"/>
                 <display value="Insertion of laminaria into vagina (procedure)"/>
             </concept>
             <concept>
-                <code value="10455125"/>
+                <code value="433153009"/>
                 <display value="Chorionic villus sampling using obstetric ultrasound guidance (procedure)"/>
             </concept>
             <concept>
-                <code value="10455126"/>
+                <code value="440148001"/>
                 <display value="Partial excision of uterus for removal of interstitial ectopic pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455127"/>
+                <code value="443005005"/>
                 <display value="Diagnostic amniocentesis using ultrasound guidance (procedure)"/>
             </concept>
             <concept>
-                <code value="10455128"/>
+                <code value="445865006"/>
                 <display value="Sampling of fetal blood using ultrasound guidance (procedure)"/>
             </concept>
             <concept>
-                <code value="10455129"/>
+                <code value="445912000"/>
                 <display value="Excision of fallopian tube and surgical removal of ectopic pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455130"/>
+                <code value="446135006"/>
                 <display value="Amnioinfusion using ultrasound guidance (procedure)"/>
             </concept>
             <concept>
-                <code value="10455131"/>
+                <code value="446341008"/>
                 <display value="Sampling of fetal blood and biopsy of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455132"/>
+                <code value="446934006"/>
                 <display value="Retrieval of oocyte by transabdominal approach (procedure)"/>
             </concept>
             <concept>
-                <code value="10455133"/>
+                <code value="447214008"/>
                 <display value="Ligation of umbilical cord of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455134"/>
+                <code value="447771005"/>
                 <display value="Abdominal hysterectomy and excision of periuterine tissue (procedure)"/>
             </concept>
             <concept>
-                <code value="10455135"/>
+                <code value="447972007"/>
                 <display value="Medical termination of pregnancy using prostaglandin (procedure)"/>
             </concept>
             <concept>
-                <code value="10455136"/>
+                <code value="448543003"/>
                 <display value="Transmyometrial transfer of embryo to uterus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455137"/>
+                <code value="450563004"/>
                 <display value="Laparoscopic excision of ectopic ovarian pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455138"/>
+                <code value="45460008"/>
                 <display value="Intrauterine transfusion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455139"/>
+                <code value="46681009"/>
                 <display value="Cerclage of cervix during pregnancy by abdominal approach (procedure)"/>
             </concept>
             <concept>
-                <code value="10455140"/>
+                <code value="480571000119102"/>
                 <display value="Doppler ultrasound velocimetry of umbilical artery of fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455141"/>
+                <code value="5048009"/>
                 <display value="External cephalic version with tocolysis (procedure)"/>
             </concept>
             <concept>
-                <code value="10455142"/>
+                <code value="5191001"/>
                 <display value="Surgical treatment of missed abortion of second trimester (procedure)"/>
             </concept>
             <concept>
-                <code value="10455143"/>
+                <code value="52660002"/>
                 <display value="Induced abortion following intra-amniotic injection with hysterotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455144"/>
+                <code value="56620000"/>
                 <display value="Delivery of placenta following delivery of infant outside of hospital (procedure)"/>
             </concept>
             <concept>
-                <code value="10455145"/>
+                <code value="61893009"/>
                 <display value="Laparoscopic treatment of ectopic pregnancy with oophorectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455146"/>
+                <code value="62688006"/>
                 <display value="Surgical treatment of spontaneous abortion of any trimester (procedure)"/>
             </concept>
             <concept>
-                <code value="10455147"/>
+                <code value="63407004"/>
                 <display value="Episioproctotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455148"/>
+                <code value="63596003"/>
                 <display value="Laparoscopic treatment of ectopic pregnancy with salpingectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455149"/>
+                <code value="65378009"/>
                 <display value="Delayed repair of episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455150"/>
+                <code value="6708002"/>
                 <display value="Intrauterine cordocentesis (procedure)"/>
             </concept>
             <concept>
-                <code value="10455151"/>
+                <code value="69621003"/>
                 <display value="Surgical treatment of missed abortion of third trimester (procedure)"/>
             </concept>
             <concept>
-                <code value="10455152"/>
+                <code value="700041001"/>
                 <display value="Induced termination of pregnancy under unsafe conditions (procedure)"/>
             </concept>
             <concept>
-                <code value="10455153"/>
+                <code value="713117007"/>
                 <display value="Monitoring fetal development (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455154"/>
+                <code value="713120004"/>
                 <display value="Counting fetal movement (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455155"/>
+                <code value="714812005"/>
                 <display value="Induced termination of pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455156"/>
+                <code value="716100006"/>
                 <display value="Doppler ultrasonography of vascular structure of fetal head (procedure)"/>
             </concept>
             <concept>
-                <code value="10455157"/>
+                <code value="725927001"/>
                 <display value="Pronuclear transfer mitochondrial replacement therapy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455158"/>
+                <code value="726556001"/>
                 <display value="Maternal spindle transfer mitochondrial replacement therapy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455159"/>
+                <code value="732970000"/>
                 <display value="Controlled ovarian stimulation (procedure)"/>
             </concept>
             <concept>
-                <code value="10455160"/>
+                <code value="73341009"/>
                 <display value="Removal of ectopic fetus from ovary without oophorectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455161"/>
+                <code value="737099004"/>
                 <display value="Abdominal hysterectomy with sacrocolpopexy using mesh (procedure)"/>
             </concept>
             <concept>
-                <code value="10455162"/>
+                <code value="75456002"/>
                 <display value="Embryo transfer (procedure)"/>
             </concept>
             <concept>
-                <code value="10455163"/>
+                <code value="81130000"/>
                 <display value="Removal of intraligamentous ectopic pregnancy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455164"/>
+                <code value="81855008"/>
                 <display value="Internal fetal monitoring during labor (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455165"/>
+                <code value="82688001"/>
                 <display value="Removal of ectopic fetus (procedure)"/>
             </concept>
             <concept>
-                <code value="10455166"/>
+                <code value="84275009"/>
                 <display value="Obstetrical hysterotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455167"/>
+                <code value="85179000"/>
                 <display value="Insertion of laminaria into cervix (procedure)"/>
             </concept>
             <concept>
-                <code value="10455168"/>
+                <code value="85548006"/>
                 <display value="Episiotomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455169"/>
+                <code value="87431004"/>
                 <display value="Dilation of cervical canal (procedure)"/>
             </concept>
             <concept>
-                <code value="10455170"/>
+                <code value="87663001"/>
                 <display value="External fetal monitor surveillance during multiple pregnancy (regime/therapy)"/>
             </concept>
             <concept>
-                <code value="10455171"/>
+                <code value="88144003"/>
                 <display value="Removal of ectopic interstitial uterine pregnancy requiring total hysterectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455172"/>
+                <code value="88362001"/>
                 <display value="Removal of ectopic fetus from fallopian tube without salpingectomy (procedure)"/>
             </concept>
             <concept>
-                <code value="10455173"/>
+                <code value="90442009"/>
                 <display value="Cerclage of cervix during pregnancy by vaginal approach (procedure)"/>
             </concept>
             <concept>
-                <code value="10455174"/>
+                <code value="9221009"/>
                 <display value="Surgical treatment of septic abortion (procedure)"/>
             </concept>
             <concept>
-                <code value="10455175"/>
+                <code value="9724000"/>
                 <display value="Repair of current obstetric laceration of uterus (procedure)"/>
             </concept>
         </include>

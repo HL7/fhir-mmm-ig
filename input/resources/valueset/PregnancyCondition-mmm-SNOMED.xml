@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyCondition-mmm-SNOMED"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2022-01-25T21:31:12.343+00:00"/>
-        <source value="#RJUr2BitT7Vurvoj"/>
+        <versionId value="8"/>
+        <lastUpdated value="2022-02-08T16:29:43.980+00:00"/>
+        <source value="#ZRegRXJCb56zQZzS"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyCondition-mmm-SNOMED"/>
-    <name value="Pregnancyconditionmmmsnomed"/>
-    <title value="Pregnancyconditionmmmsnomed"/>
+    <name value="ValueSetPregnancyConditionSNOMED"/>
+    <title value="ValueSet - Pregnancy Condition SNOMED"/>
     <status value="draft"/>
     <description value="This value set contains concepts that that represent pregnancy findings, maternal pregancy supervision conditions, disorders, diagnoses and outcomes."/>
     <purpose value="This value set may use the Quality Data Model (QDM) category related to Condition/Diagnosis/Problem."/>

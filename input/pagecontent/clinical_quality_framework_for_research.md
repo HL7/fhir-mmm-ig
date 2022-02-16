@@ -1,7 +1,7 @@
 ## Clinical Reasoning
 [FHIR's Clinical Reasoning module](http://www.hl7.org/fhir/clinicalreasoning-module.html) describes in general what is covered under this framework. This guide will rely on the framework's measure model to define peri-natal populations of interest (POI). From this POI, Measure cohort definitions will be used to define the populaiton of interest for a given research question. With a given target population identified, clinical information related to this populaiton can be aggregated for research analysis. 
 
-## Defining Measure populations
+## Defining Measure Populations
 Two cohort populations are in scope for the initial release of this guide. These measure definitions are expressed in Clinical Quality Language (CQL), and are found base64 encoded within Library.content examples. As further research populations are identified, each warrants its own new Measure definition (also expressed in CQL and found in this location within) and supporting FHIR artifacts. Note that not all future research study populations of interest will necessitate the updating of this published FHIR guide. 
 
 ## Architecture and Implementation

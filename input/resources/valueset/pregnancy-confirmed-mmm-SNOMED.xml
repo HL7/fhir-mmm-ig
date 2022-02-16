@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy-confirmed-mmm-SNOMED"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-01-17T19:05:55.827+00:00"/>
-        <source value="#czCOgjC2pt54vQH9"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-02-08T16:30:43.675+00:00"/>
+        <source value="#5cImGqYHEfzTN6tq"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
-    <name value="Pregnancyconfirmedmmmsnomed"/>
-    <title value="Pregnancyconfirmedmmmsnomed"/>
+    <name value="ValueSetPregnancyConfirmedSNOMED"/>
+    <title value="ValueSet - Pregnancy Confirmed SNOMED"/>
     <status value="draft"/>
     <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, assessment or diagnostic studies."/>
     <purpose value="Describes relevant laboratory, diagnostic or physical exams  that confirm pregnancy. This value set may use the Quality Data Model (QDM) category related to Laboratory Test (results), Diagnostic Study Test (Result)  and  Physical Exam  (expression of the answers/responses for the physical exam component)."/>

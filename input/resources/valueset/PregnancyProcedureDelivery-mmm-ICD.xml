@@ -3,18 +3,18 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedureDelivery-mmm-ICD"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-01-17T19:25:24.542+00:00"/>
-        <source value="#qajwlG8IslbufgmV"/>
+        <versionId value="6"/>
+        <lastUpdated value="2022-02-08T16:57:19.143+00:00"/>
+        <source value="#PxLn4VE8lrUrsFbF"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-ICD"/>
-    <name value="Pregnancyproceduredeliverymmmicd"/>
-    <title value="Pregnancyproceduredeliverymmmicd"/>
+    <name value="ValueSetPregnancyProcedureDeliveryICD10"/>
+    <title value="ValueSet - Pregnancy Procedure Delivery ICD10"/>
     <status value="draft"/>
     <description value="This value set  defines delivery procedures such as vaginal, cesarean and forcep deliveries."/>
     <compose>
         <include>
-            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+            <system value="http://hl7.org/fhir/sid/icd-10"/>
             <concept>
                 <code value="10D00Z0"/>
                 <display value="Extraction of Products of Conception, High, Open Approach"/>

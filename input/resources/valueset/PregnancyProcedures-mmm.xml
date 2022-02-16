@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedures-mmm"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2022-01-17T22:03:30.031+00:00"/>
-        <source value="#6nCG6lnMFfBfd4bE"/>
+        <versionId value="8"/>
+        <lastUpdated value="2022-02-08T17:57:50.064+00:00"/>
+        <source value="#V6bDbLXftxUcEvsD"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedures-mmm"/>
-    <name value="Pregnancyproceduresmmm"/>
-    <title value="Pregnancyproceduresmmm"/>
+    <name value="ValueSetProceduresDuringPregnancy"/>
+    <title value="ValueSet - Procedures During Pregnancy"/>
     <status value="draft"/>
     <description value="This value set Includes concepts that represent pregnancy related procedures."/>
     <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy."/>

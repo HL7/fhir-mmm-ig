@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedures-mmm-SNOMED"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-01-26T18:46:53.833+00:00"/>
-        <source value="#bDSLpYCxydOvTu0D"/>
+        <versionId value="8"/>
+        <lastUpdated value="2022-02-08T17:56:46.490+00:00"/>
+        <source value="#jB4zxyxknezvVi4U"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedure-mmm-SNOMED"/>
-    <name value="PregnancyProcedures-mmm-SNOMED"/>
-    <title value="Procedures during pregnancy SNOMED"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedures-mmm-SNOMED"/>
+    <name value="ValueSetProceduresDuringPregnancySNOMED"/>
+    <title value="ValueSet - Procedures During Pregnancy SNOMED"/>
     <status value="draft"/>
     <compose>
         <include>

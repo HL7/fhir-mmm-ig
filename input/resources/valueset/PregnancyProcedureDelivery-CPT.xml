@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="PregnancyProcedureDelivery-mmm-CPT"/>
+    <id value="PregnancyProcedureDelivery-CPT"/>
     <meta>
         <versionId value="4"/>
-        <lastUpdated value="2022-02-08T16:56:33.103+00:00"/>
-        <source value="#aAXJzeJ4V32RRX0z"/>
+        <lastUpdated value="2022-03-01T21:31:47.454+00:00"/>
+        <source value="#Q2aPjZxlsCsXErsQ"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
     <name value="ValueSetPregnancyProcedureDeliveryCPT"/>
     <title value="ValueSet - Pregnancy Procedure Delivery CPT"/>
     <status value="draft"/>
+    <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
+    <copyright value="CPT copyright"/>
     <compose>
         <include>
             <system value="http://www.ama-assn.org/go/cpt"/>

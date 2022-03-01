@@ -3,20 +3,20 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyNonLive"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-03-01T19:34:35.447+00:00"/>
-        <source value="#QdGg9KAtZnnxt4Er"/>
+        <versionId value="5"/>
+        <lastUpdated value="2022-03-01T21:17:05.281+00:00"/>
+        <source value="#ibKFjnyudibGMMCf"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive"/>
     <name value="ValueSetPregnancyNonLive"/>
     <title value="ValueSet - Pregnancy Non-Live"/>
     <status value="draft"/>
-    <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of the value set Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values referenced in this grouping."/>
+    <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of the value set Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values referenced in this grouping.  Also contains CPT Procedure codes indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC for the latest expansion of this value set Non Live Birt CPT Procedures  2.16.840.1.113762.1.4.1166.127."/>
     <purpose value="This purpose of this value set is to provide a list of terms that represent conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages"/>
-    <copyright value="Source for VSAC value set:  https://vsac.nlm.nih.gov/ and CPT copyright."/>
+    <copyright value="Source for VSAC value set:  https://vsac.nlm.nih.gov/ SNOMED CT, ICD 10 and  CPT copyrights."/>
     <compose>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyNonLive-mmm-CPT"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127"/>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137"/>
         </include>
     </compose>

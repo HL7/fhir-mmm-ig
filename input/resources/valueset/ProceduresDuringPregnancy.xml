@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="PregnancyProcedures-mmm"/>
+    <id value="ProceduresDuringPregnancy"/>
     <meta>
         <versionId value="8"/>
-        <lastUpdated value="2022-02-08T17:57:50.064+00:00"/>
-        <source value="#V6bDbLXftxUcEvsD"/>
+        <lastUpdated value="2022-03-01T16:34:44.467+00:00"/>
+        <source value="#5VFSzNtPO35XlbGn"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedures-mmm"/>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/ProceduresDuringPregnancy"/>
     <name value="ValueSetProceduresDuringPregnancy"/>
     <title value="ValueSet - Procedures During Pregnancy"/>
     <status value="draft"/>
     <description value="This value set Includes concepts that represent pregnancy related procedures."/>
-    <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy."/>
+    <purpose value="The purpose of this value set is to represent types of procedures performed during pregnancy."/>
+    <copyright value="Please see NLM VSAC (https://vsac.nlm.nih.gov/) for the latest version of the value sets:  Procedures during Pregnancy  (CPT) &#xA;2.16.840.1.113883.3.464.1003.111.11.1014 and Procedures during Pregnancy (SNOMED-CT) 2.16.840.1.113883.3.464.1003.111.11.1015"/>
     <compose>
         <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1014"/>

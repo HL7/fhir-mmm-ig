@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy"/>
+    <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2022-03-01T16:36:40.798+00:00"/>
+        <source value="#ptWiCeqcQmmGRc9Y"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy"/>
+    <name value="ValueSetPregnancy"/>
+    <title value="ValueSet – Pregnancy"/>
+    <status value="draft"/>
+    <description value="This value set represents values associated with pregnancy conditions diagnoses, outcomes, and state."/>
+    <purpose value="The purpose of this value set is to define pregnancy conditions diagnoses, outcomes, and states."/>
+    <copyright value="Please see NLM VSAC (https://vsac.nlm.nih.gov/) for the latest version of the value sets:  Pregnancy 2.16.840.1.113883.3.526.3.378, Complications of Pregnancy, Childbirth and the Puerperium  2.16.840.1.113883.3.464.1003.111.12.1012, and Complications of Pregnancy, Childbirth and the Puerperium (ICD 9) 2.16.840.1.113883.3.464.1003.111.11.1021."/>
+    <compose>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.378"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1012"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1021"/>
+        </include>
+    </compose>
+</ValueSet>

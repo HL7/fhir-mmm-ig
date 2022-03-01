@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="286"/>
-        <lastUpdated value="2022-02-15T19:28:07.197+00:00"/>
-        <source value="#CyBSNNvZtMfpMBGT"/>
+        <versionId value="340"/>
+        <lastUpdated value="2022-03-01T19:49:38.429+00:00"/>
+        <source value="#RN36WtyXbQOiHvKg"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="0.0.1"/>
@@ -76,150 +76,10 @@
         </grouping>
         <resource>
             <reference>
-                <reference value="ValueSet/pregnancystate-mmm-icd10"/>
-                <display value="pregnancystate-mmm-icd10"/>
-            </reference>
-            <name value="ValueSet - Pregnancy State ICD10"/>
-            <description value="This value set  defines  pregnancy state and status. Includes relevant terms that represent pregnancy state, pregnancy by gestational weeks."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-induced-hypertension-mmm-SNOMED"/>
-                <display value="pregnancy-induced-hypertension-mmm-SNOMED"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Induced Hypertension"/>
-            <description value="This value set includes terms related to hypertension diagnosed during the course of pregnancy."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-induced-hypertension-mmm-ICD"/>
-                <display value="pregnancy-induced-hypertension-mmm-ICD"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Induced Hypertension ICD10"/>
-            <description value="This value set includes terms related to hypertension diagnosed during the course of pregnancy."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-mmm"/>
-                <display value="Pregnancy"/>
-            </reference>
-            <name value="ValueSet - Pregnancy"/>
-            <description value="This grouping value set contains a broad set of terms that represent a woman who is pregnant at any stage during her pregnancy.  Includes terminology related to pregnancy state, condition, diagnoses, outcomes, encounters, diagnostic tests, and lab results."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-eclampsia-mmm-SNOMED"/>
-                <display value="pregnancy-eclampsia-mmm-SNOMED"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Eclampsia SNOMED"/>
-            <description value="This value set includes terms related to eclampsia diagnosed during the course of pregnancy."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyCondition-mmm-SNOMED"/>
-                <display value="PregnancyCondition-mmm-SNOMED"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Condition SNOMED"/>
-            <description value="This value set contains concepts that that represent pregnancy findings, maternal pregancy supervision conditions, disorders, diagnoses and outcomes."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-eclampsia-mmm-ICD"/>
-                <display value="pregnancy-eclampsia-mmm-ICD"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Eclampsia ICD10"/>
-            <description value="This value set includes terms related to eclampsia diagnosed during the course of pregnancy."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyProcedure-mmm-CPT"/>
-                <display value="Procedures During Pregnancy"/>
-            </reference>
-            <name value="ValueSet - Procedures During Pregnancy CPT"/>
-            <description value="This value set includes concepts that represent pregnancy related procedures. From Pregnancy Related Procedure Value Set 2.16.840.1.113883.3.464.1003.111.11.1014."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyProcedures-mmm"/>
-                <display value="PregnancyProcedures-mmm"/>
-            </reference>
-            <name value="ValueSet - Procedures During Pregnancy"/>
-            <description value="This value set Includes concepts that represent pregnancy related procedures."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-chronic-hypertension-mmm-ICD"/>
-                <display value="pregnancy-induced-hypertension-mmm-ICD"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Chronic Hypertension ICD10"/>
-            <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-chronic-hypertension-mmm-SNOMED"/>
-                <display value="pregnancy-chronic-hypertension-mmm-SNOMED"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Chronic Hypertension SNOMED"/>
-            <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-induced-hypertension-mmm"/>
-                <display value="Pregnancyinducedhypertensionmmm"/>
-            </reference>
-            <name value="Pregnancyinducedhypertensionmmm"/>
-            <description value="This value set represents conditions and diagnoses that identify pregnancy induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyCondition-mmm-ICD"/>
-                <display value="PregnancyCondition-mmm-ICD"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Condition ICD10"/>
-            <description value="This value set contains concepts that that represent pregnancy findings,encounters for supervision of pregnancy, conditions, disorders, diagnoses, pregnancy complications,  childbirth and outcomes."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyNonLive-mmm-ICD"/>
-                <display value="Pregnancynonlivemmmicd"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Non-Live"/>
-            <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
                 <display value="Pregnancyproceduredeliverymmm cpt"/>
             </reference>
-            <name value="ValueSet - Pregnancy Procedure Delivery"/>
+            <name value="ValueSet – Pregnancy Procedure Delivery"/>
             <description value="Concepts pertaining to birth delivery procedures (CPT codes)."/>
             <exampleBoolean value="false"/>
             <groupingId value="terminology"/>
@@ -229,7 +89,7 @@
                 <reference value="ValueSet/PregnancyNonLive-mmm-CPT"/>
                 <display value="Pregnancynonlivemmm cpt"/>
             </reference>
-            <name value="ValueSet - Pregnancy Non-Live CPT"/>
+            <name value="ValueSet - Pregnancy Non-Live"/>
             <description value="This value set represent procedures that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
             <exampleBoolean value="false"/>
             <groupingId value="terminology"/>
@@ -291,26 +151,6 @@
             </reference>
             <name value="Pregnancydeliverydiagnosismmm"/>
             <description value="This value set represents conditions and diagnoses that identify pregnancy delivery."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyNonLive-mmm"/>
-                <display value="Pregnancynonlivemmm"/>
-            </reference>
-            <name value="Pregnancynonlivemmm"/>
-            <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/pregnancy-confirmed-mmm-SNOMED"/>
-                <display value="Pregnancyconfirmedmmmsnomed"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Confirmed SNOMED"/>
-            <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, assessment or diagnostic studies."/>
             <exampleBoolean value="false"/>
             <groupingId value="terminology"/>
         </resource>
@@ -495,70 +335,65 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/PregnancyProcedures-mmm-SNOMED"/>
-                <display value="Procedures during pregnancy SNOMED"/>
+                <reference value="ValueSet/ProceduresDuringPregnancy"/>
+                <display value="Value Set Procedures During Pregnancy"/>
             </reference>
-            <name value="ValueSet - Procedures During Pregnancy SNOMED"/>
-            <description value="ValueSet containing Snomed concepts for Procedures during pregnancies"/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancNonLive-mmm-SNOMED"/>
-                <display value="Pregnancynonlivemmmsnomed"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Non-Live SNOMED"/>
-            <description value="ValueSet containing Snomed concepts related to non-live births during pregnancy"/>
-            <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/2.16.840.1.113883.3.464.1003.111.11.1015"/>
-                <display value="Procedures During Pregnancy"/>
-            </reference>
-            <name value="Procedures During Pregnancy"/>
+            <name value="ValueSet - Procedures During Pregnancy"/>
+            <description value="This value set Includes concepts that represent pregnancy related procedures."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1166.137"/>
-                <display value="Non Live Birth Diagnoses"/>
+                <reference value="ValueSet/pregnancy"/>
+                <display value="ValueSet – Pregnancy"/>
             </reference>
-            <name value="Non Live Birth Diagnoses"/>
+            <name value="ValueSet – Pregnancy"/>
+            <description value="This value set represents values associated with pregnancy conditions diagnoses, outcomes, and state."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"/>
-                <display value="Delivery Live Births"/>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+                <display value="ValueSetHypertensiveDisordersOfPregnancyICD10"/>
             </reference>
-            <name value="Delivery Live Births"/>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy ICD"/>
+            <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
-                <display value="Delivery - Diagnosis"/>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
+                <display value="ValueSetHypertensiveDisordersOfPregnancySNOMED"/>
             </reference>
-            <name value="Delivery - Diagnosis"/>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy SNOMED CT"/>
+            <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1029.226"/>
-                <display value="Eclampsia"/>
+                <reference value="ValueSet/hypertensive-disorders-pregnancy"/>
+                <display value="ValueSet – Hypertensive Disorders of Pregnancy"/>
             </reference>
-            <name value="Eclampsia"/>
+            <name value="ValueSet – Hypertensive Disorders of Pregnancy"/>
+            <description value="This is a grouping value set that includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/2.16.840.1.113762.1.4.1029.225"/>
-                <display value="Eclampsia"/>
+                <reference value="ValueSet/PregnancyNonLive"/>
+                <display value="ValueSet - Pregnancy Non-Live"/>
             </reference>
-            <name value="Eclampsia"/>
+            <name value="ValueSet - Pregnancy Non-Live"/>
+            <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of the value set Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values referenced in this grouping."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyProcedureDelivery"/>
+                <display value="ValueSet – Pregnancy Procedure Delivery"/>
+            </reference>
+            <name value="ValueSet – Pregnancy Procedure Delivery"/>
+            <description value="This value set pregnancy defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This grouping value set includes the value set Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 which contains SNOMED CT, ICD10PCS codes.   Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

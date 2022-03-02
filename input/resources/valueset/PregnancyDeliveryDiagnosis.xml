@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyDeliveryDiagnosis"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2022-03-01T21:44:43.635+00:00"/>
-        <source value="#UAgnTvLVcrgGKwv0"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-03-01T22:35:38.174+00:00"/>
+        <source value="#vbmqV1mpgpfuu0Jm"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyDeliveryDiagnosis"/>
     <name value="ValueSetPregnancyDeliveryDiagnosis"/>
@@ -16,7 +16,7 @@
     <copyright value="SNOMED and ICD-10 codes"/>
     <compose>
         <include>
-            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/.16.840.1.113883.3.67.1.101.1.278"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
         </include>
     </compose>
 </ValueSet>

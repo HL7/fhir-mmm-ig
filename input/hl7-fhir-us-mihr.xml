@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="353"/>
-        <lastUpdated value="2022-03-01T21:41:03.291+00:00"/>
-        <source value="#y11WTw1XpFST8Hzg"/>
+        <versionId value="357"/>
+        <lastUpdated value="2022-03-01T22:08:29.871+00:00"/>
+        <source value="#DBLD4PDXdeUuhY20"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="0.0.1"/>
@@ -303,7 +303,7 @@
                 <reference value="ValueSet/PregnancyNonLive"/>
                 <display value="ValueSet - Pregnancy Non-Live"/>
             </reference>
-            <name value="ValueSet - Pregnancy Non-Live"/>
+            <name value="ValueSet - Pregnancy Non-Live Diagnosis"/>
             <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of the value set Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values referenced in this grouping.  Also contains CPT Procedure codes indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC for the latest expansion of this value set Non Live Birt CPT Procedures  2.16.840.1.113762.1.4.1166.127."/>
             <exampleBoolean value="false"/>
         </resource>
@@ -313,16 +313,7 @@
                 <display value="ValueSet – Pregnancy Procedure Delivery"/>
             </reference>
             <name value="ValueSet – Pregnancy Procedure Delivery"/>
-            <description value="This value set pregnancy defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This grouping value set includes the value set Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes   Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyProcedureDelivery-CPT"/>
-                <display value="ValueSetPregnancyProcedureDeliveryCPT"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Procedure Delivery CPT"/>
-            <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
+            <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This grouping value set includes the value set Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes   Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -332,6 +323,15 @@
             </reference>
             <name value="ValueSet - Pregnancy Delivery Diagnosis"/>
             <description value="This value set contains concepts that represent diagnoses of a live birth or delivery in the outpatient setting. Please see the grouping value set Delivery-Diagnosis 2.16.840.1.113883.3.67.1.101.1.278 developed by Optum with the ICD 10 CM and SNOMED CT codes as the source of truth.  See VSAC for the latest expansion of this value set."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyProcedureDelivery-CPT"/>
+                <display value="ValueSetPregnancyProcedureDeliveryCPT"/>
+            </reference>
+            <name value="ValueSet - Pregnancy Procedure Delivery CPT"/>
+            <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

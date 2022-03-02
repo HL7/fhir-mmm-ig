@@ -3,22 +3,22 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedureDelivery"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2022-03-01T21:29:54.894+00:00"/>
-        <source value="#efzD53XZDmr65UmL"/>
+        <versionId value="12"/>
+        <lastUpdated value="2022-03-01T23:06:47.180+00:00"/>
+        <source value="#UFphVUQ4CKCAaa63"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery"/>
     <name value="PregnancyProcedureDelivery"/>
     <title value="ValueSet – Pregnancy Procedure Delivery"/>
     <status value="draft"/>
-    <description value="This value set pregnancy defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This grouping value set includes the value set Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes   Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
+    <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This grouping value set includes the value set Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes   Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
     <purpose value="The purpose of this value set is to represent procedure concepts for single or multiple live deliveries."/>
-    <copyright value="VSAC (https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.3.464.1003.111.12.1015) and SNOMED CT and ICD-10 copyright.&#xA;&#xA;"/>
+    <copyright value="VSAC (https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.3.464.1003.111.12.1015) and SNOMED CT and ICD-10 copyright."/>
     <compose>
         <include>
-            <valueSet value=" http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015 "/>
-            <valueSet value=" http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5 "/>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"/>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
         </include>
     </compose>
 </ValueSet>

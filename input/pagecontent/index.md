@@ -43,7 +43,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 
 <thead>
 <tr>
-<th>Affiliation</th>
 <th>Name</th>
 <th>Role</th>
 <th>Contact</th>
@@ -61,12 +60,12 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tr>
 <td>Courtney Panaia-Rodi
 <td>Project Executive</td>
-<td>[courtney.panaia-rodi@lantanagroup.com](mailto:courtney.panaia-rodi@lantanagroup.com)</td>
+<td>courtney.panaia-rodi@lantanagroup.com</td>
 </tr>
 <tr>
 <td>Wendy Wise</td>
-<td>Project Manager<td>
-<td>[wendy.wise@lantanagroup.com](mailto:wendy.wise@lantanagroup.com)</td>
+<td>Project Manager</td>
+<td>wendy.wise@lantanagroup.com</td>
 </tr>
 <tr>
 <td>Lani Johnson</td>
@@ -102,8 +101,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Ruby Nash</td> 
 <td>FHIR Analyst</td>
 <td>ruby.nash@lantanagroup.com</td>
-<tr>
-
+</tr>
 <tr>
 <td><b>Office of the Assistant Secretary for Planning and Evaluation (ASPE)</b></td>
 <td> </td>
@@ -180,6 +178,8 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td> </td>
 <td> </td>
 <td> </td>
+</tr>
+<tr>
 <td>Carmen Smiley</td>
 <td>IT Specialist (Systems Analysis)</td>
 <td> </td>

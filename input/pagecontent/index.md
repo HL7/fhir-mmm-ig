@@ -43,7 +43,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 
 <thead>
 <tr>
-<th>Name</th>
+<th>Name & Affiliation</th>
 <th>Role</th>
 <th>Contact</th>
 </tr>
@@ -52,8 +52,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tbody>
 <tr>
 <td><b>Lantana Consulting Group</b></td>
-<td> </td>
-<td> </td>
 <td> </td>
 <td> </td>
 </tr>
@@ -106,7 +104,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td><b>Office of the Assistant Secretary for Planning and Evaluation (ASPE)</b></td>
 <td> </td>
 <td> </td>
-<td> </td>
 </tr>
 <tr>
 <td>Violanda Grigorescu, MD, MSPH</td>
@@ -115,7 +112,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Violanda.Grigorescu@hhs.gov</td>
 <tr>
 <td><b>Centers for Disease Control and Prevention (CDC)</b></td>
-<td> </td>
 <td> </td>
 <td> </td>
 </tr>
@@ -134,7 +130,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td><b>National Institutes of Health (NIH)
 <br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
 <br>National Information Center on Health Services Research and Health Care Technology (NICHSR)</b></td>
-<td> </td>
 <td> </td>
 <td> </td>
 </tr>
@@ -177,12 +172,11 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td><b>Office of the National Coordinator for Health IT (ONC)<b><td>
 <td> </td>
 <td> </td>
-<td> </td>
 </tr>
 <tr>
 <td>Carmen Smiley</td>
 <td>IT Specialist (Systems Analysis)</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>Rachel Abbey</td>
@@ -198,7 +192,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Brittney Boakye, MPH</td>
 <td>Program Assistant
 <br>Scientific Advancement Branch</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>Alan Taylor</td>

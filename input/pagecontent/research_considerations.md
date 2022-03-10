@@ -15,3 +15,24 @@ Clinical data can be used for research in accordance with the many applicable la
 Researchers may want to query for maternal and associated infant clinical information once or a number of times over a period of time. Researchers may also desire to query for existing information spanning backwards over any length of specified time. This guide does not specify specific timing considerations beyond what is supported by the Clinical Reasoning Module. 
 
 Note: When CQF is used in Quality Reporting, a Measurement Period must be specified for accurate reporting and should be a key consideration both when defining measures and when researchers are executing said measure logic.
+
+### Relationship to other Standards
+
+Several existing HL7 FHIR, C-CDA, and Integrating the Healthcare Enterprise (IHE) standards have been published that specify perinatal clinical information. This guide specifies how maternal health researchers can quantify clinical information related to this population which may exist, or be transmitted between systems, in accordance with any of the below standards:
+[US Core FHIR IG] (https://www.hl7.org/fhir/us/core/)
+
+[Vital Records Common Profiles Library](http://hl7.org/fhir/us/vr-common-library/2021Jan/)
+
+[Vital Records Birth and Fetal Death Reporting] (https://build.fhir.org/ig/HL7/fhir-bfdr/)
+
+[Vital Records Mortality and Morbidity Reporting FHIR IG] (http://hl7.org/fhir/us/vrdr/)
+
+CDA Supplemental Pregnancy Templates for C-CDA
+https://www.hl7.org/implement/standards/product_brief.cfm?product_id=494
+This guide provides guidance for capturing pregnancy status for use in existing C-CDA document types. 
+
+Birth Reporting Domain Analysis Model (DAM - extension of VR DAM).
+https://www.hl7.org/implement/standards/product_brief.cfm?product_id=559
+
+Birth Defects Domain Analysis Model and FHIR IG
+https://confluence.hl7.org/display/PHWG/Birth+Defects+DAM+and+FHIR+IG

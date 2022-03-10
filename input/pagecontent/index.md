@@ -37,83 +37,177 @@ This guide fundamentally relies on creating structural relationships between:
 The audience for this IG includes EHR vendors, developers of software tooling researchers, and associated information management systems. Researchers, business analysts, and policy managers can also benefit from a basic understanding of the use of this guide to support measure calculation for research purposes.
 
 ### Authors & Project Team  
-Lantana Consulting Group 
-Courtney Panaia-Rodi, Project Executive
-Wendy Wise, Project Manager
-Lani Johnson, Associate Project Manager
-Rick Geimer, FHIR Subject Matter Expert
-Zabrina Gonzaga, Terminology Subject Matter Expert
-Sarah Gaunt, Senior FHIR/CDA Analyst
-Dave deRoode, FHIR/CDA Analyst
-Ming Dunajick, FHIR/CDA Analyst 
-Ruby Nash, FHIR Analyst
 
-Office of the Assistant Secretary for Planning and Evaluation (ASPE)
-Violanda Grigorescu, MD, MSPH
-Senior Health Scientist 
-Division of Healthcare Quality and Outcomes, Office of Health Policy
-(Violanda.Grigorescu@hhs.gov)
+<div class="tg-wrap">
+<table class="table table-bordered table-hover table-condensed">
 
-Centers for Disease Control and Prevention (CDC)
-Margaret Lampe, RN, MPH
-Nurse Epidemiologist & Project Officer of the Centers for Disease Control and Prevention Perinatal HIV Prevention Program
+<thead>
+<tr>
+<th>Affiliation</th>
+<th>Name</th>
+<th>Role</th>
+<th>Contact</th>
+</tr>
+</thead>
 
-Lisa Romero, DrPH
-Health Scientist
-Centers for Disease Control and Prevention
-Division of Adolescent School Health
+<tbody>
+<tr>
+<td><b>Lantana Consulting Group</b></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Courtney Panaia-Rodi
+<td>Project Executive</td>
+<td>[courtney.panaia-rodi@lantanagroup.com](mailto:courtney.panaia-rodi@lantanagroup.com)</td>
+</tr>
+<tr>
+<td>Wendy Wise</td>
+<td>Project Manager<td>
+<td>[wendy.wise@lantanagroup.com](mailto:wendy.wise@lantanagroup.com)</td>
+</tr>
+<tr>
+<td>Lani Johnson</td>
+<td>Associate Project Manager</td>
+<td>lani.johnson@lantanagroup.com</td>
+</tr>
+<tr>
+<td>Rick Geimer</td>
+<td>FHIR Subject Matter Expert</td>
+<td>rick.geimer@lantanagroup.com</td>
+</tr>
+<tr>
+<td>Zabrina Gonzaga</td>
+<td>Terminology Subject Matter Expert</td>
+<td>zabrina.gonzaga@lantanagroup.com</td>
+</tr>
+<tr>
+<td>Sarah Gaunt</td> 
+<td>Senior FHIR/CDA Analyst</td>
+<td>sarah.gaunt@lantanagroup.com</td>
+</tr>
+<tr>
+<td>Dave deRoode</td> 
+<td>FHIR/CDA Analyst</td>
+<td>david.deroode@lantanagroup.com</td>
+</tr>
+<tr>
+<td>Ming Dunajick</td> 
+<td>FHIR/CDA Analyst</td>
+<td>ming.dunajick@lantanagroup.com</td>
+</tr>
+<tr> 
+<td>Ruby Nash</td> 
+<td>FHIR Analyst</td>
+<td>ruby.nash@lantanagroup.com</td>
+<tr>
 
-National Institutes of Health (NIH)
-Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
-National Information Center on Health Services Research and Health Care Technology (NICHSR)
-
-Alison Cernich
-NICHD Deputy Director
-alison.cernich@nih.hhs.gov
-
-John (Jack) Moye, Jr., MD 
-Acting Director - National Children's Study
-NICHD Medical Officer - Maternal & Pediatric Infectious Disease Branch
- moyej@exchange.nih.gov
-
-Nahida Chakhtoura, MD, MsGH
-NICHD Medical Officer
-Maternal and Pediatric Infectious Disease Branch
-nahida.chakhtoura@nih.gov
-
-Juanita Chinn, PhD
-NICHD Program Director
-Population Dynamics Branch
-juanita.chinn@nih.gov
-
-Valerie Cotton 
-NICHD Deputy Director
-Office of Data Science and Sharing
-valerie.cotton@nih.gov
-
-Liz Amos, MLIS 
-Special Assistant to the Chief Health Data Standards Officer
-National Library of Medicine
-liz.amos@nih.gov
-
-
-Office of the National Coordinator for Health IT (ONC)
-Carmen Smiley 
-IT Specialist (Systems Analysis)
-
-Rachel Abbey
-Public Health Analyst & Program Officer  
-
-Stephanie Garcia 
-Senior Program Analyst 
-
-Brittney Boakye, MPH
-Program Assistant
-Scientific Advancement Branch
-
-Alan Taylor
-Medical Informatics Officer, Standards and Terminology 
-Albert.Taylor@hhs.gov
+<tr>
+<td><b>Office of the Assistant Secretary for Planning and Evaluation (ASPE)</b></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Violanda Grigorescu, MD, MSPH</td>
+<td>Senior Health Scientist 
+<br>Division of Healthcare Quality and Outcomes, Office of Health Policy</td>
+<td>[Violanda.Grigorescu@hhs.gov]</td>
+<tr>
+<td><b>Centers for Disease Control and Prevention (CDC)<b></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Margaret Lampe, RN, MPH</td>
+<td>Nurse Epidemiologist & Project Officer 
+<br>Perinatal HIV Prevention Program</td>
+<td></td>
+</tr>
+<tr>
+<td>Lisa Romero, DrPH</td>
+<td>Health Scientist
+<br>Division of Adolescent School Health</td>
+<td></td>
+<tr>
+<td><b>National Institutes of Health (NIH)
+<br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
+<br>National Information Center on Health Services Research and Health Care Technology (NICHSR)<b></td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Alison Cernich</td>
+<td>NICHD Deputy Director</td>
+<td>alison.cernich@nih.hhs.gov</td>
+</tr>
+<tr>
+<td>John (Jack) Moye, Jr., MD</td>
+<td>Acting Director - National Children's Study
+<br>NICHD Medical Officer - Maternal & Pediatric Infectious Disease Branch</td>
+<td>moyej@exchange.nih.gov</td>
+</tr>
+<tr>
+<td>Nahida Chakhtoura, MD, MsGH</td>
+<td>NICHD Medical Officer
+<br>Maternal and Pediatric Infectious Disease Branch</td>
+<td>nahida.chakhtoura@nih.gov</td>
+</tr>
+<tr>
+<td>Juanita Chinn, PhD</td>
+<td>NICHD Program Director
+<br>Population Dynamics Branch</td>
+<td>juanita.chinn@nih.gov</td>
+</tr>
+<tr>
+<td>Valerie Cotton</td>
+<td>NICHD Deputy Director
+<br>Office of Data Science and Sharing</td>
+<td>valerie.cotton@nih.gov</td>
+</tr>
+<tr>
+<td>Liz Amos, MLIS</td>
+<td>Special Assistant to the Chief Health Data Standards Officer
+<br>National Library of Medicine</td>
+<td>liz.amos@nih.gov</td>
+</tr>
+<tr>
+<td><b>Office of the National Coordinator for Health IT (ONC)<b><td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Carmen Smiley</td>
+<td>IT Specialist (Systems Analysis)</td>
+<td> </td>
+</tr>
+<tr>
+<td>Rachel Abbey</td>
+<td>Public Health Analyst & Program Officer</td>
+<td> </td>
+</tr>
+<tr>
+<td>Stephanie Garcia</td>
+<td>Senior Program Analys</td>
+<td> </td>
+</tr>
+<tr>
+<tr>Brittney Boakye, MPH</td>
+<td>Program Assistant
+<br>Scientific Advancement Branch</td>
+<td> </td>
+</tr>
+<tr>
+<td>Alan Taylor</td>
+<td>Medical Informatics Officer, Standards and Terminology</td> 
+<td>Albert.Taylor@hhs.gov</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ###	Acknowledgements
 This guide was developed and produced through the efforts of Health Level Seven (HL7) and created using the Trifolia-on-FHIR tool, provided by Lantana Consulting Group. The HL7 Project Insight reference number for this project is 1736.

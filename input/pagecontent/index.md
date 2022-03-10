@@ -112,9 +112,9 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Violanda Grigorescu, MD, MSPH</td>
 <td>Senior Health Scientist 
 <br>Division of Healthcare Quality and Outcomes, Office of Health Policy</td>
-<td>[Violanda.Grigorescu@hhs.gov]</td>
+<td>Violanda.Grigorescu@hhs.gov</td>
 <tr>
-<td><b>Centers for Disease Control and Prevention (CDC)<b></td>
+<td><b>Centers for Disease Control and Prevention (CDC)</b></td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -133,7 +133,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tr>
 <td><b>National Institutes of Health (NIH)
 <br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
-<br>National Information Center on Health Services Research and Health Care Technology (NICHSR)<b></td>
+<br>National Information Center on Health Services Research and Health Care Technology (NICHSR)</b></td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -191,11 +191,11 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 </tr>
 <tr>
 <td>Stephanie Garcia</td>
-<td>Senior Program Analys</td>
+<td>Senior Program Analyst</td>
 <td> </td>
 </tr>
 <tr>
-<tr>Brittney Boakye, MPH</td>
+<td>Brittney Boakye, MPH</td>
 <td>Program Assistant
 <br>Scientific Advancement Branch</td>
 <td> </td>

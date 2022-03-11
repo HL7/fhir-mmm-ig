@@ -107,7 +107,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Violanda Grigorescu, MD, MSPH</td>
 <td>Senior Health Scientist 
 <br>Division of Healthcare Quality and Outcomes, Office of Health Policy</td>
-<td>Violanda.Grigorescu@hhs.gov</td>
+<td>violanda.grigorescu@hhs.gov</td>
 <tr>
 <td><b>Centers for Disease Control and Prevention (CDC)</b></td>
 <td> </td>
@@ -117,13 +117,13 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <td>Margaret Lampe, RN, MPH</td>
 <td>Nurse Epidemiologist & Project Officer 
 <br>Perinatal HIV Prevention Program</td>
-<td></td>
+<td>mol0@cdc.gov</td>
 </tr>
 <tr>
 <td>Lisa Romero, DrPH</td>
 <td>Health Scientist
 <br>Division of Adolescent School Health</td>
-<td></td>
+<td>eon1@cdc.gov</td>
 <tr>
 <td><b>National Institutes of Health (NIH)
 <br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
@@ -174,23 +174,23 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tr>
 <td>Carmen Smiley</td>
 <td>IT Specialist (Systems Analysis)</td>
-<td></td>
+<td>carmen.smiley@hhs.gov</td>
 </tr>
 <tr>
 <td>Rachel Abbey</td>
 <td>Public Health Analyst & Program Officer</td>
-<td> </td>
+<td>Rachel.Abbey@hhs.gov</td>
 </tr>
 <tr>
 <td>Stephanie Garcia</td>
 <td>Senior Program Analyst</td>
-<td> </td>
+<td><stephanie.garcia@hhs.gov></td>
 </tr>
 <tr>
 <td>Brittney Boakye, MPH</td>
 <td>Program Assistant
 <br>Scientific Advancement Branch</td>
-<td></td>
+<td><brittney.boakye@hhs.gov</td>
 </tr>
 <tr>
 <td>Alan Taylor</td>

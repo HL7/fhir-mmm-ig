@@ -195,7 +195,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tr>
 <td>Alan Taylor</td>
 <td>Medical Informatics Officer, Standards and Terminology</td> 
-<td>Albert.Taylor@hhs.gov</td>
+<td>albert.taylor@hhs.gov</td>
 </tr>
 </tbody>
 </table>

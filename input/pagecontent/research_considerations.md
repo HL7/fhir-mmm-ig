@@ -1,4 +1,4 @@
-## Implementation Considerations
+### Implementation Considerations
 This guide is intended as a specification for implementers of tooling to support researchers working to analyze clinical information related to maternal and child health. Implementing systems of this specification may likely have several existing available tools to store, transport, and transform clinical information. This guide is intended to allow implementers to use existing tooling and empower participation in sharing and analyzing maternal and child clinical information in scope of defined populations.
 
 ### Master Patient Index
@@ -21,8 +21,6 @@ FHIR’s Patient resource provides a foundation for the appropriate method and s
 The appropriate structure to link a mother with her child through use of Patient/RelatedPerson referencing is defined in FHIR’s base [Patient](http://hl7.org/fhir/2018Sep/patient.html#maternity) resource. It is reinforced and exemplified through the [US Vital Records Common Profiles Library FHIR Implementation Guide](http://hl7.org/fhir/us/vr-common-library/STU1). This guide relies on this existing linkage structure and expects applicable (mother and child) data to be follow this standard structure to accurately provide relevant data to researchers. 
 
 The RelatedPerson.relationship code diagram shows ‘MTH’ for a general ‘mother’. However, more specific relationship types are allowable within Vital Records Common Profiles: RelatedPerson – Mother profile. In short, the mother is represented twice, first as a Patient resource with a link to another representation of herself as a RelatedPerson resource, which then points to the Child as a Patient resource.
-
-<table><tr><td><img src="mother-child-relatedperson"/></td></tr></table>
 
 FHIR outlines the use of [three linkage techniques](https://www.hl7.org/fhir/patient.html#maternity): 
 *	Use of Patient/RelatedPerson. During a pregnancy within a given EHR system (i.e., an Ob/Gyn EHR), the mother’s record exists associated with a Patient record (i.e., Patient – Mother). Depending on the clinical setting and timing, a new Patient record for the child will be created (i.e., Patient – Child). At this point, a linkage resource between the two Patient resources should also be created: RelatedPerson. The RelatedPerson resource will convey the mother’s relationship to the newborn child through a .name element representing the Mother’s name (and possibly the mother’s contact information and date of birth), a reference to the Child Patient resource, and a .relationship code of MTH (for Mother), NMTH (for Natural Mother) or possibly GESTM (for Gestational Mother).

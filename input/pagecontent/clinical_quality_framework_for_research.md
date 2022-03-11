@@ -1,8 +1,13 @@
 ## Clinical Reasoning
-[FHIR's Clinical Reasoning module](http://www.hl7.org/fhir/clinicalreasoning-module.html) describes in general what is covered under this framework. This guide will rely on the framework's measure model to define peri-natal populations of interest (POI). From this POI, Measure cohort definitions will be used to define the populaiton of interest for a given research question. With a given target population identified, clinical information related to this populaiton can be aggregated for research analysis. 
+[FHIR's Clinical Reasoning module](http://www.hl7.org/fhir/clinicalreasoning-module.html) describes in general what is covered under this framework. This guide relies on the framework’s measure model to define peri-natal populations of interest (POI). From this POI, measure cohort definitions will be used to define the POI for a given research question. With a target population identified, clinical information related to a group of patients found to be in-scope for a given population of patients can be aggregated.
 
 ## Defining Measure Populations
-Two cohort populations are in scope for the initial release of this guide. These measure definitions are expressed in Clinical Quality Language (CQL), and are found base64 encoded within Library.content examples. As further research populations are identified, each warrants its own new Measure definition (also expressed in CQL and found in this location within) and supporting FHIR artifacts. Note that not all future research study populations of interest will necessitate the updating of this published FHIR guide. 
+Two cohort populations are in scope for the initial release of this guide. These measure definitions are expressed in CQL and are found base64 encoded within Library.content examples. Further research populations of interest will each warrant distinct CQL expressions, associated terminologies (ValueSets) and measure definitions. 
+
+Note: Not all future research study populations of interest will necessitate the updating of this published FHIR guide.
+
 
 ## Architecture and Implementation
-[See: Security, Architecture and Implementation from this guide](https://build.fhir.org/ig/HL7/fhir-saner/Architecture_and_Implementation.html). Note, these guides are both built upon FHIR's Clinical Quality Framework and therefore share many design patterns. Where SANER is focused on reporting to a 'Public Health Agency (PHA)', this guide is analogously focused on 'reporting' to a maternal health researcher. Therefore, 'Maternal Health Researcher' can be substituted for PHA where it exists in the SANER documentation.
+These guides are both built upon FHIR’s Clinical Quality Framework (CQF) and therefore share many design patterns. SANER’s representation of various CQF components apply to this guide. Specifically, SANER’s Compute Measure Actors and roles apply to systems implementing all or components of this guide. Where SANER is focused on reporting to a public health agency (PHA), this guide is analogously focused on reporting to a maternal health researcher. 
+
+[See: Security, Architecture and Implementation from the SANER guide](https://build.fhir.org/ig/HL7/fhir-saner/Architecture_and_Implementation.html). 

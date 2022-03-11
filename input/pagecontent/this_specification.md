@@ -1,4 +1,3 @@
-## This IG defines a data source (i.e., Source) as well as a data consumer (i.e., Consumer). Sources may be traditional EHRs or aggregating systems such as a Health Information Exchanges (HIEs), Public Health Reporting Agencies such as the National Vital Statistics Agency, and state Electronic Death Registration Systems (EDRS). 
 This IG defines a data source (i.e., Source) as well as a data consumer (i.e., Consumer). Sources may be traditional EHRs, aggregating systems such as HIEs, public health reporting agencies such as the National Vital Statistics Agency or state's Electronic Death Registration System (EDRS). 
 Tooling used by Maternal Health Researchers to facilitate measure evaluation and data analysis are the expected Consumers.
 Data consumers will select a Population definition defined in this guide as well as a reporting period.
@@ -7,11 +6,12 @@ The Source will provide two lists of Patient identifiers:
 2.	All associated children of recently pregnant Patients
 Sources will also provide an association between the two sets of Patients (i.e., an association map between Mothers/potential Mothers and children). 
 Consumers will query a data source for all known existing clinical information by Patient identifiers. If Source's data are not natively available in FHIR format, ClinicalDocuments may also be queried and used as the mechanism to produce and convey Source data to Consumers.
-Once target data from Sources has been aggregated and transformed into standard FHIR, an $evaluate-measure operation will be performed on the respective FHIR server (see SANER Computer Measure). 
+Once target data from Sources has been aggregated and transformed into standard FHIR, an $evaluate-measure operation will be performed on the respective FHIR server [see SANER Computer Measure](https://build.fhir.org/ig/HL7/fhir-saner/transaction-4.html). 
 The Output of $evaluate-measure operation will be a MeasureReport consisting of all Patient Mothers (1) found to be within the defined cohort population. 
 Clinical information of the mothers determined to be within the measure population can subsequently be aggregated and provided alongside the Patient resource in the form of Supplemental Data. 
 Records for the children of all mothers found to be in-cohort can be aggregated using the mother/child mapping list provided by the data source. 
 Data consumers expect that mother/child relationship linkages will follow FHIR’s mother/child Linkage via RelatedPerson guidance. 
+
 
 ### Dataflows
 <b><i>Consumer initiates dataflow through selection of Measure:</i></b>
@@ -40,6 +40,9 @@ Systems claiming to conform to a profile SHALL support the elements in a profile
 *	data consumer systems SHOULD be capable of processing (display, store, etc.) the data elements based on the utility of the specific element to the receiver.
 *	When receiving a transaction from a data source system, the data consumer system SHALL interpret missing data elements within resource instances as data not present in the data source system.
 *	data consumer systems SHALL be able to process resource instances containing data elements asserting missing information without generating an error or causing the application to fail.
+
+### Search
+This specification uses the same Search Syntax rule as [US Core](https://www.hl7.org/fhir/us/core/searchparameters.html). This guide does not define any additional Search Parameters.
 
 ### Privacy and Security
 The methods by which data sources and data consumers agree upon the scope of clinical information to be exchanged for maternal health research should occur prior to implementation of this guide. Both data sources and data consumers must consider all applicable laws, policies, and organizational.

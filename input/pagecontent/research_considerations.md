@@ -45,7 +45,7 @@ Several existing HL7 FHIR, C-CDA, and Integrating the Healthcare Enterprise (IHE
 
 [US Core FHIR IG](https://www.hl7.org/fhir/us/core/)
 
-[Vital Records Common Profiles Library](http://hl7.org/fhir/us/vr-common-library/2021Jan/)
+[Vital Records Common Profiles Library](http://hl7.org/fhir/us/vrdr/)
 
 [Vital Records Birth and Fetal Death Reporting FHIR IG](https://build.fhir.org/ig/HL7/fhir-bfdr/)
 

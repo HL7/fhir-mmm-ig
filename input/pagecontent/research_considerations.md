@@ -1,7 +1,7 @@
 ## Implementation Considerations
 This guide is intended as a specification for implementers of tooling to support researchers working to analyze clinical information related to maternal and child health. Implementing systems of this specification may likely have several existing available tools to store, transport, and transform clinical information. This guide is intended to allow implementers to use existing tooling and empower participation in sharing and analyzing maternal and child clinical information in scope of defined populations.
 
-## Master Patient Index
+### Master Patient Index
 The [Master Patient Index System (MPI)](http://hl7.org/fhir/2018Sep/patient.html#match) is a system that uses a set of rules (policies) to assign unique patient identifiers (Patient IDs) if it determines two more sets of clinical data pertain to the same patient. For example, if two patient records show care was received in different care settings and they have demographic records with identical first and last name, gender, birth date, and contact information, an MPI system rule may conclude that these patient records pertain to the same person and would assign both a single MPI ID. However, in a scenario where Patient 3 and 4 have only the same first name, gender, birth date, and some contact information, one MPI system may determine these are different Patients, while another MPI system may determine these are the same Patient who might have gotten married and changed last name and address in between care delivery settings. 
 
 Use of an MPI system is a common function of health information exchange (HIE) networks. It could also be applicable to other inter-organization or multi-care-delivery areas, such as an insurance organization. 

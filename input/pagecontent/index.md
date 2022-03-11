@@ -36,22 +36,17 @@ This guide fundamentally relies on creating structural relationships between:
 ### Audience 
 The audience for this IG includes EHR vendors, developers of software tooling researchers, and associated information management systems. Researchers, business analysts, and policy managers can also benefit from a basic understanding of the use of this guide to support measure calculation for research purposes.
 
-### Authors & Project Team  
+<b>Authors & Project Team</b>  
 
-<div class="tg-wrap">
-<table class="table table-bordered table-hover table-condensed">
+<div class="tg-wrap"><table class="table table-bordered table-hover table-condensed">
 <thead>
-<tr>
 <th>Name & Affiliation</th>
 <th>Role</th>
 <th>Contact</th>
-</tr>
 </thead>
 <tbody>
 <tr>
 <td><b>Lantana Consulting Group</b></td>
-<td> </td>
-<td> </td>
 </tr>
 <tr>
 <td>Courtney Panaia-Rodi
@@ -179,7 +174,7 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <tr>
 <td>Rachel Abbey</td>
 <td>Public Health Analyst & Program Officer</td>
-<td>Rachel.Abbey@hhs.gov</td>
+<td>rachel.abbey@hhs.gov</td>
 </tr>
 <tr>
 <td>Stephanie Garcia</td>

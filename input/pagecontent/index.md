@@ -40,7 +40,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 
 <div class="tg-wrap">
 <table class="table table-bordered table-hover table-condensed">
-
 <thead>
 <tr>
 <th>Name & Affiliation</th>
@@ -48,7 +47,6 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 <th>Contact</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td><b>Lantana Consulting Group</b></td>

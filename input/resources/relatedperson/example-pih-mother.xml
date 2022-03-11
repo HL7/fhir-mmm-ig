@@ -41,7 +41,7 @@
         <coding>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
             <code value="GESTM"/>
-            <display value="'gestational mother, gestational mother"/>
+            <display value="gestational mother"/>
         </coding>
         <text value="mother"/>
     </relationship>

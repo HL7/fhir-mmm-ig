@@ -1,0 +1,28 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="child-peter-doe-example" />
+  <status value="final" />
+  <code>
+    <coding>
+      <system value="http://loinc.org" />
+        <code value="1977-8" />
+        <display value="Bilirubin.total [Presence] in Urine" />
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/child-peter-doe-example" />
+    <display value="Peter Doe" />
+  </subject>
+    <effectiveDateTime value="2015-06-01"/>
+    <issued value="2021-10-22T15:30:10+01:00" />
+  <performer>
+    <reference value="Practitioner/f005" />
+    <display value="A. Langeveld" />
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct" />
+        <code value="365786009" />    
+        <display value=" Finding of bilirubin level (finding)" />  
+    </coding>
+  </valueCodeableConcept>
+</Observation>

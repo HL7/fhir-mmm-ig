@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Condition
-    xmlns="http://hl7.org/fhir">
-    <id value="example-pregnant-before-non-live-birth"/>
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="condition-pih-jane-smith-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-01-04T19:57:08.156+00:00"/>
-        <source value="#BxLDKArPZLbTuTrC"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Condition Example"/>
+        </extension>
+        <extension
+            url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown
+                value="This is a condition example for the *US Core Condition Profile*."/>
+        </extension>
+        <profile
+            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <clinicalStatus>
         <coding>
@@ -35,14 +39,14 @@
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="77386006"/>
-            <display value="Pregnant (finding)"/>
+            <code value="48194001"/>
+            <display value="Pregnancy-induced hypertension (disorder)"/>
         </coding>
-        <text value="Pregnant (finding)"/>
+        <text value="Pregnancy-induced hypertension (disorder)"/>
     </code>
     <subject>
-        <reference value="Patient/example-non-live-birth-mother-deceased"/>
-        <display value="Susan R. Unahround"/>
+        <reference value="Patient/patient-jane-smith-example"/>
+        <display value="Jane Smith"/>
     </subject>
-    <onsetDateTime value="2021-01-03"/>
+    <onsetDateTime value="2021-10-11"/>
 </Condition>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Condition
-    xmlns="http://hl7.org/fhir">
-    <id value="example-nih-pih"/>
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="condition-miscarriage-birth-allison-doe-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-12-03T17:17:22.341+00:00"/>
-        <source value="#o2LWTPFdlbF0AD6q"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Condition Example"/>
+        </extension>
+        <extension
+            url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown
+                value="This is a condition example for the *US Core Condition Profile*."/>
+        </extension>
+        <profile
+            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <clinicalStatus>
         <coding>
@@ -35,14 +39,14 @@
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="48194001"/>
-            <display value="Pregnancy-induced hypertension (disorder)"/>
+            <code value="10058006"/>
+            <display value="Miscarriage with amniotic fluid embolism (disorder)"/>
         </coding>
-        <text value="Pregnancy-induced hypertension (disorder)"/>
+        <text value="Miscarriage with amniotic fluid embolism (disorder)"/>
     </code>
     <subject>
-        <reference value="Patient/example-nih-mother-pih"/>
-        <display value="Sunny V. Day"/>
+        <reference value="Patient/patient-allison-doe-example"/>
+        <display value="Allison Doe"/>
     </subject>
-    <onsetDateTime value="2021-10-11"/>
+    <onsetDateTime value="2022-01-20"/>
 </Condition>

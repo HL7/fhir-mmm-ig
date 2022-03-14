@@ -1,44 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Patient
-    xmlns="http://hl7.org/fhir">
-    <id value="example-maternal-death-after-delivery-procedure"/>
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="patient-child-bobby-doe-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2022-01-04T20:08:40.264+00:00"/>
-        <source value="#ksRwvHPIXMf8esFD"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Patient Example"/>
+        </extension>
+        <extension
+            url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown
+                value="This is a patient example for the *US Core Patient Profile*."/>
+        </extension>
+        <profile
+            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <div class="hapiHeaderText">Willamette Billie 
-                <b>JEAN </b>
-            </div>
-            <table class="hapiPropertyTable">
-                <tbody>
-                    <tr>
-                        <td>Identifier</td>
-                        <td>1032705</td>
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>
-                            <span>1 Neverland Ranch </span>
-                            <br/>
-                            <span>Beverly Hills </span>
-                            <span>CA </span>
-                            <span>US </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Date of birth</td>
-                        <td>
-                            <span>30 May 2000</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <status value="extensions"/>
+        <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><blockquote><p><b>US Core Race Extension</b></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2106-3}">White</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 1002-5}">American Indian or Alaska Native</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2028-9}">Asian</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 1586-7}">Shoshone</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2036-2}">Filipino</span></p><p><b>value</b>: Mixed</p></blockquote><blockquote><p><b>US Core Ethnicity Extension</b></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2135-2}">Hispanic or Latino</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2184-0}">Dominican</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2148-5}">Mexican</span></p><p><b>value</b>: Hispanic or Latino</p></blockquote><p><b>US Core Birth Sex Extension</b>: F</p><p><b>identifier</b>: Medical Record Number: 1032702 (USUAL)</p><p><b>active</b>: true</p><p><b>name</b>: Amy V. Shaw , Amy V. Baxter </p><p><b>telecom</b>: ph: 555-555-5555(HOME), <a href="mailto:amy.shaw@example.com">amy.shaw@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1987-02-20</p><p><b>address</b>: </p><ul><li>49 Meadow St Mounds OK 74047 US </li><li>183 Mountain View St Mounds OK 74048 US </li></ul></div>
     </text>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
         <extension url="ombCategory">
@@ -80,7 +56,8 @@
             <valueString value="Mixed"/>
         </extension>
     </extension>
-    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+    <extension
+        url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
         <extension url="ombCategory">
             <valueCoding>
                 <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -106,8 +83,9 @@
             <valueString value="Hispanic or Latino"/>
         </extension>
     </extension>
-    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
-        <valueCode value="F"/>
+    <extension
+        url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+        <valueCode value="M"/>
     </extension>
     <identifier>
         <use value="usual"/>
@@ -120,15 +98,14 @@
             <text value="Medical Record Number"/>
         </type>
         <system value="http://hospital.smarthealthit.org"/>
-        <value value="1032705"/>
+        <value value="12327021"/>
     </identifier>
     <active value="true"/>
     <name>
-        <family value="Jean"/>
-        <given value="Willamette"/>
-        <given value="Billie"/>
+        <family value="Doe"/>
+        <given value="Bobby"/>
         <period>
-            <start value="2000-05-30"/>
+            <start value="2020-02-20"/>
         </period>
     </name>
     <telecom>
@@ -136,27 +113,16 @@
         <value value="555-555-5555"/>
         <use value="home"/>
     </telecom>
-    <telecom>
-        <system value="email"/>
-        <value value="BillieJean@mail.com"/>
-    </telecom>
-    <gender value="female"/>
-    <birthDate value="2000-05-30"/>
-    <deceasedDateTime value="2021-12-20T14:27:00+01:00"/>
+    <gender value="male"/>
+    <birthDate value="2021-02-20"/>
     <address>
-        <line value="1 Neverland Ranch"/>
-        <city value="Beverly Hills"/>
-        <state value="CA"/>
-        <postalCode value="90210"/>
+        <line value="183 Mountain View St"/>
+        <city value="Mounds"/>
+        <state value="OK"/>
+        <postalCode value="74048"/>
         <country value="US"/>
         <period>
-            <start value="2020-10-15"/>
+            <start value="2020-02-20"/>
         </period>
     </address>
-    <link>
-        <other>
-            <reference value="RelatedPerson/example-maternal-death-after-delivery"/>
-        </other>
-        <type value="seealso"/>
-    </link>
 </Patient>

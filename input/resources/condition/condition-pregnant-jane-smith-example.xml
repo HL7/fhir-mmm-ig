@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Condition
-    xmlns="http://hl7.org/fhir">
-    <id value="example-nih-pregnancy-pih"/>
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="condition-pregnant-jane-smith-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-01-04T19:40:06.160+00:00"/>
-        <source value="#WQGLG8bKlI1dZ8x0"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Condition Example"/>
+        </extension>
+        <extension
+            url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown
+                value="This is a condition example for the *US Core Condition Profile*."/>
+        </extension>
+        <profile
+            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <identifier>
         <use value="usual"/>
@@ -54,8 +58,9 @@
         <text value="Pregnant (finding)"/>
     </code>
     <subject>
-        <reference value="Patient/example-nih-mother-pih"/>
-        <display value="Sunny V. Day"/>
+        <reference value="Patient/patient-jane-smith-example"/>
+        <display value="Jane Smith"/>
     </subject>
     <onsetDateTime value="2021-06-18"/>
 </Condition>
+

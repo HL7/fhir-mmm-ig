@@ -96,38 +96,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/example-nih-mother-pih"/></reference>
-            <name value="US Core Patient - Hypertensive Disorders of Pregnancy Mother"/>
-            <description value="US Core Patient - Hypertensive Disorders of Pregnancy Mother"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/example-nih-child-pih"/></reference>
-            <name value="US Core Patient - Hypertensive Disorders of Pregnancy Child"/>
-            <description value="US Core Patient - Hypertensive Disorders of Pregnancy Child"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/example-nih-pih"/></reference>
-            <name value="US Core Condition - Pregnancy"/>
-            <description value="US Core Condition - Pregnancy"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/example-nih-pregnancy-pih"/></reference>
-            <name value="ValueSet – Pregnancy"/>
-            <description value="US Core Condition - Pregnancy-Induced Hypertension"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Measure/PAMDeaths"/>
                 <display value="PAMDeaths Cohort"/>
             </reference>
@@ -157,53 +125,71 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/pih-child-lab-test"/></reference>
+                <reference value="Observation/child-peter-doe-example"/></reference>
             <name value="Bilirubin Lab Test"/>
             <description value="Bilirubin Lab Test"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="RelatedPerson/example-pih-mother"/>
-                <display value="gestational mother, gestational mother"/>
+                <reference value="RelatedPerson/relatedperson-child-bobby-doe-example"/>
+                <display value="US Core example of Related Person"/>
             </reference>
             <name value="RelatedPerson - Mother/Child linkage"/>
             <description value="RelatedPerson - Mother/Child linkage"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+           <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
+                <display value="US Core example of Related Person"/>
+            </reference>
+            <name value="RelatedPerson - Mother/Child linkage"/>
+            <description value="RelatedPerson - Mother/Child linkage"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Condition/example-event-causing-end-of-pregnancy"/></reference>
-            <name value="US Core Condition Causing termination of Pregnancy"/>
-            <description value="US Core Condition Causing termination of Pregnancy"/>
+                <reference value="Condition/condition-pregnant-allison-doe-example"/></reference>
+            <name value="US Core Condition Pregnant (finding)"/>
+            <description value="US Core Condition Pregnant (finding)"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/example-non-live-birth-mother-deceased"/></reference>
-            <name value="Deceased Mother example"/>
-            <description value="Deceased Mother example"/>
+                <reference value="Patient/patient-allison-doe-example"/></reference>
+            <name value="Mother with Pregnancy Induced Hypertension Example"/>
+            <description value="Mother with Pregnancy Induced Hypertension Example"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+         <resource>
+            <reference>
+                <reference value="Patient/patient-child-peter-doe-example"/></reference>
+            <name value="Related child example"/>
+            <description value="Related child example"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+            <resource>
+            <reference>
+                <reference value="Patient/patient-child-bobby-doe-example"/></reference>
+            <name value="Related child example"/>
+            <description value="Related child example"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="RelatedPerson/example-non-live-birth-mother-deceased"/></reference>
-            <name value="Deceased Mother RelatedPerson"/>
-            <description value="Deceased Mother RelatedPerson"/>
+                <reference value="Condition/miscarriage-birth-allison-doe-example"/></reference>
+            <name value="Miscarriage Condition example"/>
+            <description value="Miscarriage Condition example"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Condition/example-pregnant-before-non-live-birth"/></reference>
-            <name value="Pregnant Before Non Live Birth example"/>
-            <description value="Pregnant Before Non Live Birth example"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
@@ -215,43 +201,43 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Condition/example-pregnant-before-delivery-procedure"/></reference>
-            <name value="Condition of Pregnancy before"/>
-            <description value="Condition of Pregnancy before"/>
+                <reference value="Condition/condition-pih-jane-smith-example"/></reference>
+            <name value="Pregnancy-induced hypertension (disorder)"/>
+            <description value="Pregnancy-induced hypertension (disorder)"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+          <resource>
+            <reference>
+                <reference value="Condition/condition-pregnant-jane-smith-example"/></reference>
+            <name value="US Core Condition Pregnant (finding)"/>
+            <description value="US Core Condition Pregnant (finding)"/>
             <exampleBoolean value="true"/>
             <groupingId value="pih-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/breech-delivery-child-lab-test"/></reference>
-            <name value="Observation - 2 minute APGAR score"/>
-            <description value="Observation - 2 minute APGAR score"/>
+                <reference value="Encounter/encounter-delivery-jane-smith-example"/></reference>
+            <name value="Encounter for problem"/>
+            <description value="Encounter for problem"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+          <resource>
+            <reference>
+                <reference value="Encounter/encounter-newborn-child-jane-smith-example"/></reference>
+            <name value="Encounter for problem"/>
+            <description value="Encounter for problem"/>
             <exampleBoolean value="true"/>
             <groupingId value="pih-examples"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/example-breech-delivery-resulting-in-death-child"/></reference>
-            <name value="Patient breech delivery resulting in death example"/>
-            <description value="Patient breech delivery resulting in death example"/>
+                <reference value="Observation/observation-allison-doe-example"/></reference>
+            <name value="Observation - Blood pressure systolic and diastolic"/>
+            <description value="Observation - Blood pressure systolic and diastolic"/>
             <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/example-maternal-death-after-delivery-procedure"/></reference>
-            <name value="Patient maternal death adter delivery example"/>
-            <description value="Patient maternal death adter delivery example"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="RelatedPerson/example-maternal-death-after-delivery"/></reference>
-            <name value="RelatedPerson Maternal Death After Pregnancy"/>
-            <description value="RelatedPerson Maternal Death After Pregnancy"/>
-            <exampleBoolean value="true"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>
@@ -265,7 +251,7 @@
         <resource>
             <reference>
                 <reference value="ValueSet/pregnancy"/>
-                <display value="ValueSet – Pregnancy"/>
+                <display value="ValueSet - Pregnancy"/>
             </reference>
             <name value="ValueSet – Pregnancy"/>
             <description value="This value set represents values associated with pregnancy conditions diagnoses, outcomes, and state.  This value set is a grouping of 3 value sets: Pregnancy 2.16.840.1.113883.3.526.3.378, Complications of Pregnancy, Childbirth and the Puerperium  2.16.840.1.113883.3.464.1003.111.12.1012, and Complications of Pregnancy, Childbirth and the Puerperium (ICD 9) 2.16.840.1.113883.3.464.1003.111.11.1021 which contain SNOMED CT, and ICD-9/10 codes.  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>

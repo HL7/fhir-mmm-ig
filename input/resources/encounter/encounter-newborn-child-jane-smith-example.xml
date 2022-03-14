@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter
+    xmlns="http://hl7.org/fhir">
+    <id value="encounter-newborn-child-jane-smith-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-03-04T18:40:08.938+00:00"/>
+        <source value="#lqSAmaXZaBJJ75jX"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^7kkN46bK^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="group^40739^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^Kf8mh3cg^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^N5vFqxe9^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^E8rHe8si^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^E8rHe8si^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^OOOnhwlU^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^Kf8mh3cg^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^7kkN46bK^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^jcDbBWaz^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^jcDbBWaz^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^N5vFqxe9^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="group^40739^write"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^OOOnhwlU^write"/>
+        </security>
+    </meta>
+    <status value="finished"/>
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <code value="IMP"/>
+        <display value="Inpatient Encounter"/>
+    </class>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="185347001"/>
+        </coding>
+        <text value="Encounter for problem"/>
+    </type>
+    <subject>
+        <reference value="Patient/patient-child-jane-smith-example"/>
+    </subject>
+    <period>
+        <start value="2021-09-26T15:00:14-05:00"/>
+        <end value="2021-09-27T18:00:14-05:00"/>
+    </period>
+    <partOf>
+        <reference value="Encounter/encounter-delivery-jane-smith-example"/>
+    </partOf>
+</Encounter>

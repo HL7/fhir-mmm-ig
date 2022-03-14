@@ -368,6 +368,10 @@
                 </page>
             </page>
         </page>
+          <parameter>
+            <code value="path-expansion-params"/>
+            <value value="resources/parameters/expansion-parameters-fhir-mmm-ig.xml"/>
+        </parameter>
         <parameter>
             <code value="copyrightyear"/>
             <value value="2020+"/>

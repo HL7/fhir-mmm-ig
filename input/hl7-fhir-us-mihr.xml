@@ -344,6 +344,7 @@
             <name value="Expansion Parameters - MIHR IG"/>
             <description value="Expansion Parameters - US SNOMED CT version"/>
             <exampleBoolean value="false"/>
+             <groupingId value="other"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

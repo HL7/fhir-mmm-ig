@@ -1,0 +1,21 @@
+<FamilyMemberHistory
+    xmlns="http://hl7.org/fhir">
+    <id value="example-maternal-jean-willamette-family-member-history"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-03-04T18:02:35.954+00:00"/>
+        <source value="#lFHFQ85SL36YjJWz"/>
+    </meta>
+    <status value="completed"/>
+    <patient>
+        <reference value="Patient/encounter-delivery-jane-smith-example"/>
+        <display value="Wilamette Smith"/>
+    </patient>
+    <relationship>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+            <code value="CHILD"/>
+            <display value="child"/>
+        </coding>
+    </relationship>
+</FamilyMemberHistory>

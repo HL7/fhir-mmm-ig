@@ -125,7 +125,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/child-peter-doe-example"/></reference>
+                <reference value="Observation/patient-child-peter-doe-example"/></reference>
             <name value="Bilirubin Lab Test"/>
             <description value="Bilirubin Lab Test"/>
             <exampleBoolean value="true"/>
@@ -228,6 +228,14 @@
                 <reference value="Encounter/encounter-newborn-child-jane-smith-example"/></reference>
             <name value="Encounter for problem"/>
             <description value="Encounter for problem"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+                 <resource>
+            <reference>
+                <reference value="Familymemberhistory/familymemberhistory-jane-smith-example"/></reference>
+            <name value="Family Member History Example - Jane Smith child"/>
+            <description value="Family Member History Example - Jane Smith child"/>
             <exampleBoolean value="true"/>
             <groupingId value="pih-examples"/>
         </resource>

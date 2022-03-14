@@ -8,7 +8,7 @@
         <source value="#0k8l0ZIODuqXS0Ct"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
-    <version value="0.0.1"/>
+    <version value="1.0.0-ballot"/>
     <name value="MaternalInfantHealthResearch"/>
     <title value="Longitudinal Maternal &amp; Infant Health Information for Research"/>
     <status value="draft"/>
@@ -310,7 +310,7 @@
         <resource>
             <reference>
                 <reference value="ValueSet/PregnancyProcedureDelivery"/>
-                <display value="ValueSet – Pregnancy Procedure Delivery"/>
+                <display value="ValueSet - Pregnancy Procedure Delivery"/>
             </reference>
             <name value="ValueSet – Pregnancy Procedure Delivery"/>
             <description value="This pregnancy procedure delivery value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This is a grouping value set  which includes two value sets: Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
@@ -332,6 +332,15 @@
             </reference>
             <name value="ValueSet - Pregnancy Procedure Delivery CPT"/>
             <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
+            <exampleBoolean value="false"/>
+        </resource>
+          <resource>
+            <reference>
+                <reference value="Parameters/expansion-parameters-fhir-mmm-ig"/>
+                <display value="Expansion Parameters - MIHR IG"/>
+            </reference>
+            <name value="Expansion Parameters - MIHR IG"/>
+            <description value="Expansion Parameters - US SNOMED CT version"/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

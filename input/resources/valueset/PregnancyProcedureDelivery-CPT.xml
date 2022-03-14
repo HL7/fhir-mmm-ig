@@ -12,7 +12,7 @@
     <title value="ValueSet - Pregnancy Procedure Delivery CPT"/>
     <status value="draft"/>
     <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
-    <copyright value="CPT codes"/>
+    <copyright value="Current Procedural Terminology (CPT) is copyright 2020 American Medical Association. All rights reserved."/>
     <compose>
         <include>
             <system value="http://www.ama-assn.org/go/cpt"/>

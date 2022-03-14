@@ -8,7 +8,7 @@
         <source value="#0k8l0ZIODuqXS0Ct"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
-    <version value="0.0.1-ballot"/>
+    <version value="1.0.0-ballot"/>
     <name value="MaternalInfantHealthResearch"/>
     <title value="Longitudinal Maternal &amp; Infant Health Information for Research"/>
     <status value="draft"/>

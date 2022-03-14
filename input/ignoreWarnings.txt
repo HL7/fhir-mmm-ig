@@ -1,4 +1,5 @@
 == Suppressed Messages ==
 # The following code systems are external and not supported by terminology server
 Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
+Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
 No code provided, and a code should be provided from the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type (http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type)

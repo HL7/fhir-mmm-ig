@@ -128,7 +128,7 @@
                 <reference value="Observation/patient-child-peter-doe-example"/></reference>
             <name value="Bilirubin Lab Test"/>
             <description value="Bilirubin Lab Test"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
@@ -138,7 +138,7 @@
             </reference>
             <name value="RelatedPerson - Mother/Child linkage"/>
             <description value="RelatedPerson - Mother/Child linkage"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
            <resource>
@@ -148,7 +148,7 @@
             </reference>
             <name value="RelatedPerson - Mother/Child linkage"/>
             <description value="RelatedPerson - Mother/Child linkage"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
@@ -156,7 +156,7 @@
                 <reference value="Condition/condition-pregnant-allison-doe-example"/></reference>
             <name value="US Core Condition Pregnant (finding)"/>
             <description value="US Core Condition Pregnant (finding)"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>

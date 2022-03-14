@@ -10,19 +10,18 @@
             "date":"2022-03-14"
 		},
 		{
-            "version": "1.0.0",
+            "version": "1.0.0-ballot",
 			"desc": "Ballot for FHIR STU Release 1",
             "status": "ballot",
             "sequence": "STU1",
 			"fhirversion": "4.0.1",
 			"path": "http://www.hl7.org/fhir/us/mihr/2022May",
-			"changes": "http://hl7.org/fhir/us/ecrhistory.html",
             "date":"2022-03-14",
             "current": false
 		}
 	],
 	"package-id": "hl7.fhir.us.mihr",
 	"title": "Maternal & Infant Health Research",
-	"canonical": "http://www.fhir.org/fhir/us/mihr",
+	"canonical": "http://www.hl7.org/fhir/us/mihr",
 	"category": "Public Health"
 }

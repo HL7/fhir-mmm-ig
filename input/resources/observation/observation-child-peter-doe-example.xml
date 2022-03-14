@@ -1,5 +1,10 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="observation-child-peter-doe-example" />
+     <meta>
+        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab">
+            <valueString value="Bilirubin Example"/>
+        </extension>
+    </meta>
   <status value="final" />
   <code>
     <coding>

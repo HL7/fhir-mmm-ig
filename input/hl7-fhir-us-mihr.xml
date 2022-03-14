@@ -74,6 +74,9 @@
             <name value="Terminologies"/>
             <description value="Group of Terminology-related resources (ValueSets and CodeSystems)"/>
         </grouping>
+            <grouping id="other">
+            <name value="Other"/>
+        </grouping>
         <resource>
             <reference>
                 <reference value="Measure/PIHCohort"/>
@@ -244,7 +247,7 @@
                 <reference value="Observation/observation-allison-doe-example"/></reference>
             <name value="Observation - Blood pressure systolic and diastolic"/>
             <description value="Observation - Blood pressure systolic and diastolic"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
                <resource>
@@ -252,7 +255,7 @@
                 <reference value="Observation/observation-child-peter-doe-example"/></reference>
             <name value="Observation - Finding of bilirubin level (finding)"/>
             <description value="Observation - Finding of bilirubin level (finding)"/>
-            <exampleBoolean value="true"/>
+            <exampleBoolean value="false"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>

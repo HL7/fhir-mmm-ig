@@ -1,6 +1,6 @@
 <FamilyMemberHistory
     xmlns="http://hl7.org/fhir">
-    <id value="example-maternal-jean-willamette-family-member-history"/>
+    <id value="familymemberhistory-jane-smith-example"/>
     <meta>
         <versionId value="1"/>
         <lastUpdated value="2022-03-04T18:02:35.954+00:00"/>

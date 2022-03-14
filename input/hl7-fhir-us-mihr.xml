@@ -247,6 +247,14 @@
             <exampleBoolean value="true"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
+               <resource>
+            <reference>
+                <reference value="Observation/observation-child-peter-doe-example"/></reference>
+            <name value="Observation - Finding of bilirubin level (finding)"/>
+            <description value="Observation - Finding of bilirubin level (finding)"/>
+            <exampleBoolean value="true"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
         <resource>
             <reference>
                 <reference value="ValueSet/ProceduresDuringPregnancy"/>

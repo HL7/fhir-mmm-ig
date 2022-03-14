@@ -1511,8 +1511,7 @@ define &quot;SDE Allergy Intolerance&quot;:
    <name value="PIHCohort"></name>
    <title value="PIH Cohort"></title>
    <date value="2022-03-11T12:08:45-05:00"></date>
-   <description value="Mothers diagnosed with PIH that have a subsequent pregnancy."></description>
-   <purpose value="Unknown"></purpose>
+   <description value="Hypertensive Disorders of pregnancy: This use case focuses on women with a diagnosis of hypertensive disorders of pregnancy."></description>
    <copyright value="Limited proprietary coding is contained in the measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. Lantana disclaims all liability for use or accuracy of any third party codes contained in the specifications.  CPT(R) contained in the measure specifications is copyright 2004-2020 American Medical Association. LOINC(R) copyright 2004-2020 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2020 International Health Terminology Standards Development Organisation. ICD-10 copyright 2020 World Health Organization. All Rights Reserved."></copyright>
    <effectivePeriod>
       <start value="2021-01-01"></start>

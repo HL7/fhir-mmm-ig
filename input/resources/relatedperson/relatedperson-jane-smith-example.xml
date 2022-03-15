@@ -32,7 +32,7 @@
     </extension>
     <active value="true"/>
     <patient>
-        <reference value="Patient/jane-smith-example"/>
+        <reference value="Patient/patient-jane-smith-example"/>
         <display value="Patient - Jane Smith"/>
     </patient>
     <relationship>

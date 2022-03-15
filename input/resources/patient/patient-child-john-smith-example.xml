@@ -121,9 +121,4 @@
         <start value="2021-06-01"/>
     </period>
   </address>
-    <link>
-        <other>
-            <reference value="RelatedPerson/patient-jane-smith-example"/>
-        </other>
-    </link>
 </Patient>

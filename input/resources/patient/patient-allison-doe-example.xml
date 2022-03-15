@@ -3,16 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="patient-allison-doe-example"/>
   <meta>
-    <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
-      <valueString value="Patient Example"/>
-    </extension>
-    <extension
-               url="http://hl7.org/fhir/StructureDefinition/instance-description">
-      <valueMarkdown
-                     value="This is a patient example for the *US Core Patient Profile*."/>
-    </extension>
-    <profile
-             value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
   </meta>
   <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
     <extension url="ombCategory">
@@ -137,22 +128,4 @@
       <start value="2020-07-22"/>
     </period>
   </address>
-      <link>
-        <other>
-            <reference value="RelatedPerson/relatedperson-child-bobby-doe-example"/>
-        </other>
-        <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-      </type>
-    </link>
-    <link>
-        <other>
-            <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
-        </other>
-        <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-      </type>
-    </link>
 </Patient>

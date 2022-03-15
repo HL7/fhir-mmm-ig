@@ -8,7 +8,7 @@
     </meta>
     <status value="completed"/>
     <patient>
-        <reference value="Patient/encounter-delivery-jane-smith-example"/>
+        <reference value="Patient/patient-jane-smith-example"/>
         <display value="Wilamette Smith"/>
     </patient>
     <relationship>

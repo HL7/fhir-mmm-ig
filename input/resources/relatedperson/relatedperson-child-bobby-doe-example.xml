@@ -38,8 +38,8 @@
     <relationship>
         <coding>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
-            <code value="MTH"/>
-            <display value="mother"/>
+            <code value="GESTM"/>
+            <display value="gestational mother"/>
         </coding>
         <text value="mother"/>
     </relationship>
@@ -95,11 +95,11 @@
             </coding>
             <text value="Emergency Contact"/>
         </relationship>
-        <name id="CI-12742541-0">
+        <name id="CI-12742541-3">
             <use value="official"/>
-            <text value="HARRIS, DANA"/>
-            <family value="HARRIS"/>
-            <given value="DANA"/>
+            <text value="DOE, BOB"/>
+            <family value="DOE"/>
+            <given value="BOB"/>
         </name>
         <telecom>
             <system value="phone"/>
@@ -112,7 +112,7 @@
         </telecom>
         <telecom>
             <system value="email"/>
-            <value value="dharris@gmail.com"/>
+            <value value="bdoe@gmail.com"/>
             <use value="home"/>
             <rank value="1"/>
             <period>

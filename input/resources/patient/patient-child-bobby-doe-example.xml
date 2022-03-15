@@ -12,10 +12,6 @@
         <profile
             value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
-    <text>
-        <status value="extensions"/>
-        <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><blockquote><p><b>US Core Race Extension</b></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2106-3}">White</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 1002-5}">American Indian or Alaska Native</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2028-9}">Asian</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 1586-7}">Shoshone</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2036-2}">Filipino</span></p><p><b>value</b>: Mixed</p></blockquote><blockquote><p><b>US Core Ethnicity Extension</b></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2135-2}">Hispanic or Latino</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2184-0}">Dominican</span></p><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2148-5}">Mexican</span></p><p><b>value</b>: Hispanic or Latino</p></blockquote><p><b>US Core Birth Sex Extension</b>: F</p><p><b>identifier</b>: Medical Record Number: 1032702 (USUAL)</p><p><b>active</b>: true</p><p><b>name</b>: Amy V. Shaw , Amy V. Baxter </p><p><b>telecom</b>: ph: 555-555-5555(HOME), <a href="mailto:amy.shaw@example.com">amy.shaw@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1987-02-20</p><p><b>address</b>: </p><ul><li>49 Meadow St Mounds OK 74047 US </li><li>183 Mountain View St Mounds OK 74048 US </li></ul></div>
-    </text>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
         <extension url="ombCategory">
             <valueCoding>
@@ -125,4 +121,9 @@
             <start value="2020-02-20"/>
         </period>
     </address>
+    <link>
+        <other>
+            <reference value="RelatedPerson/patient-allison-doe-example"/>
+        </other>
+    </link>
 </Patient>

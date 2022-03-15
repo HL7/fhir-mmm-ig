@@ -1,10 +1,5 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="observation-child-peter-doe-example" />
-     <meta>
-        <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab">
-            <valueString value="Bilirubin Example"/>
-        </extension>
-    </meta>
   <status value="final" />
   <code>
     <coding>
@@ -17,12 +12,8 @@
     <reference value="Patient/patient-child-peter-doe-example" />
     <display value="Peter Doe" />
   </subject>
-    <effectiveDateTime value="2015-06-01"/>
-    <issued value="2021-10-22T15:30:10+01:00" />
-  <performer>
-    <reference value="Practitioner/f005" />
-    <display value="A. Langeveld" />
-  </performer>
+    <effectiveDateTime value="2021-06-01"/>
+    <issued value="2021-02-21T15:30:10+01:00" />
   <valueCodeableConcept>
     <coding>
       <system value="http://snomed.info/sct" />

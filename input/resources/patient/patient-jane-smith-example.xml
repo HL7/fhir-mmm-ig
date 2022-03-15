@@ -26,7 +26,7 @@
             <valueCoding>
                 <system value="urn:oid:2.16.840.1.113883.6.238"/>
                 <code value="2186-5"/>
-                <display value="Non Hispanic or Latino"/>
+                <display value="Not Hispanic or Latino"/>
                 <userSelected value="false"/>
             </valueCoding>
         </extension>
@@ -103,7 +103,7 @@
             </coding>
             <text value="Emergency Contact"/>
         </relationship>
-        <name id="CI-12742541-0">
+        <name id="CI-12742541-1">
             <use value="official"/>
             <text value="HARRIS, DANA"/>
             <family value="HARRIS"/>
@@ -141,7 +141,7 @@
             </coding>
             <text value="Guardian"/>
         </relationship>
-        <name id="CI-12742541-0">
+        <name id="CI-12742541-1">
             <use value="official"/>
             <text value="HARRIS, DANA"/>
             <family value="HARRIS"/>
@@ -183,7 +183,7 @@
     </communication>
     <link>
 <other>
-<reference value="RelatedPerson/patient-child-jane-smith-example"/>
+<reference value="RelatedPerson/patient-child-john-smith-example"/>
 </other>
 </link>
 </Patient>

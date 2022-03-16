@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="412"/>
-        <lastUpdated value="2022-03-16T15:04:39.318+00:00"/>
-        <source value="#V1ZNE57AktnSjDbi"/>
+        <versionId value="407"/>
+        <lastUpdated value="2022-03-16T12:58:18.185+00:00"/>
+        <source value="#pjn2ZHm9EPIPDLw5"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
@@ -450,10 +450,6 @@
                 </page>
             </page>
         </page>
-        <parameter>
-            <code value="path-expansion-params"/>
-            <value value="resources/parameters/expansion-parameters-fhir-mmm-ig.xml"/>
-        </parameter>
         <parameter>
             <code value="copyrightyear"/>
             <value value="2020+"/>

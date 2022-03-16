@@ -47,4 +47,4 @@ This specification uses the same Search Syntax rule as [US Core](https://www.hl7
 ### Privacy and Security
 The methods by which data sources and data consumers agree upon the scope of clinical information to be exchanged for maternal health research should occur prior to implementation of this guide. Both data sources and data consumers must consider all applicable laws, policies, and organizational.
  
-<b><i>Note:</i></b> The scope of information exchange needed by maternal health researchers may include de-identification for and identity management; while both concepts of de-identification and identity management methods are outside of the scope of this guide, they should be considered and agreed upon between data sources and consumers prior to implementation. 
+<b><i>Note:</i></b> The scope of information exchange needed by maternal health researchers may include de-identification for and identity management; while both concepts of de-identification and identity management methods are outside of the scope of this guide, they should be considered and agreed upon between data sources and consumers prior to implementation.

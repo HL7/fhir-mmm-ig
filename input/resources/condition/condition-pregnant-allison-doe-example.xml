@@ -1,16 +1,18 @@
-<Condition xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
     <id value="condition-pregnant-allison-doe-example"/>
     <meta>
         <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
             <valueString value="Condition Example"/>
         </extension>
-        <extension
-            url="http://hl7.org/fhir/StructureDefinition/instance-description">
-            <valueMarkdown
-                value="This is a condition example for the *US Core Condition Profile*."/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown value="This is a condition example for the *US Core Condition Profile*."/>
         </extension>
-        <profile
-            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-03-15T18:05:46.623+00:00"/>
+        <source value="#9mLZ0k1pEBSeeAiP"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <identifier>
         <use value="usual"/>
@@ -63,4 +65,3 @@
     </subject>
     <onsetDateTime value="2022-01-12"/>
 </Condition>
-

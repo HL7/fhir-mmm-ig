@@ -1,11 +1,18 @@
-<Condition xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
     <id value="condition-miscarriage-birth-allison-doe-example"/>
     <meta>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition">
-            <valueString value="US Core Condition Example"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+            <valueString value="Condition Example"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
             <valueMarkdown value="This is a condition example for the *US Core Condition Profile*."/>
-        <profile
-            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+        </extension>
+        <versionId value="1"/>
+        <lastUpdated value="2022-03-15T14:45:07.189+00:00"/>
+        <source value="#sfUL2OhQk05st90n"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <clinicalStatus>
         <coding>

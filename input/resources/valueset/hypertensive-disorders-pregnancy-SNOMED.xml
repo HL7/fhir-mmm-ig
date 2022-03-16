@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="hypertensive-disorders-pregnancy-SNOMED"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2022-03-02T20:32:51.923+00:00"/>
-        <source value="#EPFZR5VreUkplRwx"/>
+        <versionId value="6"/>
+        <lastUpdated value="2022-03-15T17:41:46.812+00:00"/>
+        <source value="#nPwnjlaSBKKCKQvu"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
     <name value="ValueSetHypertensiveDisordersOfPregnancySNOMED"/>
     <title value="ValueSet – Hypertensive Disorders of Pregnancy SNOMED CT"/>
     <status value="draft"/>
     <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
-    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>

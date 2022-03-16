@@ -1,9 +1,11 @@
-<RelatedPerson xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedPerson
+    xmlns="http://hl7.org/fhir">
     <id value="relatedperson-child-peter-doe-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-07-09T03:11:22.987+00:00"/>
-        <source value="#9iomTF1VJhpnvB3s"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-03-15T17:14:37.196+00:00"/>
+        <source value="#oFdcJA7tnpwLDQ31"/>
         <profile value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
@@ -38,12 +40,11 @@
     <relationship>
         <coding>
             <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
-           <code value="GESTM"/>
+            <code value="GESTM"/>
             <display value="gestational mother"/>
         </coding>
         <text value="mother"/>
     </relationship>
-    <!--- mother info -->
     <name id="CI-12742728-1">
         <use value="official"/>
         <text value="DOE, ALLISON"/>
@@ -76,51 +77,4 @@
             <start value="2021-01-03T11:01:29.000Z"/>
         </period>
     </address>
-    <maritalStatus>
-        <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
-            <code value="U"/>
-            <display value="unmarried"/>
-            <userSelected value="false"/>
-        </coding>
-        <text value="Single"/>
-    </maritalStatus>
-    <contact>
-        <relationship>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
-                <code value="C"/>
-                <display value="Emergency Contact"/>
-                <userSelected value="false"/>
-            </coding>
-            <text value="Emergency Contact"/>
-        </relationship>
-        <name id="CI-12742541-0">
-            <use value="official"/>
-            <text value="HARRIS, DANA"/>
-            <family value="HARRIS"/>
-            <given value="DANA"/>
-        </name>
-        <telecom>
-            <system value="phone"/>
-            <value value="2125555553"/>
-            <use value="home"/>
-            <rank value="1"/>
-            <period>
-                <start value="2020-12-27T16:36:47.000Z"/>
-            </period>
-        </telecom>
-        <telecom>
-            <system value="email"/>
-            <value value="dharris@gmail.com"/>
-            <use value="home"/>
-            <rank value="1"/>
-            <period>
-                <start value="2020-12-28T14:53:41.000Z"/>
-            </period>
-        </telecom>
-        <period>
-            <start value="2020-12-02T11:01:29.000Z"/>
-        </period>
-    </contact>
 </RelatedPerson>

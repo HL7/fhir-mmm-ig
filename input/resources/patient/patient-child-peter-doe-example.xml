@@ -1,17 +1,52 @@
-<Patient xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient
+    xmlns="http://hl7.org/fhir">
     <id value="patient-child-peter-doe-example"/>
     <meta>
         <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
             <valueString value="Patient Example"/>
         </extension>
-        <extension
-            url="http://hl7.org/fhir/StructureDefinition/instance-description">
-            <valueMarkdown
-                value="This is a patient example for the *US Core Patient Profile*."/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+            <valueMarkdown value="This is a patient example for the *US Core Patient Profile*."/>
         </extension>
-        <profile
-            value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <versionId value="4"/>
+        <lastUpdated value="2022-03-15T19:51:52.304+00:00"/>
+        <source value="#DcGpJBTPC3yeZ8Xj"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
+    <text>
+        <status value="generated"/>
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
+            <div class="hapiHeaderText">Peter 
+                <b>DOE </b>
+            </div>
+            <table class="hapiPropertyTable">
+                <tbody>
+                    <tr>
+                        <td>Identifier</td>
+                        <td>12327021</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <span>183 Mountain View St </span>
+                            <br/>
+                            <span>Mounds </span>
+                            <span>OK </span>
+                            <span>US </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth</td>
+                        <td>
+                            <span>20 February 2021</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </text>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
         <extension url="ombCategory">
             <valueCoding>
@@ -52,8 +87,7 @@
             <valueString value="Mixed"/>
         </extension>
     </extension>
-    <extension
-        url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
         <extension url="ombCategory">
             <valueCoding>
                 <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -79,8 +113,7 @@
             <valueString value="Hispanic or Latino"/>
         </extension>
     </extension>
-    <extension
-        url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
         <valueCode value="M"/>
     </extension>
     <identifier>

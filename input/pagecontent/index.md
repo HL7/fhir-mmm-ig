@@ -1,4 +1,6 @@
-### Overview & Scope
+### Overview
+
+### Scope
 The Longitudinal Maternal & Child Health Information for Research FHIR R4 implementation guide (IG) defines a framework to enable maternal health researchers to aggregate, calculate, and analyze clinical information of research populations to explore the root causes for maternal and child morbidity and mortality. It uses Clinical Quality Language (CQL) expressions to assist researchers in capturing clinical data based on population study cohort criteria. This IG focuses on information relevant to longitudinal maternal care, which includes antepartum (including pre-pregnancy), intrapartum, and postpartum care of a pregnant woman. It includes how to link maternal longitudinal record with associated child/children records. 
 
 This US Realm IG supports the use of US Core profiles where possible, as well as base FHIR and Vital Records Common Profiles FHIR IG data model for the structural linkage of mother and child clinical records. 
@@ -39,175 +41,195 @@ The audience for this IG includes EHR vendors, developers of software tooling re
 ### Authors & Project Team
 This table lists the authors, subject matter experts, and the affiliations which contributed to this standard. 
 
-<div class="tg-wrap"><table class="table table-bordered table-hover table-condensed">
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-4erg{border-color:inherit;font-style:italic;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0r4h{border-color:inherit;font-family:serif !important;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
 <thead>
-<tr>
-<th>Name & Affiliation</th>
-<th>Role</th>
-<th>Contact</th>
-</tr>
+  <tr>
+    <th class="tg-fymr">Name &amp; Affiliation</th>
+    <th class="tg-0r4h">Role</th>
+    <th class="tg-fymr">Contact</th>
+  </tr>
 </thead>
 <tbody>
-<tr>
-<td><b>Lantana Consulting Group</b></td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td>Courtney Panaia-Rodi
-<td>Project Executive</td>
-<td>courtney.panaia-rodi@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Wendy Wise</td>
-<td>Project Manager</td>
-<td>wendy.wise@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Lani Johnson</td>
-<td>Associate Project Manager</td>
-<td>lani.johnson@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Rick Geimer</td>
-<td>FHIR Subject Matter Expert</td>
-<td>rick.geimer@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Zabrina Gonzaga</td>
-<td>Terminology Subject Matter Expert</td>
-<td>zabrina.gonzaga@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Sarah Gaunt</td> 
-<td>Senior FHIR/CDA Analyst</td>
-<td>sarah.gaunt@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Dave deRoode</td> 
-<td>FHIR/CDA Analyst</td>
-<td>david.deroode@lantanagroup.com</td>
-</tr>
-<tr>
-<td>Ming Dunajick</td> 
-<td>FHIR/CDA Analyst</td>
-<td>ming.dunajick@lantanagroup.com</td>
-</tr>
-<tr> 
-<td>Ruby Nash</td> 
-<td>FHIR Analyst</td>
-<td>ruby.nash@lantanagroup.com</td>
-</tr>
-<tr>
-<td><b>Office of the Assistant Secretary for Planning and Evaluation (ASPE)</b></td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td>Violanda Grigorescu, MD, MSPH</td>
-<td>Senior Health Scientist 
-<br>Division of Healthcare Quality and Outcomes, Office of Health Policy</td>
-<td>violanda.grigorescu@hhs.gov</td>
-<tr>
-<td><b>Centers for Disease Control and Prevention (CDC)</b></td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td>Margaret Lampe, RN, MPH</td>
-<td>Nurse Epidemiologist & Project Officer 
-<br>Perinatal HIV Prevention Program</td>
-<td>mol0@cdc.gov</td>
-</tr>
-<tr>
-<td>Lisa Romero, DrPH</td>
-<td>Health Scientist
-<br>Division of Adolescent School Health</td>
-<td>eon1@cdc.gov</td>
-<tr>
-<td><b>National Institutes of Health (NIH)
-<br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)
-<br>National Information Center on Health Services Research and Health Care Technology (NICHSR)</b></td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td>Alison Cernich</td>
-<td>NICHD Deputy Director</td>
-<td>alison.cernich@nih.hhs.gov</td>
-</tr>
-<tr>
-<td>John (Jack) Moye, Jr., MD</td>
-<td>Acting Director - National Children's Study
-<br>NICHD Medical Officer - Maternal & Pediatric Infectious Disease Branch</td>
-<td>moyej@exchange.nih.gov</td>
-</tr>
-<tr>
-<td>Nahida Chakhtoura, MD, MsGH</td>
-<td>NICHD Medical Officer
-<br>Maternal and Pediatric Infectious Disease Branch</td>
-<td>nahida.chakhtoura@nih.gov</td>
-</tr>
-<tr>
-<td>Juanita Chinn, PhD</td>
-<td>NICHD Program Director
-<br>Population Dynamics Branch</td>
-<td>juanita.chinn@nih.gov</td>
-</tr>
-<tr>
-<td>Valerie Cotton</td>
-<td>NICHD Deputy Director
-<br>Office of Data Science and Sharing</td>
-<td>valerie.cotton@nih.gov</td>
-</tr>
-<tr>
-<td>Liz Amos, MLIS</td>
-<td>Special Assistant to the Chief Health Data Standards Officer
-<br>National Library of Medicine</td>
-<td>liz.amos@nih.gov</td>
-</tr>
-<tr>
-<td><b>Office of the National Coordinator for Health IT (ONC)<b><td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td>Carmen Smiley</td>
-<td>IT Specialist (Systems Analysis)</td>
-<td>carmen.smiley@hhs.gov</td>
-</tr>
-<tr>
-<td>Rachel Abbey</td>
-<td>Public Health Analyst & Program Officer</td>
-<td>rachel.abbey@hhs.gov</td>
-</tr>
-<tr>
-<td>Stephanie Garcia</td>
-<td>Senior Program Analyst</td>
-<td><stephanie.garcia@hhs.gov></td>
-</tr>
-<tr>
-<td>Brittney Boakye, MPH</td>
-<td>Program Assistant
-<br>Scientific Advancement Branch</td>
-<td><brittney.boakye@hhs.gov</td>
-</tr>
-<tr>
-<td>Alan Taylor</td>
-<td>Medical Informatics Officer, Standards and Terminology</td> 
-<td>albert.taylor@hhs.gov</td>
-</tr>
+  <tr>
+    <td class="tg-4erg">Lantana Consulting Group</td>
+    <td class="tg-0pky"> </td>
+    <td class="tg-0pky"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Courtney Panaia-Rodi </td>
+    <td class="tg-0pky">Project Executive</td>
+    <td class="tg-0pky">courtney.panaia-rodi@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wendy Wise</td>
+    <td class="tg-0pky">Project Manager</td>
+    <td class="tg-0pky">wendy.wise@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lani Johnson</td>
+    <td class="tg-0pky">Associate Project Manager</td>
+    <td class="tg-0pky">lani.johnson@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Rick Geimer</td>
+    <td class="tg-0pky">FHIR Subject Matter Expert</td>
+    <td class="tg-0pky">rick.geimer@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Zabrina Gonzaga</td>
+    <td class="tg-0pky">Terminology Subject Matter Expert</td>
+    <td class="tg-0pky">zabrina.gonzaga@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sarah Gaunt</td>
+    <td class="tg-0pky">Senior FHIR/CDA Analyst</td>
+    <td class="tg-0pky">sarah.gaunt@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Dave deRoode</td>
+    <td class="tg-0pky">FHIR/CDA Analyst</td>
+    <td class="tg-0pky">david.deroode@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ming Dunajick</td>
+    <td class="tg-0pky">FHIR/CDA Analyst</td>
+    <td class="tg-0pky">ming.dunajick@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ruby Nash</td>
+    <td class="tg-0pky">FHIR Analyst</td>
+    <td class="tg-0pky">ruby.nash@lantanagroup.com</td>
+  </tr>
+  <tr>
+    <td class="tg-4erg">Office of the Assistant Secretary for Planning and Evaluation (ASPE)</td>
+    <td class="tg-0pky"> </td>
+    <td class="tg-0pky"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Violanda Grigorescu, MD, MSPH</td>
+    <td class="tg-0pky">Senior Health Scientist <br>Division of Healthcare Quality and Outcomes, Office of Health Policy</td>
+    <td class="tg-0pky">violanda.grigorescu@hhs.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-4erg">Centers for Disease Control and Prevention (CDC)</td>
+    <td class="tg-0pky"> </td>
+    <td class="tg-0pky"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Margaret Lampe, RN, MPH</td>
+    <td class="tg-0pky">Nurse Epidemiologist &amp; Project Officer <br>Perinatal HIV Prevention Program</td>
+    <td class="tg-0pky">mol0@cdc.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lisa Romero, DrPH</td>
+    <td class="tg-0pky">Health Scientist <br>Division of Adolescent School Health</td>
+    <td class="tg-0pky">eon1@cdc.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-4erg">National Institutes of Health (NIH) <br>Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) <br>National Information Center on Health Services Research and Health Care Technology (NICHSR)</td>
+    <td class="tg-0pky"> </td>
+    <td class="tg-0pky"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Alison Cernich</td>
+    <td class="tg-0pky">NICHD Deputy Director</td>
+    <td class="tg-0pky">alison.cernich@nih.hhs.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">John (Jack) Moye, Jr., MD</td>
+    <td class="tg-0pky">Acting Director - National Children's Study <br>NICHD Medical Officer - Maternal &amp; Pediatric Infectious Disease Branch</td>
+    <td class="tg-0pky">moyej@exchange.nih.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Nahida Chakhtoura, MD, MsGH</td>
+    <td class="tg-0pky">NICHD Medical Officer <br>Maternal and Pediatric Infectious Disease Branch</td>
+    <td class="tg-0pky">nahida.chakhtoura@nih.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Juanita Chinn, PhD</td>
+    <td class="tg-0pky">NICHD Program Director <br>Population Dynamics Branch</td>
+    <td class="tg-0pky">juanita.chinn@nih.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Valerie Cotton</td>
+    <td class="tg-0pky">NICHD Deputy Director <br>Office of Data Science and Sharing</td>
+    <td class="tg-0pky">valerie.cotton@nih.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Liz Amos, MLIS</td>
+    <td class="tg-0pky">Special Assistant to the Chief Health Data Standards Officer <br>National Library of Medicine</td>
+    <td class="tg-0pky">liz.amos@nih.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-4erg">Office of the National Coordinator for Health IT (ONC)</td>
+    <td class="tg-0pky"> </td>
+    <td class="tg-0pky"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Carmen Smiley</td>
+    <td class="tg-0pky">IT Specialist (Systems Analysis)</td>
+    <td class="tg-0pky">carmen.smiley@hhs.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Rachel Abbey</td>
+    <td class="tg-0pky">Public Health Analyst &amp; Program Officer</td>
+    <td class="tg-0pky">rachel.abbey@hhs.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stephanie Garcia</td>
+    <td class="tg-0pky">Senior Program Analyst</td>
+    <td class="tg-0pky">stephanie.garcia@hhs.gov</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Brittney Boakye, MPH</td>
+    <td class="tg-0pky">Program Assistant <br>Scientific Advancement Branch</td>
+    <td class="tg-0pky">brittney.boakye@hhs.gov<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Alan Taylor</td>
+    <td class="tg-0pky">Medical Informatics Officer, Standards and Terminology</td>
+    <td class="tg-0pky">albert.taylor@hhs.gov</td>
+  </tr>
 </tbody>
 </table>
-</div>
 
 ###	Acknowledgements
 This guide was developed and produced through the efforts of Health Level Seven (HL7) and created using the Trifolia-on-FHIR tool, provided by Lantana Consulting Group. The HL7 Project Insight reference number for this project is 1736.
 The editors appreciate the support and sponsorship of the HL7 Public Health Workgroup, and all volunteers and staff associated with the creation of this document. This guide would not have been possible without the support of the following groups.
 Health Level Seven, HL7, CDA, CCD, FHIR and the [FLAME DESIGN] are registered trademarks of Health Level Seven International, registered in the US Trademark Office.
-This material contains content from [SNOMED CT®](http://www.ihtsdo.org/snomed-ct/). SNOMED CT is a registered trademark of the International Health Terminology Standard Development Organization (IHTSDO).
+
+This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
 
 This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2021, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at https://loinc.org/kb/license/. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
 
-This material contains content from the CAP. The [Electronic Cancer Checklists](https://www.cap.org/laboratory-improvement/proficiency-testing/cap-ecc) are copyrighted by the CAP. All rights reserved.
+
+
+### Authors
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email/URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HL7 International - Public Health</td>
+<td><a href="http://www.hl7.org/Special/committees/pher" target="_new">http://www.hl7.org/Special/committees/pher</a></td>
+</tr>
+</tbody>
+</table>
+
+

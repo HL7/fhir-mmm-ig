@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient
     xmlns="http://hl7.org/fhir">
-    <id value="patient-child-bobby-doe-example"/>
+    <id value="patient-child-jane-smith-example"/>
     <meta>
         <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
             <valueString value="Patient Example"/>
@@ -9,38 +9,38 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
             <valueMarkdown value="This is a patient example for the *US Core Patient Profile*."/>
         </extension>
-        <versionId value="4"/>
-        <lastUpdated value="2022-03-15T19:51:52.304+00:00"/>
-        <source value="#xPUgdtYzsnsIrJkm"/>
+        <versionId value="1"/>
+        <lastUpdated value="2022-03-15T14:45:07.555+00:00"/>
+        <source value="#PGBycwzTr96aqYXz"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
         <status value="generated"/>
         <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <div class="hapiHeaderText">Bobby 
-                <b>DOE </b>
+            <div class="hapiHeaderText">John 
+                <b>SMITH </b>
             </div>
             <table class="hapiPropertyTable">
                 <tbody>
                     <tr>
                         <td>Identifier</td>
-                        <td>12327021</td>
+                        <td>1132708</td>
                     </tr>
                     <tr>
                         <td>Address</td>
                         <td>
-                            <span>183 Mountain View St </span>
+                            <span>49 Sunny St </span>
                             <br/>
-                            <span>Mounds </span>
-                            <span>OK </span>
+                            <span>Sunnyvale </span>
+                            <span>CA </span>
                             <span>US </span>
                         </td>
                     </tr>
                     <tr>
                         <td>Date of birth</td>
                         <td>
-                            <span>20 February 2021</span>
+                            <span>01 June 2021</span>
                         </td>
                     </tr>
                 </tbody>
@@ -127,14 +127,14 @@
             <text value="Medical Record Number"/>
         </type>
         <system value="http://hospital.smarthealthit.org"/>
-        <value value="12327021"/>
+        <value value="1132708"/>
     </identifier>
     <active value="true"/>
     <name>
-        <family value="Doe"/>
-        <given value="Bobby"/>
+        <family value="Smith"/>
+        <given value="John"/>
         <period>
-            <start value="2020-02-20"/>
+            <start value="2021-06-01"/>
         </period>
     </name>
     <telecom>
@@ -143,15 +143,15 @@
         <use value="home"/>
     </telecom>
     <gender value="male"/>
-    <birthDate value="2021-02-20"/>
+    <birthDate value="2021-06-01"/>
     <address>
-        <line value="183 Mountain View St"/>
-        <city value="Mounds"/>
-        <state value="OK"/>
-        <postalCode value="74048"/>
+        <line value="49 Sunny St"/>
+        <city value="Sunnyvale"/>
+        <state value="CA"/>
+        <postalCode value="90121"/>
         <country value="US"/>
         <period>
-            <start value="2020-02-20"/>
+            <start value="2021-06-01"/>
         </period>
     </address>
 </Patient>

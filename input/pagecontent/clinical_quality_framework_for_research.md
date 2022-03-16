@@ -4,7 +4,7 @@
 ### Defining Measure Populations
 Two cohort populations are in scope for the initial release of this guide. These measure definitions are expressed in CQL and are found base64 encoded within Library.content examples. Further research populations of interest will each warrant distinct CQL expressions, associated terminologies (ValueSets) and measure definitions. 
 
-Note: Not all future research study populations of interest will necessitate the updating of this published FHIR guide.
+<b><i>Note:</i></b> Not all future research study populations of interest will necessitate the updating of this published FHIR guide.
 
 
 ### Architecture and Implementation

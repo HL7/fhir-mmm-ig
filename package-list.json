@@ -1,6 +1,6 @@
 {"package-id": "hl7.fhir.us.mihr",
 	"canonical": "http://www.hl7.org/fhir/us/mihr",
-	"title": "Maternal & Infant Health Research",
+	"title": "Maternal and Infant Health Research",
 	"list": [
 		{
 			"version": "current",

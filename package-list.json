@@ -1,11 +1,13 @@
-{
+{"package-id": "hl7.fhir.us.mihr",
+	"canonical": "http://www.hl7.org/fhir/us/mihr",
+	"title": "Maternal & Infant Health Research",
 	"list": [
 		{
 			"version": "current",
-			"desc": "Continuous Integration Build (latest in version control)",
 			"path": "https://build.fhir.org/ig/HL7/fhir-mmm-ig",
-			"status": "ci-build",
+			"desc": "Continuous Integration Build (latest in version control)",
 			"fhirversion": "4.0.1",
+			"status": "ci-build",
 			"current": true,
             "date":"2022-03-14"
 		},
@@ -20,8 +22,5 @@
             "current": false
 		}
 	],
-	"package-id": "hl7.fhir.us.mihr",
-	"title": "Maternal & Infant Health Research",
-	"canonical": "http://www.hl7.org/fhir/us/mihr",
 	"category": "Public Health"
 }

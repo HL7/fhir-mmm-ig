@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="407"/>
-        <lastUpdated value="2022-03-16T12:58:18.185+00:00"/>
-        <source value="#pjn2ZHm9EPIPDLw5"/>
+        <versionId value="412"/>
+        <lastUpdated value="2022-03-16T15:04:39.318+00:00"/>
+        <source value="#V1ZNE57AktnSjDbi"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
@@ -275,6 +275,17 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-child-jane-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - child of Jane Smith example"/>
+            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Encounter/encounter-delivery-jane-smith-example"/>
                 <display value="Encounter - Jane Smith example"/>
             </reference>
@@ -353,7 +364,7 @@
         <resource>
             <reference>
                 <reference value="Condition/condition-pregnant-jane-smith-example"/>
-                <display value="Condition - Jane Smith pregnancy example"/>
+                <display value="Condition - pregnancy example"/>
             </reference>
             <name value="Condition - pregnancy example"/>
             <description value="Example of a pregnancy condition."/>
@@ -364,7 +375,7 @@
         <resource>
             <reference>
                 <reference value="Condition/condition-pregnant-allison-doe-example"/>
-                <display value="Condition - Allison Doe pregnancy example"/>
+                <display value="Condition - pregnancy example"/>
             </reference>
             <name value="Condition - pregnancy example"/>
             <description value="Example of a pregnancy condition associated with a case of pregnancy-associated maternal death."/>

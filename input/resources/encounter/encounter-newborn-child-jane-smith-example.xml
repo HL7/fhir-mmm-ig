@@ -22,7 +22,7 @@
         <text value="Encounter for problem"/>
     </type>
     <subject>
-        <reference value="Patient/patient-child-john-smith-example"/>
+        <reference value="Patient/patient-child-jane-smith-example"/>
     </subject>
     <period>
         <start value="2021-09-26T15:00:14-05:00"/>

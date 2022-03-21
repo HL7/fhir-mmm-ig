@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="412"/>
-        <lastUpdated value="2022-03-16T15:04:39.318+00:00"/>
-        <source value="#V1ZNE57AktnSjDbi"/>
+        <versionId value="426"/>
+        <lastUpdated value="2022-03-21T19:35:11.869+00:00"/>
+        <source value="#5HWJCHvWZCfmTiF9"/>
     </meta>
     <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
     <name value="MaternalInfantHealthResearch"/>
-    <title value="Longitudinal Maternal and Infant Health Information for Research"/>
+    <title value="Longitudinal Maternal &amp; Infant Health Information for Research"/>
     <status value="draft"/>
     <experimental value="false"/>
     <date value="2021-06-28"/>
@@ -271,14 +271,14 @@
             <description value="Example of a child associated with a maternal death example patient."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
+            <groupingId value="pamdeaths"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Patient/patient-child-jane-smith-example"/>
                 <display value="Patient - child of Jane Smith example"/>
             </reference>
-            <name value="Patient - child of Jane Smith example"/>
+            <name value="Patient - second child of Jane Smith example"/>
             <description value="Example of a child associated with a pregnancy-induced hypertension."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
@@ -375,9 +375,9 @@
         <resource>
             <reference>
                 <reference value="Condition/condition-pregnant-allison-doe-example"/>
-                <display value="Condition - Allison Doe pregnancy example"/>
+                <display value="Condition - pregnancy example"/>
             </reference>
-            <name value="Condition - pregnancy example"/>
+            <name value="Condition - Allison Doe pregnancy example"/>
             <description value="Example of a pregnancy condition associated with a case of pregnancy-associated maternal death."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>

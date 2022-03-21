@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="407"/>
-        <lastUpdated value="2022-03-16T12:58:18.185+00:00"/>
-        <source value="#pjn2ZHm9EPIPDLw5"/>
+        <versionId value="423"/>
+        <lastUpdated value="2022-03-21T18:41:54.891+00:00"/>
+        <source value="#PBfQRQlGqKkJEk71"/>
     </meta>
-    <url value="http://www.hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
+    <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
     <name value="MaternalInfantHealthResearch"/>
     <title value="Longitudinal Maternal &amp; Infant Health Information for Research"/>
@@ -366,7 +366,7 @@
                 <reference value="Condition/condition-pregnant-jane-smith-example"/>
                 <display value="Condition - pregnancy example"/>
             </reference>
-            <name value="Condition - pregnancy example"/>
+            <name value="Condition - Jane Smith pregnancy example"/>
             <description value="Example of a pregnancy condition."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
@@ -377,7 +377,7 @@
                 <reference value="Condition/condition-pregnant-allison-doe-example"/>
                 <display value="Condition - pregnancy example"/>
             </reference>
-            <name value="Condition - pregnancy example"/>
+            <name value="Condition - Allison Doe pregnancy example"/>
             <description value="Example of a pregnancy condition associated with a case of pregnancy-associated maternal death."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>

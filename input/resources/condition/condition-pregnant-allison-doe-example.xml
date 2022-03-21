@@ -3,12 +3,6 @@
     xmlns="http://hl7.org/fhir">
     <id value="condition-pregnant-allison-doe-example"/>
     <meta>
-        <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
-            <valueString value="Condition Example"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
-            <valueMarkdown value="This is a condition example for the *US Core Condition Profile*."/>
-        </extension>
         <versionId value="2"/>
         <lastUpdated value="2022-03-15T18:05:46.623+00:00"/>
         <source value="#9mLZ0k1pEBSeeAiP"/>

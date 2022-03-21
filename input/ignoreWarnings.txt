@@ -1,6 +1,5 @@
 == Suppressed Messages ==
 # The following code systems are external and not supported by terminology server
-Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
 Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
 Unknown System specified, so Concepts and Filters can''t be checked
 

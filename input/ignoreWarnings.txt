@@ -6,3 +6,4 @@ Unknown System specified, so Concepts and Filters can''t be checked
 
 # Known VSAC expansion tooling issue; see: https://confluence.hl7.org/pages/viewpage.action?pageId=90362035
 The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127 could not be found so cannot be checked
+The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137 could not be found so cannot be checked

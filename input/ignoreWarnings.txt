@@ -1,5 +1,5 @@
 == Suppressed Messages ==
-# The following code systems are external and not supported by terminology server
+# The following code systems are external and not supported by terminology server. This is known to occur at the following location: input\resources\valueset\PregnancyProcedureDelivery-CPT @ ValueSet.compose[0].include[0]
 Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
 Unknown System specified, so Concepts and Filters can''t be checked
 
@@ -7,11 +7,8 @@ Unknown System specified, so Concepts and Filters can''t be checked
 The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127 could not be found so cannot be checked
 The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137 could not be found so cannot be checked
 
-# This text is expected embedded HTML
+# This text is expected embedded HTML. This is occurs at the following location: ImplementationGuide.description
 The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 
-# FHIR Helpers Library is a shared resource and not included in this guide: see https://github.com/cqframework/ecqm-content-r4-2021/blob/master/input/cql/FHIRHelpers.cql
+# FHIR Helpers Library is a shared resource: for the current FHIR Helpers Library, see https://github.com/cqframework/ecqm-content-r4-2021/blob/master/input/cql/FHIRHelpers.cql
 The Library http://www.hl7.org/fhir/us/mihr/Library/FHIRHelpers could not be resolved, so expression validation may not be correct
-
-# The valuesets in the guide are intended to be unioned
-This value set has an include with multiple imported value sets. Per issue https://jira.hl7.org/browse/FHIR-25179, there has been confusion in the past whether these value sets are unioned or intersectioned. If this value set is contained in a package published prior to March 31 2022, it will be treated as a union, otherwise it will be treated as an intersection

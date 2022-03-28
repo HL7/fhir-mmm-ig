@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="pregnancy"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2022-03-02T13:27:38.007+00:00"/>
-        <source value="#VxhTZaU6K3aT23CB"/>
+        <versionId value="6"/>
+        <lastUpdated value="2022-03-28T18:04:34.195+00:00"/>
+        <source value="#p29R66OGEyZBlXRS"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy"/>
     <name value="ValueSetPregnancy"/>
@@ -17,8 +17,12 @@
     <compose>
         <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.378"/>
-            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1012"/>
+        </include>
+        <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1021"/>
+        </include>
+        <include>
+            <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1012"/>
         </include>
     </compose>
 </ValueSet>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="ProceduresDuringPregnancy"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2022-03-02T13:25:29.889+00:00"/>
-        <source value="#6p8qtAKSJ65kXckG"/>
+        <versionId value="10"/>
+        <lastUpdated value="2022-03-28T18:05:42.119+00:00"/>
+        <source value="#5VusAN4RxI00FSFj"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/ProceduresDuringPregnancy"/>
     <name value="ValueSetProceduresDuringPregnancy"/>
@@ -17,6 +17,8 @@
     <compose>
         <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1014"/>
+        </include>
+        <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.11.1015"/>
         </include>
     </compose>

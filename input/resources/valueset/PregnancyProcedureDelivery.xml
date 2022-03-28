@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="PregnancyProcedureDelivery"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2022-03-02T13:21:50.760+00:00"/>
-        <source value="#II1XsFFkjkgi6xWv"/>
+        <versionId value="14"/>
+        <lastUpdated value="2022-03-28T13:04:29.575+00:00"/>
+        <source value="#o7ZHuviPAM5XckaN"/>
     </meta>
     <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery"/>
     <name value="PregnancyProcedureDelivery"/>
@@ -17,7 +17,11 @@
     <compose>
         <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.111.12.1015"/>
+        </include>
+        <include>
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
+        </include>
+        <include>
             <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
         </include>
     </compose>

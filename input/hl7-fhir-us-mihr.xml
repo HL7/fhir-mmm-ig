@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="426"/>
-        <lastUpdated value="2022-03-21T19:35:11.869+00:00"/>
-        <source value="#5HWJCHvWZCfmTiF9"/>
+        <versionId value="434"/>
+        <lastUpdated value="2022-03-28T18:35:24.932+00:00"/>
+        <source value="#itBnLOb7SZeuJnTy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
@@ -52,6 +52,11 @@
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
         <version value="0.4.0"/>
+    </dependsOn>
+    <dependsOn id="fhircqfcommon">
+        <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common#4.0.1"/>
+        <packageId value="fhir.cqf.common"/>
+        <version value="4.0.1"/>
     </dependsOn>
     <definition>
         <grouping id="pih">

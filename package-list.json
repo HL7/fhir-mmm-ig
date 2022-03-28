@@ -1,6 +1,4 @@
-{"package-id": "hl7.fhir.us.mihr",
-	"canonical": "http://hl7.org/fhir/us/mihr",
-	"title": "Maternal and Infant Health Research",
+{
 	"list": [
 		{
 			"version": "current",
@@ -22,5 +20,8 @@
             "current": false
 		}
 	],
-	"category": "Public Health"
+	"package-id": "hl7.fhir.us.mihr",
+	"title": "Maternal and Infant Health Research",
+	"canonical": "http://hl7.org/fhir/us/mihr",
+	"category": "Public Health"	
 }

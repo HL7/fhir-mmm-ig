@@ -12,3 +12,6 @@ The string value contains text that looks like embedded HTML tags. If this conte
 
 # FHIR Helpers Library is a shared resource: for the current FHIR Helpers Library, see https://github.com/cqframework/ecqm-content-r4-2021/blob/master/input/cql/FHIRHelpers.cql
 The Library http://www.hl7.org/fhir/us/mihr/Library/FHIRHelpers could not be resolved, so expression validation may not be correct
+
+# Expected union valueset for this guide
+This value set has an include with multiple imported value sets. Per issue https://jira.hl7.org/browse/FHIR-25179, there has been confusion in the past whether these value sets are unioned or intersectioned. If this value set is contained in a package published prior to March 31 2022, it will be treated as a union, otherwise it will be treated as an intersection

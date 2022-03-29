@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="434"/>
-        <lastUpdated value="2022-03-28T18:35:24.932+00:00"/>
-        <source value="#itBnLOb7SZeuJnTy"/>
+        <versionId value="435"/>
+        <lastUpdated value="2022-03-29T13:57:21.430+00:00"/>
+        <source value="#8HkLORHsQ7VwUgrU"/>
     </meta>
     <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
@@ -14,7 +14,7 @@
     <status value="draft"/>
     <experimental value="false"/>
     <date value="2021-06-28"/>
-    <publisher value="Lantana Consulting Group"/>
+    <publisher value="Public Health Work Group"/>
     <contact>
         <name value="HL7 International - Public Health"/>
         <telecom>

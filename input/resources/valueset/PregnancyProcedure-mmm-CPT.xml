@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyProcedure-mmm-CPT"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2021-11-24T22:14:36.811+00:00"/>
+        <source value="#rMfGxj6TaXGALUVc"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedure-mmm-CPT"/>
+    <name value="Proceduresduringpregnancymmmcpt"/>
+    <title value="Proceduresduringpregnancymmmcpt"/>
+    <status value="draft"/>
+    <description value="This value set includes concepts that represent pregnancy related procedures. From Pregnancy Related Procedure Value Set 2.16.840.1.113883.3.464.1003.111.11.1014."/>
+    <purpose value="The purpose of this value set is to represent concepts for procedures conducted during pregnancy. This value set may use a model element related to Procedure."/>
+    <copyright value="From VSAC. Steward is National Committee for Quality Assurance."/>
+    <compose>
+        <lockedDate value="2018-03-10"/>
+        <include>
+            <system value="http://www.ama-assn.org/go/cpt"/>
+            <concept>
+                <code value="59830"/>
+                <display value="Treatment of septic abortion, completed surgically"/>
+            </concept>
+            <concept>
+                <code value="59840"/>
+                <display value="Induced abortion, by dilation and curettage"/>
+            </concept>
+            <concept>
+                <code value="59841"/>
+                <display value="Induced abortion, by dilation and evacuation"/>
+            </concept>
+            <concept>
+                <code value="59850"/>
+                <display value="Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines"/>
+            </concept>
+            <concept>
+                <code value="59851"/>
+                <display value="Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"/>
+            </concept>
+            <concept>
+                <code value="59852"/>
+                <display value="Induced abortion, by 1 or more intra-amniotic injections (amniocentesis-injections), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed intra-amniotic injection)"/>
+            </concept>
+            <concept>
+                <code value="59855"/>
+                <display value="Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"/>
+            </concept>
+            <concept>
+                <code value="59856"/>
+                <display value="Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with dilation and curettage and/or evacuation"/>
+            </concept>
+            <concept>
+                <code value="59857"/>
+                <display value="Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines; with hysterotomy (failed medical evacuation)"/>
+            </concept>
+            <concept>
+                <code value="59866"/>
+                <display value="Multifetal pregnancy reduction(s) (MPR)"/>
+            </concept>
+            <concept>
+                <code value="59870"/>
+                <display value="Uterine evacuation and curettage for hydatidiform mole"/>
+            </concept>
+            <concept>
+                <code value="59871"/>
+                <display value="Removal of cerclage suture under anesthesia (other than local)"/>
+            </concept>
+            <concept>
+                <code value="59897"/>
+                <display value="Unlisted fetal invasive procedure, including ultrasound guidance, when performed"/>
+            </concept>
+            <concept>
+                <code value="59898"/>
+                <display value="Unlisted laparoscopy procedure, maternity care and delivery"/>
+            </concept>
+            <concept>
+                <code value="59899"/>
+                <display value="Unlisted procedure, maternity care and delivery"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

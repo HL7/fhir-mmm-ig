@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy-eclampsia-mmm-ICD"/>
+    <meta>
+        <versionId value="6"/>
+        <lastUpdated value="2021-11-22T14:47:04.848+00:00"/>
+        <source value="#939J1Xxeh1G7fkwk"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-eclampsia-mmm-ICD"/>
+    <name value="Pregnancyeclampsiammmicd"/>
+    <title value="Pregnancyeclampsiammmicd"/>
+    <status value="draft"/>
+    <description value="This value set includes terms related to eclampsia diagnosed during the course of pregnancy."/>
+    <compose>
+        <include>
+            <system value="http://hl7.org/fhir/sid/icd-10"/>
+            <concept>
+                <code value="O14.00"/>
+                <display value="Mild to moderate pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.02"/>
+                <display value="Mild to moderate pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.03"/>
+                <display value="Mild to moderate pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.04"/>
+                <display value="Mild to moderate pre-eclampsia, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.05"/>
+                <display value="Mild to moderate pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O14.10"/>
+                <display value="Severe pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.12"/>
+                <display value="Severe pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.13"/>
+                <display value="Severe pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.14"/>
+                <display value="Severe pre-eclampsia complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.15"/>
+                <display value="Severe pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O14.90"/>
+                <display value="Unspecified pre-eclampsia, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.92"/>
+                <display value="Unspecified pre-eclampsia, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.93"/>
+                <display value="Unspecified pre-eclampsia, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O14.94"/>
+                <display value="Unspecified pre-eclampsia, complicating childbirth"/>
+            </concept>
+            <concept>
+                <code value="O14.95"/>
+                <display value="Unspecified pre-eclampsia, complicating the puerperium"/>
+            </concept>
+            <concept>
+                <code value="O15.00"/>
+                <display value="Eclampsia complicating pregnancy, unspecified trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.02"/>
+                <display value="Eclampsia complicating pregnancy, second trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.03"/>
+                <display value="Eclampsia complicating pregnancy, third trimester"/>
+            </concept>
+            <concept>
+                <code value="O15.1"/>
+                <display value="Eclampsia complicating labor"/>
+            </concept>
+            <concept>
+                <code value="O15.2"/>
+                <display value="Eclampsia complicating the puerperium"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyProcedureDelivery-mmm-ICD"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-11-24T19:11:51.858+00:00"/>
+        <source value="#EEreHHryJQnVh6QN"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-ICD"/>
+    <name value="Pregnancyproceduredeliverymmmicd"/>
+    <title value="Pregnancyproceduredeliverymmmicd"/>
+    <status value="draft"/>
+    <description value="This value set  defines delivery procedures such as vaginal, cesarean and forcep deliveries."/>
+    <compose>
+        <include>
+            <system value="http://hl7.org/fhir/sid/icd-10-pcs"/>
+            <concept>
+                <code value="10D00Z0"/>
+                <display value="Extraction of Products of Conception, High, Open Approach"/>
+            </concept>
+            <concept>
+                <code value="10D00Z1"/>
+                <display value="Extraction of Products of Conception, Low, Open Approach"/>
+            </concept>
+            <concept>
+                <code value="10D00Z2"/>
+                <display value="Extraction of Products of Conception, Extraperitoneal, Open Approach"/>
+            </concept>
+            <concept>
+                <code value="10D07Z3"/>
+                <display value="Extraction of Products of Conception, Low Forceps, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D07Z4"/>
+                <display value="Extraction of Products of Conception, Mid Forceps, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D07Z5"/>
+                <display value="Extraction of Products of Conception, High Forceps, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D07Z6"/>
+                <display value="Extraction of Products of Conception, Vacuum, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D07Z7"/>
+                <display value="Extraction of Products of Conception, Internal Version, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D07Z8"/>
+                <display value="Extraction of Products of Conception, Other, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10E0XZZ"/>
+                <display value="Delivery of Products of Conception, External Approach"/>
+            </concept>
+            <concept>
+                <code value="10D18ZZ"/>
+                <display value="Extraction of Products of Conception, Retained, Via Natural or Artificial Opening Endoscopic"/>
+            </concept>
+            <concept>
+                <code value="10D27ZZ"/>
+                <display value="Extraction of Products of Conception, Ectopic, Via Natural or Artificial Opening"/>
+            </concept>
+            <concept>
+                <code value="10D28ZZ"/>
+                <display value="Extraction of Products of Conception, Ectopic, Via Natural or Artificial Opening Endoscopic"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

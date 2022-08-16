@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyProcedureDelivery-mmm"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-11-24T19:25:56.337+00:00"/>
+        <source value="#YFObAwJ4GF95XoDf"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm"/>
+    <name value="Pregnancyproceduredeliverymmm"/>
+    <title value="Pregnancyproceduredeliverymmm"/>
+    <status value="draft"/>
+    <description value="This value set  defines delivery procedures such as vaginal, cesarean and forcep deliveries."/>
+    <purpose value="This value set  defines delivery procedures such as vaginal, cesarean and forcep deliveries."/>
+    <compose>
+        <include>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-ICD"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-SNOMED"/>
+        </include>
+    </compose>
+</ValueSet>

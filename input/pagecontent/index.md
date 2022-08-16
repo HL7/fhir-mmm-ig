@@ -17,7 +17,7 @@ Future users may include health departments using EHR data to inform public heal
 
 This IG will eventually support mapping maternal data across health records from specialty care and linking mother and child data harmonized across a broad set of use cases. This will support researchers in identifying root causes of maternal mortality and pediatric developmental problems, including SDOH such as limited income, poor nutrition, lack of medical coverage, etc. The goal of the project is to create a method to standardize data capture for comparative analysis over time to improve health outcomes and define a framework for studying additional research populations in the future.
 
-Initial use cases of this IG focus on pregnancy and subsequent death within a specific timeframe and hypertensive disorders of pregnancy pre, ante, and postpartum. The intent is to specify the consistent capture of clinical data of interest to maternal health researchers and outline implementing FHIR resources for that capture. Currently, the IG defines two initial research use case populations: 
+Initial use cases of this IG focus on hypertensive disorders of pregnancy pre, ante, and postpartum and pregnancy and subsequent death within a specific timeframe. The intent is to specify the consistent capture of clinical data of interest to maternal health researchers and outline implementing FHIR resources for that capture. Currently, the IG defines two initial, separate research use case populations: 
 
 *	Pregnancy and subsequent death within a specific time frame: This cohort includes women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
 *	Hypertensive Disorders of pregnancy: This use case focuses on women with a diagnosis of hypertensive disorders of pregnancy.
@@ -29,10 +29,11 @@ In the future, the IG will expand this framework to a range of use cases includi
 *	Potential adverse maternal obstetric history impacts on child outcomes
 *	Access to relevant sensitive health information
 *	Retrospective population-based analysis of inherited disorders
+*	The impacts of [work habits, work environment, and work-associated health insurance](http://hl7.org/fhir/us/odh/) impacts to pregnancy and maternal health
 
 This guide fundamentally relies on creating structural relationships between:
 *	Maternal and child records to effectively diagnose and treat otherwise fatal child outcomes
-*	Maternal and birth records and/or maternal and child death records
+*	Maternal and child birth records and/or maternal and child death records
 *	Maternal and child records in multiple disparate systems
 
 ### Audience 
@@ -209,7 +210,7 @@ This guide was developed and produced through the efforts of Health Level Seven 
 The editors appreciate the support and sponsorship of the HL7 Public Health Workgroup, and all volunteers and staff associated with the creation of this document. This guide would not have been possible without the support of the following groups.
 Health Level Seven, HL7, CDA, CCD, FHIR and the [FLAME DESIGN] are registered trademarks of Health Level Seven International, registered in the US Trademark Office.
 
-This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+This IG includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
 
 This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2021, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at https://loinc.org/kb/license/. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
 

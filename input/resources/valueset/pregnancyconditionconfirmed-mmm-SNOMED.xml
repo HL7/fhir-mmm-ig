@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancyconditionconfirmed-mmm-SNOMED"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-11-22T15:02:54.349+00:00"/>
+        <source value="#SFKeEpPYWu1be3Kx"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancyconditionconfirmed-mmm-SNOMED"/>
+    <name value="Pregnancyconditionconfirmedmmmsnomed"/>
+    <title value="Pregnancyconditionconfirmedmmmsnomed"/>
+    <status value="draft"/>
+    <description value="This value set contains concepts that  represent pregnancy  confirmed by lab results, diagnostic studies (e.g ultrasound), an assessment,  and/or history."/>
+    <purpose value="This value set may use the Quality Data Model (QDM) category related to Laboratory Test (results), Diagnostic Study Test (Result)  and  Physical Exam  (expression of the answers/responses for the physical exam component)."/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="72892002"/>
+                <display value="Normal pregnancy (finding)"/>
+            </concept>
+            <concept>
+                <code value="169560008"/>
+                <display value="Pregnant - urine test confirms (finding)"/>
+            </concept>
+            <concept>
+                <code value="169561007"/>
+                <display value="Pregnant - blood test confirms (finding)"/>
+            </concept>
+            <concept>
+                <code value="169562000"/>
+                <display value="Pregnant - vaginal examination confirms (finding)"/>
+            </concept>
+            <concept>
+                <code value="169563005"/>
+                <display value="Pregnant - on history (finding)"/>
+            </concept>
+            <concept>
+                <code value="169564004"/>
+                <display value="Pregnant - on abdominal palpation (finding)"/>
+            </concept>
+            <concept>
+                <code value="65727000"/>
+                <display value="Intrauterine pregnancy (finding)"/>
+            </concept>
+            <concept>
+                <code value="77386006"/>
+                <display value="Pregnant (finding)"/>
+            </concept>
+            <concept>
+                <code value="370382007"/>
+                <display value="Antenatal ultrasound confirms ectopic pregnancy (findings)"/>
+            </concept>
+            <concept>
+                <code value="370383002"/>
+                <display value="Antenatal ultrasound confirms intrauterine pregnancy (finding)"/>
+            </concept>
+            <concept>
+                <code value="169663003"/>
+                <display value="Antenatal ultrasound scan normal and appropriate for dates"/>
+            </concept>
+            <concept>
+                <code value="423269002"/>
+                <display value="Antenatal ultrasound scan normal and possibly inconsistent with estimated date of delivery (finding)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

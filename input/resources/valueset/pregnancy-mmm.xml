@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy-mmm"/>
+    <meta>
+        <versionId value="17"/>
+        <lastUpdated value="2021-11-22T18:56:23.397+00:00"/>
+        <source value="#ej1XKPLMEZwlJMDX"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-mmm"/>
+    <name value="Pregnancymmm"/>
+    <title value="Pregnancymmm"/>
+    <status value="draft"/>
+    <description value="This grouping value set contains a broad set of terms that represent a woman who is pregnant at any stage during her pregnancy.  Includes terminology related to pregnancy state, condition, diagnoses, outcomes, encounters, diagnostic tests, and lab results."/>
+    <purpose value="This value set may use the Quality Data Model (QDM) category related to Condition/Diagnosis/Problem, Laboratory Test (results), Diagnostic Study Test (Result) and Physical Exam (expression of the answers/responses for the physical exam component), and Encounter."/>
+    <compose>
+        <include>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancystate-mmm-icd10"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancycondition-mmm-SNOMED"/>
+            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancycondition-mmm-ICD"/>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="PregnancyProcedureDelivery-mmm-SNOMED"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-11-24T19:12:13.802+00:00"/>
+        <source value="#Wx4VZPOo8YybuNG1"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-mmm-SNOMED"/>
+    <name value="Pregnancyproceduredeliverymmmicd"/>
+    <title value="Pregnancyproceduredeliverymmmicd"/>
+    <status value="draft"/>
+    <description value="This value set  defines delivery procedures such as vaginal, cesarean and forcep deliveries."/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="10745001"/>
+                <display value="Delivery of transverse presentation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11466000"/>
+                <display value="Cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="14119008"/>
+                <display value="Braxton Hicks obstetrical version with extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="15413009"/>
+                <display value="High forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="16819009"/>
+                <display value="Delivery of face presentation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177141003"/>
+                <display value="Elective cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177142005"/>
+                <display value="Elective upper segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177143000"/>
+                <display value="Elective lower segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177152009"/>
+                <display value="Breech extraction delivery with version (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177157003"/>
+                <display value="Spontaneous breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177158008"/>
+                <display value="Assisted breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177161009"/>
+                <display value="Forceps cephalic delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177162002"/>
+                <display value="High forceps cephalic delivery with rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177164001"/>
+                <display value="Midforceps cephalic delivery with rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177167008"/>
+                <display value="Barton forceps cephalic delivery with rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177168003"/>
+                <display value="DeLee forceps cephalic delivery with rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177170007"/>
+                <display value="Piper forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177173009"/>
+                <display value="High vacuum delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177174003"/>
+                <display value="Low vacuum delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177175002"/>
+                <display value="Vacuum delivery before full dilation of cervix (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177176001"/>
+                <display value="Trial of vacuum delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177179008"/>
+                <display value="Cephalic vaginal delivery with abnormal presentation of head at delivery without instrument (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177180006"/>
+                <display value="Manipulative cephalic vaginal delivery with abnormal presentation of head at delivery without instrument (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177181005"/>
+                <display value="Non-manipulative cephalic vaginal delivery with abnormal presentation of head at delivery without instrument (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177184002"/>
+                <display value="Normal delivery procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177185001"/>
+                <display value="Water birth delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="17860005"/>
+                <display value="Low forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18625004"/>
+                <display value="Low forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="19390001"/>
+                <display value="Partial breech delivery with forceps to aftercoming head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="199771001"/>
+                <display value="Piper forceps delivery by application to aftercoming head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="22633006"/>
+                <display value="Vaginal delivery, medical personnel present (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236974004"/>
+                <display value="Instrumental delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236975003"/>
+                <display value="Nonrotational forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236976002"/>
+                <display value="Outlet forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236977006"/>
+                <display value="Forceps delivery, face to pubes (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236978001"/>
+                <display value="Forceps delivery to the aftercoming head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236980007"/>
+                <display value="Groin traction at breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236981006"/>
+                <display value="Lovset's maneuver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236982004"/>
+                <display value="Delivery of the after coming head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236983009"/>
+                <display value="Burns Marshall maneuver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236984003"/>
+                <display value="Mauriceau Smellie Veit maneuver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236985002"/>
+                <display value="Emergency lower segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236986001"/>
+                <display value="Emergency upper segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236987005"/>
+                <display value="Emergency cesarean hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236988000"/>
+                <display value="Elective cesarean hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236989008"/>
+                <display value="Abdominal delivery for shoulder dystocia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236990004"/>
+                <display value="Postmortem cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="237311001"/>
+                <display value="Breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="25296001"/>
+                <display value="Delivery by Scanzoni maneuver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="25828002"/>
+                <display value="Mid forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26313002"/>
+                <display value="Delivery by vacuum extraction with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265639000"/>
+                <display value="Midforceps delivery without rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274130007"/>
+                <display value="Emergency cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="275168001"/>
+                <display value="Neville-Barnes forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="275169009"/>
+                <display value="Simpson's forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="29613008"/>
+                <display value="Delivery by double application of forceps (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302382009"/>
+                <display value="Breech extraction with internal podalic version (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302383004"/>
+                <display value="Forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30476003"/>
+                <display value="Barton's forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="306727001"/>
+                <display value="Breech presentation, delivery, no version (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359940006"/>
+                <display value="Partial breech extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359943008"/>
+                <display value="Partial breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384729004"/>
+                <display value="Delivery of vertex presentation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="38479009"/>
+                <display value="Frank breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387711001"/>
+                <display value="Pubiotomy to assist delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40219000"/>
+                <display value="Delivery by Malstrom's extraction with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="416055001"/>
+                <display value="Total breech extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="417121007"/>
+                <display value="Breech extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45718005"/>
+                <display value="Vaginal delivery with forceps including postpartum care (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54973000"/>
+                <display value="Total breech delivery with forceps to aftercoming head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="5556001"/>
+                <display value="Manually assisted spontaneous delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="57271003"/>
+                <display value="Extraperitoneal cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61586001"/>
+                <display value="Delivery by vacuum extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="62508004"/>
+                <display value="Mid forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="69422002"/>
+                <display value="Trial forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="71166009"/>
+                <display value="Forceps delivery with rotation of fetal head (procedure)"/>
+            </concept>
+            <concept>
+                <code value="72492007"/>
+                <display value="Footling breech delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84195007"/>
+                <display value="Classical cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="85403009"/>
+                <display value="Delivery, medical personnel present (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89053004"/>
+                <display value="Vaginal cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89346004"/>
+                <display value="Delivery by Kielland rotation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89849000"/>
+                <display value="High forceps delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="90438006"/>
+                <display value="Delivery by Malstrom's extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="58705005"/>
+                <display value="Bracht maneuver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65243006"/>
+                <display value="Delivery by midwife (procedure)"/>
+            </concept>
+            <concept>
+                <code value="699999008"/>
+                <display value="Obstetrical version with extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="700000006"/>
+                <display value="Vaginal delivery of fetus (procedure)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

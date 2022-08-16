@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy-induced-hypertension-mmm-SNOMED"/>
+    <meta>
+        <versionId value="14"/>
+        <lastUpdated value="2021-11-22T14:49:03.868+00:00"/>
+        <source value="#ZOizY0ugxYDhpwHz"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-induced-hypertension-mmm-SNOMED"/>
+    <name value="Pregnancyinducedhypertensionmmmsnomed"/>
+    <title value="Pregnancyinducedhypertensionmmmsnomed"/>
+    <status value="draft"/>
+    <description value="This value set includes terms related to hypertension diagnosed during the course of pregnancy."/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="199139003"/>
+                <display value="Pregnancy-induced edema and proteinuria without hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="237281009"/>
+                <display value="Moderate proteinuric hypertension of pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="288250001"/>
+                <display value="Maternal hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="307632004"/>
+                <display value="Non-proteinuric hypertension of pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="367390009"/>
+                <display value="Hypertension in the obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="48194001"/>
+                <display value="Pregnancy-induced hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="49102001"/>
+                <display value="Hypertensive heart AND renal disease in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="63287004"/>
+                <display value="Benign essential hypertension in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="698638005"/>
+                <display value="Pregnancy induced hypertension with pulmonary edema (disorder)"/>
+            </concept>
+            <concept>
+                <code value="698640000"/>
+                <display value="Hypertension in the puerperium with pulmonary edema (disorder)"/>
+            </concept>
+            <concept>
+                <code value="72022006"/>
+                <display value="Essential hypertension in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="73030000"/>
+                <display value="Hypertensive renal disease in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="79355007"/>
+                <display value="Hypertensive heart disease in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="81626002"/>
+                <display value="Malignant hypertension in obstetric context (disorder)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

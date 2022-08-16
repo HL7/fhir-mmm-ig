@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy-chronic-hypertension-mmm-SNOMED"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-12-02T17:43:55.979+00:00"/>
+        <source value="#vHRShXlCO1nicYoy"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-chronic-hypertension-mmm-SNOMED"/>
+    <name value="Pregnancychronichypertensionmmmsnomed"/>
+    <title value="Pregnancychronichypertensionmmmsnomed"/>
+    <status value="draft"/>
+    <description value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
+    <purpose value="This value represents chronic and pre-existing hypertensive disorders including essential hypertension and pre-existing hypertensive Chronic Kidney Disease. This value set excludes co morbidities that might be related to pregnancy-induced hypertension such as diabetes mellitus, excessive weight gain, and other hypertension comorbidities."/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="24042004"/>
+                <display value="Chronic hypertension complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="37618003"/>
+                <display value="Chronic hypertension complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="8218002"/>
+                <display value="Chronic hypertension complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="8762007"/>
+                <display value="Chronic hypertension in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="71874008"/>
+                <display value="Benign essential hypertension complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="72022006"/>
+                <display value="Essential hypertension in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="75150001"/>
+                <display value="Renal disease in pregnancy AND/OR puerperium without hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="765182005"/>
+                <display value="Pre-eclampsia in puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="78808002"/>
+                <display value="Essential hypertension complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="79355007"/>
+                <display value="Hypertensive heart disease in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="81626002"/>
+                <display value="Malignant hypertension in obstetric context (disorder)"/>
+            </concept>
+            <concept>
+                <code value="82771000119102"/>
+                <display value="Hypertension complicating pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="10757481000119107"/>
+                <display value="Pre-existing hypertensive heart and chronic kidney disease in mother complicating pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="118781000119108"/>
+                <display value="Pre-existing hypertensive chronic kidney disease in mother complicating pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="10562009"/>
+                <display value="Malignant hypertension complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="106005003"/>
+                <display value="Hypertension AND/OR vomiting complicating pregnancy childbirth AND/OR puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="1474004"/>
+                <display value="Hypertensive heart AND renal disease complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="18416000"/>
+                <display value="Essential hypertension complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198942000"/>
+                <display value="Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198944004"/>
+                <display value="Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198945003"/>
+                <display value="Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198946002"/>
+                <display value="Benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198947006"/>
+                <display value="Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198949009"/>
+                <display value="Renal hypertension complicating pregnancy, childbirth and the puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198951008"/>
+                <display value="Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198952001"/>
+                <display value="Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198953006"/>
+                <display value="Renal hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="20753005"/>
+                <display value="Hypertensive heart disease complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="22966008"/>
+                <display value="Hypertensive heart AND renal disease complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="23717007"/>
+                <display value="Benign essential hypertension complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="23786008"/>
+                <display value="Malignant hypertension complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="26078007"/>
+                <display value="Hypertension secondary to renal disease complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="34273003"/>
+                <display value="Hypertensive heart disease complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="39727004"/>
+                <display value="Hypertension secondary to renal disease complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="48552006"/>
+                <display value="Hypertension secondary to renal disease complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="541000119105"/>
+                <display value="Hypertension complicating pregnancy, childbirth and the puerperium, antepartum (disorder)"/>
+            </concept>
+            <concept>
+                <code value="57873008"/>
+                <display value="Hypertensive renal disease complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="59733002"/>
+                <display value="Hypertensive heart disease complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="66709007"/>
+                <display value="Hypertensive renal disease complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="9901000"/>
+                <display value="Essential hypertension complicating AND/OR reason for care during puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="29259002"/>
+                <display value="Malignant hypertension complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="65402008"/>
+                <display value="Pre-existing hypertension complicating AND/OR reason for care during pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="10759031000119106"/>
+                <display value="Pre-existing hypertensive heart disease in mother complicating pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="49171007"/>
+                <display value="Hypertensive renal disease complicating AND/OR reason for care during childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="199006004"/>
+                <display value="Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="199007008"/>
+                <display value="Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium (disorder)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

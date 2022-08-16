@@ -5,7 +5,7 @@ The Source will provide two lists of Patient identifiers:
 1.	Patients who were pregnant during a defined period of time
 2.	All associated children of recently pregnant Patients
 Sources will also provide an association between the two sets of Patients (i.e., an association map between Mothers/potential Mothers and children). 
-Consumers will query a data source for all known existing clinical information by Patient identifiers. If Source's data are not natively available in FHIR format, ClinicalDocuments may also be queried and used as the mechanism to produce and convey Source data to Consumers.
+Consumers will query a data source for all known existing clinical information by Patient identifiers. If a Source's data are not natively available in FHIR format, ClinicalDocuments may also be queried and used as the mechanism to produce and convey Source data to Consumers.
 Once target data from Sources has been aggregated and transformed into standard FHIR, an $evaluate-measure operation will be performed on the respective FHIR server [see SANER Computer Measure](https://build.fhir.org/ig/HL7/fhir-saner/transaction-4.html). 
 The Output of $evaluate-measure operation will be a MeasureReport consisting of all Patient Mothers (1) found to be within the defined cohort population. 
 Clinical information of the mothers determined to be within the measure population can subsequently be aggregated and provided alongside the Patient resource in the form of Supplemental Data. 

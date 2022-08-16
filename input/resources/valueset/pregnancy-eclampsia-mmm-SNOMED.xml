@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="pregnancy-eclampsia-mmm-SNOMED"/>
+    <meta>
+        <versionId value="6"/>
+        <lastUpdated value="2021-11-22T14:47:30.884+00:00"/>
+        <source value="#1sVdIlCS3aZAuBpO"/>
+    </meta>
+    <url value="http://www.hl7.org/fhir/us/mihr/ValueSet/pregnancy-eclampsia-mmm-SNOMED"/>
+    <name value="Pregnancyeclampsiammmsnomed"/>
+    <title value="Pregnancyeclampsiammmsnomed"/>
+    <status value="draft"/>
+    <description value="This value set includes terms related to eclampsia diagnosed during the course of pregnancy."/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="10752641000119102"/>
+                <display value="Eclampsia with pre-existing hypertension in childbirth (disorder)"/>
+            </concept>
+            <concept>
+                <code value="15938005"/>
+                <display value="Eclampsia (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198983002"/>
+                <display value="Severe pre-eclampsia - delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198984008"/>
+                <display value="Severe pre-eclampsia - delivered with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198985009"/>
+                <display value="Severe pre-eclampsia - not delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198986005"/>
+                <display value="Severe pre-eclampsia with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198990007"/>
+                <display value="Eclampsia - delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198991006"/>
+                <display value="Eclampsia - delivered with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198992004"/>
+                <display value="Eclampsia in pregnancy (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198993009"/>
+                <display value="Eclampsia with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198997005"/>
+                <display value="Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="198999008"/>
+                <display value="Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="199000005"/>
+                <display value="Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="199002002"/>
+                <display value="Pre-eclampsia or eclampsia with pre-existing hypertension - not delivered (disorder)"/>
+            </concept>
+            <concept>
+                <code value="199003007"/>
+                <display value="Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication (disorder)"/>
+            </concept>
+            <concept>
+                <code value="237282002"/>
+                <display value="Impending eclampsia (disorder)"/>
+            </concept>
+            <concept>
+                <code value="237283007"/>
+                <display value="Eclampsia in labor (disorder)"/>
+            </concept>
+            <concept>
+                <code value="303063000"/>
+                <display value="Eclampsia in puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="398254007"/>
+                <display value="Pre-eclampsia (disorder)"/>
+            </concept>
+            <concept>
+                <code value="41114007"/>
+                <display value="Mild pre-eclampsia (disorder)"/>
+            </concept>
+            <concept>
+                <code value="46764007"/>
+                <display value="Severe pre-eclampsia (disorder)"/>
+            </concept>
+            <concept>
+                <code value="69909000"/>
+                <display value="Eclampsia added to pre-existing hypertension (disorder)"/>
+            </concept>
+            <concept>
+                <code value="765182005"/>
+                <display value="Pre-eclampsia in puerperium (disorder)"/>
+            </concept>
+            <concept>
+                <code value="67359005"/>
+                <display value="Pre-eclampsia added to pre-existing hypertension (disorder)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

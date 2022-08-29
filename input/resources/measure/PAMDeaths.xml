@@ -64,6 +64,7 @@
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Allergy Intolerance"/>
+            <description value="SDE Allergy Intolerance"/>
         </criteria>
     </supplementalData>
     <supplementalData>

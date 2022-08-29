@@ -58,6 +58,12 @@
         <code>
             <text value="AllergyIntolerance"/>
         </code>
+        <criteria>
+            <language value="text/cql"/>
+            <expression value="AllergyIntolerance"/>
+        </criteria>
+    </supplementalData>
+    <supplementalData>
         <code>
             <text value="BMI"/>
         </code>

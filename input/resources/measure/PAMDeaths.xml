@@ -55,19 +55,18 @@
         </population>
     </group>
     <supplementalData>
+        <code>
+            <text value="supplemental-data-allergy"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Allergy Intolerance"/>
-            <description value="SDE Allergy Intolerance"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="supplemental-data-bmi"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE BMI"/>

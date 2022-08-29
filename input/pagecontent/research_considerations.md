@@ -22,7 +22,6 @@ The appropriate structure to link a mother with her child through use of Patient
 
 The RelatedPerson.relationship code diagram shows ‘MTH’ for a general ‘mother’. However, more specific relationship types are allowable within Vital Records Common Profiles: RelatedPerson – Mother profile. In short, the mother is represented twice, first as a Patient resource with a link to another representation of herself as a RelatedPerson resource, which then points to the Child as a Patient resource.
 
-**Figure: Data Flows Supported by this Implementation Guide**
 <table><tr><td><img src="mother-child-linkage.png"/></td></tr></table>
 
 FHIR outlines the use of [three linkage techniques](https://www.hl7.org/fhir/patient.html#maternity): 

@@ -117,6 +117,7 @@
             <expression value="SDE Care Plan"/>
         </criteria>
     </supplementalData>
+    <supplementalData>
     <code>
         <text value="SDE Care Team"/>
     </code>

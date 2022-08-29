@@ -55,432 +55,315 @@
         </population>
     </group>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="AllergyIntolerance"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
-            <expression value="SDE Allergy Intolerance"/>
+            <expression value="AllergyIntolerance"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="BMI"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE BMI"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Blood Pressure"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Blood Pressure"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Height"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Height"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Body Temperature"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Body Temperature"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Body Weight"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Body Weight"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
-        <criteria>
-            <language value="text/cql"/>
-            <expression value="SDE Body Weight"/>
-        </criteria>
-    </supplementalData>
-    <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Care Plan"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Care Plan"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+    <code>
+        <text value="SDE Care Team"/>
+    </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Care Team"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Conditions"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Conditions"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Diagnostic Report"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Diagnostic Report"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Document Reference"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Document Reference"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Encounter"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
-            <expression value="SDE Encounters"/>
+            <expression value="SDE Encounter"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Global"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Goal"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Head Circumference"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Head Circumference"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Heart Rate"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Heart Rate"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Immunization"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Immunization"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE SDE Device"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Device"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Lab Observation"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Lab Observation"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Location"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Location"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Medication"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Medication"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Medication Request"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Medication Request"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Organization"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Organization"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Patient"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Patient"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Pediatric BMI"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Pediatric BMI"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Occipital Frontal Head Circumference"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Occipital Frontal Head Circumference"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Pediatric Weight for Height"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Pediatric Weight for Height"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Practitioner"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Practitioner"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Practitioner Role"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Practitioner Role"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Procedure"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Procedure"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Provenance"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Provenance"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Oximetry"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Oximetry"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Respiratory Rate"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Respiratory Rate"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Smoking Status"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Smoking Status"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Vital Signs"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Vital Signs"/>
         </criteria>
     </supplementalData>
     <supplementalData>
-        <usage>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"/>
-                <code value="supplemental-data"/>
-            </coding>
-        </usage>
+        <code>
+            <text value="SDE Related Person"/>
+        </code>
         <criteria>
             <language value="text/cql"/>
             <expression value="SDE Related Person"/>

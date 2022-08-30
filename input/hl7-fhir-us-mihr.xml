@@ -432,7 +432,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Parameters/expansion-parameters-fhir-cancer-ig"/></reference>
+                <reference value="Parameters/expansion-parameters-fhir-mmm-ig"/></reference>
             <exampleBoolean value="true"/>
         </resource>
         <page>

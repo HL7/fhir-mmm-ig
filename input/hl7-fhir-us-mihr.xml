@@ -390,7 +390,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Parameters/expansion-parameters-fhir-mmm-ig"/>
+                <reference value="Parameters/expansion-parameters-mmm"/>
                 <display value="Expansion Parameters - MIHR IG"/>
             </reference>
             <name value="Expansion Parameters - MIHR IG"/>
@@ -432,7 +432,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Parameters/expansion-parameters-fhir-mmm-ig"/></reference>
+                <reference value="Parameters/expansion-parameters-mmm"/></reference>
             <exampleBoolean value="true"/>
         </resource>
         <page>
@@ -462,7 +462,7 @@
         </page>
         <parameter>
             <code value="path-expansion-params"/>
-            <value value="resources/parameters/expansion-parameters-fhir-mmm-ig.xml"/>
+            <value value="resources/parameters/expansion-parameters-mmm.xml"/>
         </parameter>
         <parameter>
             <code value="copyrightyear"/>

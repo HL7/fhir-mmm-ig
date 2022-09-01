@@ -76,12 +76,8 @@
             <description value="Group of FHIR resources pertinent to testing/evaluating the Pregnancy-Associated Maternal Deaths measure"/>
         </grouping>
         <grouping id="terminology">
-            <name value="Terminology used in both measures"/>
+            <name value="Terminology Used in Both Measures"/>
             <description value="Group of Terminology-related resources (ValueSets and CodeSystems)"/>
-        </grouping>
-        <grouping id="other-parameters">
-            <name value="Other Parameters"/>
-            <description value="Other parameters used by this implementation guide"/>
         </grouping>
         <grouping id="pam-deaths-term">
             <name value="Pregnancy-Associated Maternal Deaths Terminology"/>
@@ -89,6 +85,10 @@
         </grouping>
         <grouping id="pih-term">
             <name value="Hypertensive Disorders of Pregnancy Terminology"/>
+            <description value="Valuesets specific to the Hypertensive Disorders of Pregnancy measure"/>
+        </grouping>
+        <grouping id="other-parameters">
+            <name value="Other Parameters"/>
             <description value="Other parameters used by this implementation guide"/>
         </grouping>
         <resource>

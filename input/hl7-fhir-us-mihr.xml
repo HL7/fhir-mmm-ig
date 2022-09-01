@@ -438,11 +438,6 @@
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             <groupingId value="pih-examples"/>
         </resource>
-        <resource>
-            <reference>
-                <reference value="Parameters/expansion-parameter-mmm"/></reference>
-            <exampleBoolean value="true"/>
-        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>

@@ -76,11 +76,19 @@
             <description value="Group of FHIR resources pertinent to testing/evaluating the Pregnancy-Associated Maternal Deaths measure"/>
         </grouping>
         <grouping id="terminology">
-            <name value="Terminologies"/>
+            <name value="Terminology used in both measures"/>
             <description value="Group of Terminology-related resources (ValueSets and CodeSystems)"/>
         </grouping>
         <grouping id="other-parameters">
             <name value="Other Parameters"/>
+            <description value="Other parameters used by this implementation guide"/>
+        </grouping>
+        <grouping id="pam-deaths-term">
+            <name value="Pregnancy-Associated Maternal Deaths Terminology"/>
+            <description value="Valuesets specific to the Pregnancy-Associated Maternal Death measure"/>
+        </grouping>
+        <grouping id="pih-term">
+            <name value="Hypertensive Disorders of Pregnancy Terminology"/>
             <description value="Other parameters used by this implementation guide"/>
         </grouping>
         <resource>
@@ -131,7 +139,7 @@
             <name value="ValueSet - Procedures During Pregnancy"/>
             <description value="This value set includes concepts that represent pregnancy related procedures. This value set is a grouping of two value sets:  Procedures During Pregnancy 2.16.840.1.113883.3.464.1003.111.11.1014 with CPT codes and Procedures During Pregnancy 2.16.840.1.113883.3.464.1003.111.11.1015 with SNOMED CT codes.  Please see VSAC (https://vsac.nlm.nih.gov) for the latest expansion of these value sets."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pam-deaths-term"/>
         </resource>
         <resource>
             <reference>
@@ -151,7 +159,7 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy ICD"/>
             <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pih-term"/>
         </resource>
         <resource>
             <reference>
@@ -161,7 +169,7 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy SNOMED CT"/>
             <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pih-term"/>
         </resource>
         <resource>
             <reference>
@@ -171,7 +179,7 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy"/>
             <description value="This is a grouping value set that includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pih-term"/>
         </resource>
         <resource>
             <reference>
@@ -181,7 +189,7 @@
             <name value="ValueSet - Pregnancy Non-Live Diagnosis"/>
             <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages.  This value set contains a grouping of two value sets:  Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values and Non Live Birth CPT Procedures  2.16.840.1.113762.1.4.1166.127 indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pam-deaths-term"/>
         </resource>
         <resource>
             <reference>
@@ -191,7 +199,7 @@
             <name value="ValueSet – Pregnancy Procedure Delivery"/>
             <description value="This pregnancy procedure delivery value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This is a grouping value set  which includes two value sets: Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pam-deaths-term"/>
         </resource>
         <resource>
             <reference>
@@ -211,7 +219,7 @@
             <name value="ValueSet - Pregnancy Procedure Delivery CPT"/>
             <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
             <exampleBoolean value="false"/>
-            <groupingId value="terminology"/>
+            <groupingId value="pam-deaths-term"/>
         </resource>
         <resource>
             <reference>
@@ -276,7 +284,7 @@
             <description value="Example of a child associated with a maternal death example patient."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pamdeaths"/>
+            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>

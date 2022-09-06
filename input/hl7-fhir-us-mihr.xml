@@ -60,11 +60,11 @@
     </dependsOn>
     <definition>
         <grouping id="pih">
-            <name value="Hypertensive Disorders of Pregnancy Measure Examples"/>
+            <name value="Hypertensive Disorders of Pregnancy Measure Instances"/>
             <description value="Group of Resources pertinent to the Hypertensive Disorders of Pregnancy cohort"/>
         </grouping>
         <grouping id="pamdeaths">
-            <name value="Pregnancy-Associated Maternal Deaths Measure Examples"/>
+            <name value="Pregnancy-Associated Maternal Deaths Measure Instances"/>
             <description value="Group of Resources pertinent to Pregnancy-Associated Maternal Deaths"/>
         </grouping>
         <grouping id="pih-examples">

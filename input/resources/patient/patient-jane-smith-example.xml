@@ -162,7 +162,7 @@
     </address>
     <link>
         <id value="patient-child-john-smith-example"/>
-        <reference value="Patient/patient-child-john-smith-example"/>
+        <reference value="RelatedPerson/patient-child-john-smith-example"/>
         <type>
             <coding>
                 <system value="http://hl7.org/fhir/ValueSet/link-type"/>

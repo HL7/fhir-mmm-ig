@@ -13,7 +13,7 @@
         <div
             xmlns="http://www.w3.org/1999/xhtml">
             <div class="hapiHeaderText">JANE 
-                <b>DOE </b>
+                <b>SMITH </b>
             </div>
             <table class="hapiPropertyTable">
                 <tbody>
@@ -125,7 +125,7 @@
     </identifier>
     <active value="true"/>
     <name>
-        <family value="DOE"/>
+        <family value="SMITH"/>
         <given value="JANE"/>
         <period>
             <start value="2020-01-01T11:01:29.000Z"/>

@@ -160,4 +160,16 @@
             <start value="2020-07-22"/>
         </period>
     </address>
+    <link>
+        <id value="patient-child-john-smith-example"/>
+        <reference value="Patient/patient-child-john-smith-example"/>
+        <type>
+            <coding>
+                <system value="http://hl7.org/fhir/ValueSet/link-type"/>
+                <code value="seealso"/>
+                <display value="See also"/>
+            </coding>
+        </type>
+    </link>
+    <link></link>
 </Patient>

@@ -161,8 +161,9 @@
         </period>
     </address>
     <link>
-        <id value="patient-child-john-smith-example"/>
+        <other>
         <reference value="RelatedPerson/patient-child-john-smith-example"/>
+        </other>
         <type>
             <coding>
                 <system value="http://hl7.org/fhir/ValueSet/link-type"/>

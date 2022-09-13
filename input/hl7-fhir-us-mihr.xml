@@ -133,6 +133,51 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-jane-smith-example"/>
+                <display value="Patient - Jane Smith (Mother)"/>
+            </reference>
+            <name value="Patient - Jane Smith (Mother)"/>
+            <description value="Example of a mother (Patient) for consideration within the pregnancy-induced hypertension cohort."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
+                <display value="Related Person - This resource connects the mother's and child Patient resources"/>
+            </reference>
+            <name value="Related Person - child of Jane Smith example"/>
+            <description value="Example of a RelatedPerson file associated with a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-john-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - child of Jane Smith example"/>
+            <description value="Example child patient of a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <!-- Removing example of Jane Smith's 2nd child --
+            <reference>
+                <reference value="Patient/patient-child-jane-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - second child of Jane Smith example"/>
+            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource> -->
+        <resource>
+            <reference>
                 <reference value="ValueSet/ProceduresDuringPregnancy"/>
                 <display value="Value Set Procedures During Pregnancy"/>
             </reference>
@@ -221,13 +266,35 @@
             <exampleBoolean value="false"/>
             <groupingId value="pam-deaths-term"/>
         </resource>
+            <resource>
+                <reference>
+                    <reference value="Patient/patient-allison-doe-example"/>
+                    <display value="Patient - Allison Doe (Mother)"/>
+                </reference>
+                <name value="Patient - Allison Doe"/>
+                <description value="Example of a case of pregnancy-associated maternal death."/>
+                <exampleBoolean value="false"/>
+                <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <groupingId value="pamdeaths-examples"/>
+            </resource>
+            <resource>
+                <reference>
+                    <reference value="Patient/patient-child-peter-doe-example"/>
+                    <display value="Patient - 1st child of Allison Doe example"/>
+                </reference>
+                <name value="Patient - child of Allison Doe example"/>
+                <description value="Example of a child of a mother who falls within the pregnancy-associated maternal death cohort definition."/>
+                <exampleBoolean value="false"/>
+                <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <groupingId value="pamdeaths-examples"/>
+            </resource>
         <resource>
             <reference>
                 <reference value="Patient/patient-child-bobby-doe-example"/>
-                <display value="Patient - child of Allison Doe Example"/>
+                <display value="Patient - 2nd child of Allison Doe Example"/>
             </reference>
             <name value="Patient - child of Allison Doe Example"/>
-            <description value="Example of a child associated with a case of pregnancy-associated maternal death."/>
+            <description value="Example of a second child of a mother who falls within the pregnancy-associated maternal death cohort definition."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             <groupingId value="pamdeaths-examples"/>
@@ -238,11 +305,22 @@
                 <display value="RelatedPerson - child of Allison Doe example"/>
             </reference>
             <name value="RelatedPerson - child of Allison Doe example"/>
-            <description value="Example of a RelatedPerson for a child associated with a case pregnancy-associated maternal death."/>
+            <description value="Example of a RelatedPerson associating Mother Allison Doe to a child"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
+            <resource>
+                <reference>
+                    <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
+                    <display value="Related Person - child of Allison Doe example"/>
+                </reference>
+                <name value="Related Person - child of Allison Doe example"/>
+                <description value="Example of a 2nd RelatedPerson associating Mother Allison Doe to a child"/>
+                <exampleBoolean value="false"/>
+                <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+                <groupingId value="pamdeaths-examples"/>
+            </resource>
         <resource>
             <reference>
                 <reference value="Condition/condition-miscarriage-birth-allison-doe-example"/>
@@ -277,28 +355,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/patient-child-peter-doe-example"/>
-                <display value="Patient - child of Allison Doe example"/>
-            </reference>
-            <name value="Patient - child of Allison Doe example"/>
-            <description value="Example of a child associated with a maternal death example patient."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pamdeaths-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-child-jane-smith-example"/>
-                <display value="Patient - child of Jane Smith example"/>
-            </reference>
-            <name value="Patient - second child of Jane Smith example"/>
-            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Encounter/encounter-delivery-jane-smith-example"/>
                 <display value="Encounter - Jane Smith example"/>
             </reference>
@@ -310,28 +366,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/patient-allison-doe-example"/>
-                <display value="Patient - Allison Doe"/>
-            </reference>
-            <name value="Patient - Allison Doe"/>
-            <description value="Example of a case of pregnancy-associated maternal death."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pamdeaths-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
-                <display value="Related Person - child of Allison Doe example"/>
-            </reference>
-            <name value="Related Person - child of Allison Doe example"/>
-            <description value="Example of a RelatedPerson associated with a case of pregnancy-associated maternal death."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
-            <groupingId value="pamdeaths-examples"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Encounter/encounter-newborn-child-jane-smith-example"/>
                 <display value="Encounter - newborn child of Jane Smith example"/>
             </reference>
@@ -339,28 +373,6 @@
             <description value="Example of an encounter with a child patient of a mother with pregnancy-induced hypertension."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
-                <display value="Related Person - child of Jane Smith example"/>
-            </reference>
-            <name value="Related Person - child of Jane Smith example"/>
-            <description value="Example of a RelatedPerson file associated with a mother with pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-jane-smith-example"/>
-                <display value="Patient - Jane Smith"/>
-            </reference>
-            <name value="Patient - Jane Smith"/>
-            <description value="Example of a patient with pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             <groupingId value="pih-examples"/>
         </resource>
         <resource>
@@ -427,17 +439,7 @@
             <exampleBoolean value="true"/>
             <groupingId value="pih-examples"/>
         </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-child-john-smith-example"/>
-                <display value="Patient - child of Jane Smith example"/>
-            </reference>
-            <name value="Patient - child of Jane Smith example"/>
-            <description value="Example child patient of a mother with pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
-        </resource>
+       
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>

@@ -34,8 +34,8 @@
     </extension>
     <active value="true"/>
     <patient>
-        <reference value="Patient/patient-jane-smith-example"/>
-        <display value="Patient - Jane Smith"/>
+        <reference value="Patient/patient-child-john-smith-example"/>
+        <display value="Patient - Child John Smith"/>
     </patient>
     <relationship>
         <coding>
@@ -63,12 +63,10 @@
         </period>
     </telecom>
     <gender value="female"/>
-    <birthDate value="1939-09-16"/>
+    <birthDate value="1990-09-16"/>
     <address id="CI-24327194-0">
         <use value="home"/>
-        <text value="2801 ANY &#xA;ANY, MO 64117&#xA;US"/>
-        <line value="2801 ANY"/>
-        <city value="ANY"/>
+        <city value="St. Louis"/>
         <state value="MO"/>
         <postalCode value="64117"/>
         <country value="US"/>

@@ -162,4 +162,28 @@
             <start value="2020-07-22"/>
         </period>
     </address>
+    <link>
+        <other>
+            <reference value="RelatedPerson/relatedperson-child-bobby-doe-example"/>
+        </other>
+        <type>
+            <coding>
+                <system value="http://hl7.org/fhir/ValueSet/link-type"/>
+                <code value="seealso"/>
+                <display value="See also"/>
+            </coding>
+        </type>
+    </link>
+    <link>
+        <other>
+            <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
+        </other>
+        <type>
+            <coding>
+                <system value="http://hl7.org/fhir/ValueSet/link-type"/>
+                <code value="seealso"/>
+                <display value="See also"/>
+            </coding>
+        </type>
+    </link>
 </Patient>

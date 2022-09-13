@@ -162,7 +162,7 @@
     </address>
     <link>
         <other>
-        <reference value="RelatedPerson/patient-child-john-smith-example"/>
+            <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
         </other>
         <type>
             <coding>

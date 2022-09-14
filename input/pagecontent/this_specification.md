@@ -1,10 +1,9 @@
 This IG defines a data source (i.e., Source) as well as a data consumer (i.e., Consumer). Sources may be traditional EHRs, aggregating systems such as HIEs, public health reporting agencies such as the National Vital Statistics Agency or state's Electronic Death Registration System (EDRS). 
 Tooling used by Maternal Health Researchers to facilitate measure evaluation and data analysis are the expected Consumers.
 Data consumers will select a Population definition defined in this guide as well as a reporting period.
-The Source will provide two lists of Patient identifiers:
-1.	Patients who were pregnant during a defined period of time
-2.	All associated children of recently pregnant Patients
-Sources will also provide an association between the two sets of Patients (i.e., an association map between Mothers/potential Mothers and children). 
+The Source will provide a list of Patients (ie a census/roster of pregnant patients) for evaluation. The Source is expected to reference mothers and children via RelatedPerson and Patient.link. 
+
+If a data soruce is unable to link Patients (mothers and children) according to the standard model, an association between the two sets of Patients (i.e., an association map between Mothers/potential Mothers and children) will be rquired. 
 Consumers will query a data source for all known existing clinical information by Patient identifiers. If a Source's data are not natively available in FHIR format, ClinicalDocuments may also be queried and used as the mechanism to produce and convey Source data to Consumers.
 Once target data from Sources has been aggregated and transformed into standard FHIR, an $evaluate-measure operation will be performed on the respective FHIR server [see SANER Computer Measure](https://build.fhir.org/ig/HL7/fhir-saner/transaction-4.html). 
 The Output of $evaluate-measure operation will be a MeasureReport consisting of all Patient Mothers (1) found to be within the defined cohort population. 

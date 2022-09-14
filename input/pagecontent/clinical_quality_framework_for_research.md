@@ -7,6 +7,6 @@ Two cohort populations are in scope for the initial release of this guide. These
 <b><i>Note:</i></b> Not all future research study populations of interest will necessitate the updating of this published FHIR guide.
 
 ### Architecture and Implementation
-These guides are both built upon FHIR’s Clinical Quality Framework (CQF) and therefore share many design patterns. SANER’s representation of various CQF components apply to this guide. Specifically, SANER’s Compute Measure Actors and roles apply to systems implementing all or components of this guide. Where SANER is focused on reporting to a public health agency (PHA), this guide is analogously focused on reporting to a maternal health researcher. 
+These guides are both built upon FHIR’s Clinical Quality Framework (CQF) and therefore share many design patterns. SANER’s representation of various CQF components apply to this guide. Specifically, SANER’s Measure Definition server, and Compute Measure Actors and roles apply to systems implementing all or components of this guide. Where SANER is focused on reporting to a public health agency (PHA), this guide is analogously focused on reporting to a maternal health researcher. 
 
-[See: Security, Architecture and Implementation from the SANER guide](https://build.fhir.org/ig/HL7/fhir-saner/Architecture_and_Implementation.html).
+[See: Security, Architecture and Implementation from the SANER guide](http://hl7.org/fhir/uv/saner/).

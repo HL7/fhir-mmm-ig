@@ -165,18 +165,6 @@
             <groupingId value="pih-examples"/>
         </resource>
         <resource>
-            <!-- Removing example of Jane Smith's 2nd child --
-            <reference>
-                <reference value="Patient/patient-child-jane-smith-example"/>
-                <display value="Patient - child of Jane Smith example"/>
-            </reference>
-            <name value="Patient - second child of Jane Smith example"/>
-            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
-        </resource> -->
-        <resource>
             <reference>
                 <reference value="ValueSet/ProceduresDuringPregnancy"/>
                 <display value="Value Set Procedures During Pregnancy"/>

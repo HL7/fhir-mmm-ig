@@ -55,9 +55,9 @@
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="77386006"/>
-            <display value="Pregnant (finding)"/>
+            <display value="Pregnancy (finding)"/>
         </coding>
-        <text value="Pregnant (finding)"/>
+        <text value="Pregnancy (finding)"/>
     </code>
     <subject>
         <reference value="Patient/patient-allison-doe-example"/>

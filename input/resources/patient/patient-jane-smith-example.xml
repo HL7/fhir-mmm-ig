@@ -164,12 +164,6 @@
         <other>
             <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
         </other>
-        <type>
-            <coding>
-                <system value="http://hl7.org/fhir/ValueSet/link-type"/>
-                <code value="seealso"/>
-                <display value="See also"/>
-            </coding>
-        </type>
+        <type value="seealso"/>
     </link>
 </Patient>

@@ -232,5 +232,3 @@ This material contains content from [LOINC](http://loinc.org). LOINC is copyrigh
 </tr>
 </tbody>
 </table>
-
-

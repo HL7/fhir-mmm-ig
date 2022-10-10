@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-mihr"/>
     <meta>
-        <versionId value="451"/>
-        <lastUpdated value="2022-08-16T17:53:03.941+00:00"/>
-        <source value="#0bv0JnhhlTNiZ922"/>
+        <versionId value="484"/>
+        <lastUpdated value="2022-10-06T20:45:56.378+00:00"/>
+        <source value="#XJPU3AStgqUwJTMu"/>
     </meta>
     <url value="http://hl7.org/fhir/us/mihr/ImplementationGuide/hl7-fhir-us-mihr"/>
     <version value="1.0.0-ballot"/>
@@ -60,11 +60,11 @@
     </dependsOn>
     <definition>
         <grouping id="pih">
-            <name value="Hypertensive Disorders of Pregnancy Measure Instances"/>
+            <name value="Hypertensive Disorders of Pregnancy Measure Examples"/>
             <description value="Group of Resources pertinent to the Hypertensive Disorders of Pregnancy cohort"/>
         </grouping>
         <grouping id="pamdeaths">
-            <name value="Pregnancy-Associated Maternal Deaths Measure Instances"/>
+            <name value="Pregnancy-Associated Maternal Deaths Measure Examples"/>
             <description value="Group of Resources pertinent to Pregnancy-Associated Maternal Deaths"/>
         </grouping>
         <grouping id="pih-examples">
@@ -76,16 +76,8 @@
             <description value="Group of FHIR resources pertinent to testing/evaluating the Pregnancy-Associated Maternal Deaths measure"/>
         </grouping>
         <grouping id="terminology">
-            <name value="Terminology Used in Both Measures"/>
+            <name value="Terminologies"/>
             <description value="Group of Terminology-related resources (ValueSets and CodeSystems)"/>
-        </grouping>
-        <grouping id="pam-deaths-term">
-            <name value="Pregnancy-Associated Maternal Deaths Terminology"/>
-            <description value="Valuesets specific to the Pregnancy-Associated Maternal Death measure"/>
-        </grouping>
-        <grouping id="pih-term">
-            <name value="Hypertensive Disorders of Pregnancy Terminology"/>
-            <description value="Valuesets specific to the Hypertensive Disorders of Pregnancy measure"/>
         </grouping>
         <grouping id="other-parameters">
             <name value="Other Parameters"/>
@@ -133,53 +125,10 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/patient-jane-smith-example"/>
-                <display value="Patient - Jane Smith (Mother)"/>
-            </reference>
-            <name value="Patient - Jane Smith (Mother)"/>
-            <description value="Example of a mother (Patient) for consideration within the pregnancy-induced hypertension cohort."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
-                <display value="Related Person - This resource connects the mother's and child Patient resources"/>
-            </reference>
-            <name value="Related Person - child of Jane Smith example"/>
-            <description value="Example of a RelatedPerson file associated with a mother with pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-child-john-smith-example"/>
-                <display value="Patient - child of Jane Smith example"/>
-            </reference>
-            <name value="Patient - child of Jane Smith example"/>
-            <description value="Example child patient of a mother with pregnancy-induced hypertension."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/ProceduresDuringPregnancy"/>
-                <display value="Value Set Procedures During Pregnancy"/>
-            </reference>
-            <name value="ValueSet - Procedures During Pregnancy"/>
-            <description value="This value set includes concepts that represent pregnancy related procedures. This value set is a grouping of two value sets:  Procedures During Pregnancy 2.16.840.1.113883.3.464.1003.111.11.1014 with CPT codes and Procedures During Pregnancy 2.16.840.1.113883.3.464.1003.111.11.1015 with SNOMED CT codes.  Please see VSAC (https://vsac.nlm.nih.gov) for the latest expansion of these value sets."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="pam-deaths-term"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/pregnancy"/>
                 <display value="ValueSet – Pregnancy"/>
             </reference>
-            <name value="ValueSet – Pregnancy"/>
+            <name value="Pregnancy"/>
             <description value="This value set represents values associated with pregnancy conditions diagnoses, outcomes, and state.  This value set is a grouping of 3 value sets: Pregnancy 2.16.840.1.113883.3.526.3.378, Complications of Pregnancy, Childbirth and the Puerperium  2.16.840.1.113883.3.464.1003.111.12.1012, and Complications of Pregnancy, Childbirth and the Puerperium (ICD 9) 2.16.840.1.113883.3.464.1003.111.11.1021 which contain SNOMED CT, and ICD-9/10 codes.  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
             <exampleBoolean value="false"/>
             <groupingId value="terminology"/>
@@ -192,7 +141,7 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy ICD"/>
             <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="pih-term"/>
+            <groupingId value="terminology"/>
         </resource>
         <resource>
             <reference>
@@ -202,7 +151,7 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy SNOMED CT"/>
             <description value="This value set includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="pih-term"/>
+            <groupingId value="terminology"/>
         </resource>
         <resource>
             <reference>
@@ -212,77 +161,35 @@
             <name value="ValueSet – Hypertensive Disorders of Pregnancy"/>
             <description value="This is a grouping value set that includes terms related to hypertensive disorders of pregnancy which include pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia."/>
             <exampleBoolean value="false"/>
-            <groupingId value="pih-term"/>
+            <groupingId value="terminology"/>
         </resource>
         <resource>
             <reference>
                 <reference value="ValueSet/PregnancyNonLive"/>
                 <display value="ValueSet - Pregnancy Non-Live"/>
             </reference>
-            <name value="ValueSet - Pregnancy Non-Live Diagnosis"/>
+            <name value="Pregnancy Non-Live"/>
             <description value="This value set represents conditions and diagnoses that identify non live births or deliveries such as fetal death, abortions or miscarriages.  This value set contains a grouping of two value sets:  Non Live Birth Diagnosis 2.16.840.1.113762.1.4.1166.137 which contains ICD-10 and SNOMED CT values and Non Live Birth CPT Procedures  2.16.840.1.113762.1.4.1166.127 indicating non-live births (i.e., ectopic pregnancies, intrauterine fetal demise, early pregnancy loss, abortion).  Please see VSAC (https://vsac.nlm.nih.gov/) for the latest expansion of these value sets."/>
             <exampleBoolean value="false"/>
-            <groupingId value="pam-deaths-term"/>
+            <groupingId value="terminology"/>
         </resource>
         <resource>
             <reference>
                 <reference value="ValueSet/PregnancyProcedureDelivery"/>
                 <display value="ValueSet – Pregnancy Procedure Delivery"/>
             </reference>
-            <name value="ValueSet – Pregnancy Procedure Delivery"/>
+            <name value="Pregnancy Procedure Delivery"/>
             <description value="This pregnancy procedure delivery value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries.  This is a grouping value set  which includes two value sets: Delivery and Live Births 2.16.840.1.113883.3.464.1003.111.12.1015 and Delivery Procedures 2.16.840.1.113762.1.4.1078.5 which contains SNOMED CT, ICD10PCS codes. Please see VSAC (https://vsac.nlm.nih.gov/) for the latest code expansion."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="pam-deaths-term"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="ValueSet/PregnancyDeliveryDiagnosis"/>
-                <display value="ValueSet - Pregnancy Delivery Diagnosis"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Delivery Diagnosis"/>
-            <description value="This value set contains concepts that represent diagnoses of a live birth or delivery in the outpatient setting. Please see the grouping value set Delivery-Diagnosis 2.16.840.1.113883.3.67.1.101.1.278 developed by Optum with the ICD 10 CM and SNOMED CT codes as the source of truth.  See VSAC for the latest expansion of this value set."/>
             <exampleBoolean value="false"/>
             <groupingId value="terminology"/>
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/PregnancyProcedureDelivery-CPT"/>
-                <display value="ValueSetPregnancyProcedureDeliveryCPT"/>
-            </reference>
-            <name value="ValueSet - Pregnancy Procedure Delivery CPT"/>
-            <description value="This pregnancy value set defines delivery and live birth procedures such as vaginal, cesarean and forcep deliveries."/>
-            <exampleBoolean value="false"/>
-            <groupingId value="pam-deaths-term"/>
-        </resource>
-            <resource>
-                <reference>
-                    <reference value="Patient/patient-allison-doe-example"/>
-                    <display value="Patient - Allison Doe (Mother)"/>
-                </reference>
-                <name value="Patient - Allison Doe"/>
-                <description value="Example of a case of pregnancy-associated maternal death."/>
-                <exampleBoolean value="false"/>
-                <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-                <groupingId value="pamdeaths-examples"/>
-            </resource>
-            <resource>
-                <reference>
-                    <reference value="Patient/patient-child-peter-doe-example"/>
-                    <display value="Patient - 1st child of Allison Doe example"/>
-                </reference>
-                <name value="Patient - child of Allison Doe example"/>
-                <description value="Example of a child of a mother who falls within the pregnancy-associated maternal death cohort definition."/>
-                <exampleBoolean value="false"/>
-                <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-                <groupingId value="pamdeaths-examples"/>
-            </resource>
-        <resource>
-            <reference>
                 <reference value="Patient/patient-child-bobby-doe-example"/>
-                <display value="Patient - 2nd child of Allison Doe Example"/>
+                <display value="Patient - child of Allison Doe Example"/>
             </reference>
             <name value="Patient - child of Allison Doe Example"/>
-            <description value="Example of a second child of a mother who falls within the pregnancy-associated maternal death cohort definition."/>
+            <description value="Example of a child associated with a case of pregnancy-associated maternal death."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             <groupingId value="pamdeaths-examples"/>
@@ -293,22 +200,11 @@
                 <display value="RelatedPerson - child of Allison Doe example"/>
             </reference>
             <name value="RelatedPerson - child of Allison Doe example"/>
-            <description value="Example of a RelatedPerson associating Mother Allison Doe to a child"/>
+            <description value="Example of a RelatedPerson for a child associated with a case pregnancy-associated maternal death."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
             <groupingId value="pamdeaths-examples"/>
         </resource>
-            <resource>
-                <reference>
-                    <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
-                    <display value="Related Person - child of Allison Doe example"/>
-                </reference>
-                <name value="Related Person - child of Allison Doe example"/>
-                <description value="Example of a 2nd RelatedPerson associating Mother Allison Doe to a child"/>
-                <exampleBoolean value="false"/>
-                <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
-                <groupingId value="pamdeaths-examples"/>
-            </resource>
         <resource>
             <reference>
                 <reference value="Condition/condition-miscarriage-birth-allison-doe-example"/>
@@ -343,6 +239,28 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-child-peter-doe-example"/>
+                <display value="Patient - child of Allison Doe example"/>
+            </reference>
+            <name value="Patient - child of Allison Doe example"/>
+            <description value="Example of a child associated with a maternal death example patient."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-jane-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - second child of Jane Smith example"/>
+            <description value="Example of a child associated with a pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Encounter/encounter-delivery-jane-smith-example"/>
                 <display value="Encounter - Jane Smith example"/>
             </reference>
@@ -354,6 +272,28 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-allison-doe-example"/>
+                <display value="Patient - Allison Doe"/>
+            </reference>
+            <name value="Patient - Allison Doe"/>
+            <description value="Example of a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-child-peter-doe-example"/>
+                <display value="Related Person - child of Allison Doe example"/>
+            </reference>
+            <name value="Related Person - child of Allison Doe example"/>
+            <description value="Example of a RelatedPerson associated with a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Encounter/encounter-newborn-child-jane-smith-example"/>
                 <display value="Encounter - newborn child of Jane Smith example"/>
             </reference>
@@ -361,6 +301,28 @@
             <description value="Example of an encounter with a child patient of a mother with pregnancy-induced hypertension."/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/relatedperson-jane-smith-example"/>
+                <display value="Related Person - child of Jane Smith example"/>
+            </reference>
+            <name value="Related Person - child of Jane Smith example"/>
+            <description value="Example of a RelatedPerson file associated with a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-jane-smith-example"/>
+                <display value="Patient - Jane Smith"/>
+            </reference>
+            <name value="Patient - Jane Smith"/>
+            <description value="Example of a patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
             <groupingId value="pih-examples"/>
         </resource>
         <resource>
@@ -427,7 +389,42 @@
             <exampleBoolean value="true"/>
             <groupingId value="pih-examples"/>
         </resource>
-       
+        <resource>
+            <reference>
+                <reference value="Patient/patient-child-john-smith-example"/>
+                <display value="Patient - child of Jane Smith example"/>
+            </reference>
+            <name value="Patient - child of Jane Smith example"/>
+            <description value="Example child patient of a mother with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pih-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-mother-pih"/></reference>
+            <name value="Mother Patient with Pregnancy-induced Hypertension"/>
+            <description value="Example mother Patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example-nih-child-pih"/></reference>
+            <name value="Child of Mother Patient with Pregnancy-Induced Hypertension"/>
+            <description value="Example child of a mother Patient with pregnancy-induced hypertension."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
+                <display value="Pregnancyproceduredeliverymmmcpt"/>
+            </reference>
+            <name value="Pregnancy Procedure Delivery CPT"/>
+            <description value="ValueSet containing all CPT concepts for pregnancy procedures"/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>

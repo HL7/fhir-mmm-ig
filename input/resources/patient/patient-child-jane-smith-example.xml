@@ -9,9 +9,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
             <valueMarkdown value="This is a patient example for the *US Core Patient Profile*."/>
         </extension>
-        <versionId value="1"/>
-        <lastUpdated value="2022-03-15T14:45:07.555+00:00"/>
-        <source value="#PGBycwzTr96aqYXz"/>
+        <versionId value="2"/>
+        <lastUpdated value="2022-09-26T15:29:46.485+00:00"/>
+        <source value="#BuE5pTmvq1V9tizA"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
@@ -19,6 +19,7 @@
         <div
             xmlns="http://www.w3.org/1999/xhtml">
             <div class="hapiHeaderText">Joan 
+                
                 <b>SMITH </b>
             </div>
             <table class="hapiPropertyTable">

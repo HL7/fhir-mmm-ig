@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="relatedperson-jane-smith-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2022-03-15T17:14:37.201+00:00"/>
-        <source value="#5jTAyu6GywQtCPh6"/>
+        <versionId value="3"/>
+        <lastUpdated value="2022-09-26T15:29:53.963+00:00"/>
+        <source value="#yWHQFabIFc9jLDqU"/>
         <profile value="http://hl7.org/fhir/us/vr-common-library/StructureDefinition/RelatedPerson-mother-gestational"/>
     </meta>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">

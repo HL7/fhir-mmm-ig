@@ -15,6 +15,7 @@
     <version value="0.0.01"/>
     <name value="PIHCohort"/>
     <title value="PIH Cohort"/>
+    <experimental value="false"/>
     <description value="Mothers diagnosed with PIH that have a subsequent pregnancy."/>
     <purpose value="Unknown"/>
     <copyright value="Limited proprietary coding is contained in the measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. Lantana disclaims all liability for use or accuracy of any third party codes contained in the specifications.&#xA;&#xA;CPT(R) contained in the measure specifications is copyright 2004-2020 American Medical Association. LOINC(R) copyright 2004-2020 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2020 International Health Terminology Standards Development Organisation. ICD-10 copyright 2020 World Health Organization. All Rights Reserved."/>

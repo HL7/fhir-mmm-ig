@@ -12,6 +12,7 @@
     <title value="Pregnancy Procedure Delivery CPT"/>
     <status value="draft"/>
     <experimental value="false"/>
+    <description value="This ValueSet contains coded concepts from CPT CodeSystem that pertain to delivery procedures"/>
     <compose>
         <include>
             <system value="http://www.ama-assn.org/go/cpt"/>

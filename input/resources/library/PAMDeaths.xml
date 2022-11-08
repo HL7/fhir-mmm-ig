@@ -13,8 +13,15 @@
     <url value="http://fhir.org/guides/cqf/Library/PAMDeaths"/>
     <version value="0.0.01"/>
     <name value="PAMDeaths"/>
-    <relatedArtifact>
-        <type value="depends-on"/>
+    <experimental value="false"/>
+    <type>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+            <code value="logic-library"/>
+            <display value="Logic Library"/>
+        </coding>
+    </type>
+    <relatedArtifact>       <type value="depends-on"/>
         <display value="FHIR model information"/>
         <resource value="http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"/>
     </relatedArtifact>

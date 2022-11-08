@@ -13,6 +13,14 @@
     <url value="http://fhir.org/guides/cqf/Library/PIHCohort"/>
     <version value="0.0.01"/>
     <name value="PIHCohort"/>
+    <experimental value="false"/>
+    <type>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+            <code value="logic-library"/>
+            <display value="Logic Library"/>
+        </coding>
+    </type>
     <relatedArtifact>
         <type value="depends-on"/>
         <display value="FHIR model information"/>

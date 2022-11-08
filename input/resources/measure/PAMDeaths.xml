@@ -1577,7 +1577,7 @@ define &quot;SDE Allergy Intolerance&quot;:
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"></language>
+            <language value="text/cql-identifier"></language>
             <expression value="Initial Population"></expression>
          </criteria>
       </population>
@@ -1590,7 +1590,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Allergy Intolerance"></expression>
       </criteria>
    </supplementalData>
@@ -1602,7 +1602,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE BMI"></expression>
       </criteria>
    </supplementalData>
@@ -1614,7 +1614,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Blood Pressure"></expression>
       </criteria>
    </supplementalData>
@@ -1626,7 +1626,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Height"></expression>
       </criteria>
    </supplementalData>
@@ -1638,7 +1638,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Body Temperature"></expression>
       </criteria>
    </supplementalData>
@@ -1650,7 +1650,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Body Weight"></expression>
       </criteria>
    </supplementalData>
@@ -1662,7 +1662,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Body Weight"></expression>
       </criteria>
    </supplementalData>
@@ -1674,7 +1674,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Care Plan"></expression>
       </criteria>
    </supplementalData>
@@ -1686,7 +1686,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Care Team"></expression>
       </criteria>
    </supplementalData>
@@ -1698,7 +1698,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Conditions"></expression>
       </criteria>
    </supplementalData>
@@ -1710,7 +1710,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Diagnostic Report"></expression>
       </criteria>
    </supplementalData>
@@ -1722,7 +1722,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Document Reference"></expression>
       </criteria>
    </supplementalData>
@@ -1734,7 +1734,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Encounters"></expression>
       </criteria>
    </supplementalData>
@@ -1746,7 +1746,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Goal"></expression>
       </criteria>
    </supplementalData>
@@ -1758,7 +1758,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Head Circumference"></expression>
       </criteria>
    </supplementalData>
@@ -1770,7 +1770,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Heart Rate"></expression>
       </criteria>
    </supplementalData>
@@ -1782,7 +1782,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Immunization"></expression>
       </criteria>
    </supplementalData>
@@ -1794,7 +1794,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Device"></expression>
       </criteria>
    </supplementalData>
@@ -1806,7 +1806,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Lab Observation"></expression>
       </criteria>
    </supplementalData>
@@ -1818,7 +1818,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Location"></expression>
       </criteria>
    </supplementalData>
@@ -1830,7 +1830,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Medication"></expression>
       </criteria>
    </supplementalData>
@@ -1842,7 +1842,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Medication Request"></expression>
       </criteria>
    </supplementalData>
@@ -1854,7 +1854,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Organization"></expression>
       </criteria>
    </supplementalData>
@@ -1866,7 +1866,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Patient"></expression>
       </criteria>
    </supplementalData>
@@ -1878,7 +1878,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Pediatric BMI"></expression>
       </criteria>
    </supplementalData>
@@ -1890,7 +1890,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Occipital Frontal Head Circumference"></expression>
       </criteria>
    </supplementalData>
@@ -1902,7 +1902,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Pediatric Weight for Height"></expression>
       </criteria>
    </supplementalData>
@@ -1914,7 +1914,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Practitioner"></expression>
       </criteria>
    </supplementalData>
@@ -1926,7 +1926,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Practitioner Role"></expression>
       </criteria>
    </supplementalData>
@@ -1938,7 +1938,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Procedure"></expression>
       </criteria>
    </supplementalData>
@@ -1950,7 +1950,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Provenance"></expression>
       </criteria>
    </supplementalData>
@@ -1962,7 +1962,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Oximetry"></expression>
       </criteria>
    </supplementalData>
@@ -1974,7 +1974,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Respiratory Rate"></expression>
       </criteria>
    </supplementalData>
@@ -1986,7 +1986,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Smoking Status"></expression>
       </criteria>
    </supplementalData>
@@ -1998,7 +1998,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Vital Signs"></expression>
       </criteria>
    </supplementalData>
@@ -2010,7 +2010,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          </coding>
       </usage>
       <criteria>
-         <language value="text/cql.identifier"></language>
+         <language value="text/cql-identifier"></language>
          <expression value="SDE Related Person"></expression>
       </criteria>
    </supplementalData>

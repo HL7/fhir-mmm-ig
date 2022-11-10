@@ -130,6 +130,17 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-allison-doe-example"/>
+                <display value="Patient - Allison Doe"/>
+            </reference>
+            <name value="Patient - Allison Doe"/>
+            <description value="Example of a case of pregnancy-associated maternal death."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="ValueSet/pregnancy"/>
                 <display value="ValueSet – Pregnancy"/>
             </reference>
@@ -201,6 +212,17 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/patient-child-peter-doe-example"/>
+                <display value="Patient - child of Allison Doe example"/>
+            </reference>
+            <name value="Patient - child of Allison Doe example"/>
+            <description value="Example of a child associated with a maternal death example patient."/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            <groupingId value="pamdeaths-examples"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="RelatedPerson/relatedperson-child-bobby-doe-example"/>
                 <display value="RelatedPerson - child of Allison Doe example"/>
             </reference>
@@ -244,17 +266,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/patient-child-peter-doe-example"/>
-                <display value="Patient - child of Allison Doe example"/>
-            </reference>
-            <name value="Patient - child of Allison Doe example"/>
-            <description value="Example of a child associated with a maternal death example patient."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pamdeaths"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Patient/patient-child-jane-smith-example"/>
                 <display value="Patient - child of Jane Smith example"/>
             </reference>
@@ -274,17 +285,6 @@
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
             <groupingId value="pih-examples"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-allison-doe-example"/>
-                <display value="Patient - Allison Doe"/>
-            </reference>
-            <name value="Patient - Allison Doe"/>
-            <description value="Example of a case of pregnancy-associated maternal death."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            <groupingId value="pamdeaths-examples"/>
         </resource>
         <resource>
             <reference>

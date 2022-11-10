@@ -23,43 +23,13 @@
     </type>
     <relatedArtifact>
         <type value="depends-on"/>
-        <display value="FHIR model information"/>
-        <resource value="http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Library FHIRHelpers"/>
-        <resource value="http://fhir.org/guides/cqf/Library/FHIRHelpers|4.0.1"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Library Global"/>
-        <resource value="http://fhir.org/guides/cqf/Library/MATGlobalCommonFunctionsFHIR4|6.1.000"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Code system SNOMEDCT"/>
-        <resource value="http://snomed.info/sct"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Code system LOINC"/>
-        <resource value="http://loinc.org"/>
+        <display value="Value set Delivery Diagnosis"/>
+        <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="depends-on"/>
         <display value="Code system Observation Category"/>
         <resource value="http://terminology.hl7.org/CodeSystem/observation-category"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Value set Hypertensive Disorders Pregnancy ICD"/>
-        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Value set Hypertensive Disorders Pregnancy SNOMED"/>
-        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
     </relatedArtifact>
     <relatedArtifact>
         <type value="depends-on"/>
@@ -73,16 +43,6 @@
     </relatedArtifact>
     <relatedArtifact>
         <type value="depends-on"/>
-        <display value="Value set Pregnancy Procedure Delivery CPT"/>
-        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
-        <display value="Value set Delivery Diagnosis"/>
-        <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.67.1.101.1.278"/>
-    </relatedArtifact>
-    <relatedArtifact>
-        <type value="depends-on"/>
         <display value="Value set Non Live Birth CPT Procedures"/>
         <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127"/>
     </relatedArtifact>
@@ -90,6 +50,46 @@
         <type value="depends-on"/>
         <display value="Value set Non Live Birth Diagnoses"/>
         <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Value set Hypertensive Disorders Pregnancy ICD"/>
+        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Value set Hypertensive Disorders Pregnancy SNOMED"/>
+        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Value set Pregnancy Procedure Delivery CPT"/>
+        <resource value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Code system SNOMEDCT"/>
+        <resource value="http://snomed.info/sct"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Code system LOINC"/>
+        <resource value="http://loinc.org"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="FHIR model information"/>
+        <resource value="http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Library FHIRHelpers"/>
+        <resource value="http://fhir.org/guides/cqf/Library/FHIRHelpers|4.0.1"/>
+    </relatedArtifact>
+    <relatedArtifact>
+        <type value="depends-on"/>
+        <display value="Library Global"/>
+        <resource value="http://fhir.org/guides/cqf/Library/MATGlobalCommonFunctionsFHIR4|6.1.000"/>
     </relatedArtifact>
     <parameter>
         <name value="Measurement Period"/>

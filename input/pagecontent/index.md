@@ -20,7 +20,7 @@ This IG will eventually support mapping maternal data across health records from
 Initial use cases of this IG focus on hypertensive disorders of pregnancy pre, ante, and postpartum and pregnancy and subsequent death within a specific timeframe. The intent is to specify the consistent capture of clinical data of interest to maternal health researchers and outline implementing FHIR resources for that capture. Currently, the IG defines two initial, separate research use case populations: 
 
 *	Pregnancy and subsequent death within a specific time frame: This cohort includes women who died within a year (365 days) of a pregnancy regardless of cause of death or pregnancy outcome.
-*	Hypertensive Disorders of pregnancy: This use case focuses on individuals with a diagnosis of pregnancy-induced hypertension, gestational hypertension and/or post-gestational hypertension diagnoses within 6 weeks of delivery.
+*	Hypertensive Disorders of pregnancy: This use case focuses on individuals with a diagnosis of pregnancy-induced hypertension, gestational hypertension and/or post-partum hypertension diagnoses within 6 weeks of delivery.
 
 In both instances, the IG will establish linkages via the US Core Related Person profile to collect associated child health data that may inform maternal health research outcomes. 
 

@@ -1543,6 +1543,7 @@ define &quot;SDE Allergy Intolerance&quot;:
    <version value="0.0.01"></version>
    <name value="PAMDeaths"></name>
    <title value="PAMDeaths Cohort"></title>
+   <experimental value="false"></experimental>
    <date value="2022-11-08T10:47:48-05:00"></date>
    <description value="Mothers who were pregnant and subsequently died within a specific time frame."></description>
    <purpose value="Unknown"></purpose>

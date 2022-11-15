@@ -23,7 +23,7 @@
             <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.5"/>
         </include>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/PregnancyProcedureDelivery-CPT"/>
         </include>
     </compose>
 </ValueSet>

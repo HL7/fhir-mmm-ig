@@ -17,10 +17,10 @@
     <copyright value="ICD-10-cm and SNOMED CT"/>
     <compose>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-ICD"/>
         </include>
         <include>
-            <valueSet value="http://www.hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
+            <valueSet value="http://hl7.org/fhir/us/mihr/ValueSet/hypertensive-disorders-pregnancy-SNOMED"/>
         </include>
     </compose>
 </ValueSet>

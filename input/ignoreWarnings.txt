@@ -2,23 +2,19 @@
 # The following code systems are external and not supported by terminology server. This is known to occur at the following location: input\resources\valueset\PregnancyProcedureDelivery-CPT @ ValueSet.compose[0].include[0]
 Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
 Unknown System 'http://www.ama-assn.org/go/cpt' specified, so Concepts and Filters cant be checked
-Unknown System specified, so Concepts and Filters can''t be checked
 
 # Known VSAC expansion tooling issue; see: https://confluence.hl7.org/pages/viewpage.action?pageId=90362035
 The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.127 could not be found so cannot be checked
 The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.137 could not be found so cannot be checked
 
 # This text is expected embedded HTML. This is occurs at the following location: ImplementationGuide.description
-The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+The markdown contains content that appears to be an embedded HTML tag starting at ' S'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 
 # FHIR Helpers Library is a shared resource: for the current FHIR Helpers Library, see https://github.com/cqframework/ecqm-content-r4-2021/blob/master/input/cql/FHIRHelpers.cql
 The Library http://www.hl7.org/fhir/us/mihr/Library/FHIRHelpers could not be resolved, so expression validation may not be correct
 
-# Expected union valueset for this guide
-This value set has an include with multiple imported value sets. Per issue https://jira.hl7.org/browse/FHIR-25179, there has been confusion in the past whether these value sets are unioned or intersectioned. If this value set is contained in a package published prior to March 31 2022, it will be treated as a union, otherwise it will be treated as an intersection
-
 # HTML fragments are not needed for this guide
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

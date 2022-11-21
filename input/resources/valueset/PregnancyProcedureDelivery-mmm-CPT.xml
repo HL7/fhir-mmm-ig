@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet
     xmlns="http://hl7.org/fhir">
-    <id value="PregnancyProcedureDelivery-mmm-CPT"/>
+    <id value="PregnancyProcedureDelivery-CPT"/>
     <meta>
         <versionId value="8"/>
         <lastUpdated value="2022-10-05T16:42:38.418+00:00"/>

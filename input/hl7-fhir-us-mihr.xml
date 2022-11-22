@@ -423,7 +423,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/PregnancyProcedureDelivery-mmm-CPT"/>
+                <reference value="ValueSet/PregnancyProcedureDelivery-CPT"/>
                 <display value="Pregnancyproceduredeliverymmmcpt"/>
             </reference>
             <name value="Pregnancy Procedure Delivery CPT"/>

@@ -1445,6 +1445,7 @@ define &quot;SDE Allergy Intolerance&quot;:
          <reference value="#effective-data-requirements"></reference>
       </valueReference>
    </extension>
+   <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"/>
    <url value="http://www.hl7.org/fhir/us/mihr/Measure/PIHCohort"></url>
    <identifier>
       <system value="https://nihmeasures.org"></system>

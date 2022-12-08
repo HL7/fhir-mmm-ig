@@ -466,7 +466,7 @@
         </page>
         <parameter>
             <code value="path-expansion-params"/>
-            <value value="resources/parameters/expansion-parameter-mmm.xml"/>
+            <value value="resources/parameters/expansion-parameter-mmm-ig.xml"/>
         </parameter>
         <parameter>
             <code value="copyrightyear"/>

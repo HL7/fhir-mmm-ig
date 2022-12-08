@@ -13,7 +13,7 @@
     <status value="draft"/>
     <experimental value="false"/>
     <description value="This ValueSet contains coded concepts from CPT CodeSystem that pertain to delivery procedures"/>
-    <copyright value="Current Procedural Terminology (CPT) is copyright 2022 American Medical Association. All rights reserved."/>
+    <copyright value="Current Procedural Terminology (CPT) is copyright 2020 American Medical Association. All rights reserved."/>
     <compose>
         <include>
             <system value="http://www.ama-assn.org/go/cpt"/>

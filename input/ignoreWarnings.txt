@@ -1,7 +1,6 @@
 == Suppressed Messages ==
 # The following code systems are external and not supported by terminology server. This is known to occur at the following location: input\resources\valueset\PregnancyProcedureDelivery-CPT @ ValueSet.compose[0].include[0]
 Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt
-Unknown System 'http://www.ama-assn.org/go/cpt' specified, so Concepts and Filters cant be checked
 Unknown System 'http://www.ama-assn.org/go/cpt' specified, so Concepts and Filters can't be checked (Details: Local Error: Resolved system http://www.ama-assn.org/go/cpt (v3.0.1), but the definition is not complete. Server Error: The code system 'http://www.ama-assn.org/go/cpt' is not known (encountered paired with code = '59400'); The code provided (http://www.ama-assn.org/go/cpt#59400) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 
 # Known VSAC expansion tooling issue; see: https://confluence.hl7.org/pages/viewpage.action?pageId=90362035
@@ -10,9 +9,6 @@ The value set import http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.
 
 # This text is expected embedded HTML. This is occurs at the following location: ImplementationGuide.description
 The markdown contains content that appears to be an embedded HTML tag starting at ' S'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-# FHIR Helpers Library is a shared resource: for the current FHIR Helpers Library, see https://github.com/cqframework/ecqm-content-r4-2021/blob/master/input/cql/FHIRHelpers.cql
-The Library http://www.hl7.org/fhir/us/mihr/Library/FHIRHelpers could not be resolved, so expression validation may not be correct
 
 # HTML fragments are not needed for this guide
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide

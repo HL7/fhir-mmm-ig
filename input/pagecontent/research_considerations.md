@@ -61,4 +61,4 @@ Several existing HL7 FHIR, C-CDA, and Integrating the Healthcare Enterprise (IHE
 
 [Birth Defects Domain Analysis Model and FHIR IG](https://confluence.hl7.org/display/PHWG/Birth+Defects+DAM+and+FHIR+IG)
 
-[Occupational Data for Health, STU 1.2](http://hl7.org/fhir/us/odh/STU1.2/)
+[Occupational Data for Health](http://hl7.org/fhir/us/odh/)

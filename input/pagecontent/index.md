@@ -29,7 +29,7 @@ In the future, the IG will expand this framework to a range of use cases includi
 *	Potential adverse maternal obstetric history impacts on child outcomes
 *	Access to relevant sensitive health information
 *	Retrospective population-based analysis of inherited disorders
-*	The impacts of [work habits, work environment, and work-associated health insurance](http://hl7.org/fhir/us/odh/) impacts to pregnancy and maternal health
+*	[The impacts of work activities and environment to pregnancy, maternal, and infant health.](http://hl7.org/fhir/us/odh/)
 
 This guide fundamentally relies on creating structural relationships between:
 *	Maternal and child records to effectively diagnose and treat otherwise fatal child outcomes

@@ -51,7 +51,7 @@
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
-        <version value="0.7.0"/>
+        <version value="0.9.0"/>
     </dependsOn>
     <dependsOn id="fhircqfcommon">
         <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common#4.0.1"/>

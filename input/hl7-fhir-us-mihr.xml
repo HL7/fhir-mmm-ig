@@ -34,9 +34,9 @@
     <packageId value="hl7.fhir.us.mihr"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn id="uscore">
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#4.0.0"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#5.0.1"/>
         <packageId value="hl7.fhir.us.core"/>
-        <version value="4.0.0"/>
+        <version value="5.0.1"/>
     </dependsOn>
     <dependsOn id="hl7fhirusvrcommonlibrary">
         <uri value="http://hl7.org/fhir/us/vr-common-library/ImplementationGuide/hl7.fhir.us.vr-common-library#1.0.0"/>
@@ -51,7 +51,7 @@
     <dependsOn id="usnlmvsac">
         <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
         <packageId value="us.nlm.vsac"/>
-        <version value="0.4.0"/>
+        <version value="0.7.0"/>
     </dependsOn>
     <dependsOn id="fhircqfcommon">
         <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common#4.0.1"/>

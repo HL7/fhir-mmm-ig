@@ -20,7 +20,7 @@ In addition there are format specific definitions files.
 
 #### Dependency Table
 
-{% include dependency-table.xhtml %}
+{% include dependency-table-short.xhtml %}
 
 #### Globals Table
 

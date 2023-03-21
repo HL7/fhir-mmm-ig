@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "path": "http://hl7.org/fhir/us/mihr/STU1",
   "mode": "milestone",
-  "status": "release",
+  "status": "trial-use",
   "sequence": "Releases",
   "desc": "FHIR STU Release 1"
 }
